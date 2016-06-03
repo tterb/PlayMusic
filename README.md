@@ -21,6 +21,9 @@ INSTRUCTIONS:
   If not, you can download it here: http://www.googleplaymusicdesktopplayer.com/  
   You must also change the "USERNAME"  variable within the chosen ".ini" file, to fit the username for your computer.   
   (ie "C:\Users\#USERNAME#\") 
+  
+PREVIEW:  
+  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/Square.png)  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png)  
 
 CREDITS:  
 Thank you to all of the resources which inspired and/or aided the creation of this skin.  
