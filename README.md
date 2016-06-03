@@ -4,6 +4,7 @@ Simple Rainmeter skin for Google Play Music
 ***PlayMusic***
 
 Name=PlayMusic
+
 Author=Brett Stevenson
 Contact=BStevensonDev@gmail.com
 Version=1.0
