@@ -1,5 +1,5 @@
 # PlayMusic
-#####*Simple Rainmeter skin for Google Play Music*#####
+#######*Simple Rainmeter skin for Google Play Music*#####
 
 ***PlayMusic***  
   Author=Brett Stevenson  
