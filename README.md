@@ -4,14 +4,14 @@
 ***PlayMusic***  
   Author=Brett Stevenson  
   Contact=BStevensonDev@gmail.com  
-  Version=1.0
+  Version=1.2
 
 *********************************************************************************************************
 
 #####INFO:  
   This Rainmeter skin is one that I, as a longtime GPM user,  have been looking for myself for a very long time.  
-  It displays the Title, Artist, and Album of the current song being played, accompanied by the Album Artwork.  
-  The skin also displays the current status of both the "shuffle" and "repeat" features.  
+  It displays the Title, Artist, Album, and Album Artwork of the current song being played, as well as the current  
+  status of both the *shuffle* and *repeat* features.  
   Currently, the skin's features are fairly limited. Although keep an eye out for updates, as I will surely be   
   adding more features soon.  
   
@@ -29,8 +29,7 @@
   This allows GPMDP to interface with external applications.   
   
 ***Skin Setup:***  
-  In order to use this skin, you must change the *#USERNAME#*  variable within the chosen ".ini" file, to fit the username for your computer.   
-  (ie *"C:\Users\\#USERNAME#\"*) 
+  *Modification no longer necessary to configure the skin file.*
   
   ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SetupImg.png)
   
