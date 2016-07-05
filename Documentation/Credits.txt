@@ -1,0 +1,12 @@
+Credits:
+This application uses Open Source components. You can find the source code
+of their open source projects along with license information below. I would
+like to acknowledge and show my gratitude to these developers for their
+contributions to open source.
+
+Project: Google Play Music Desktop https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-
+Copyright: 2016 Samuel Attard
+License (MIT) https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/blob/master/LICENSE
+
+Project: https://github.com/maarten1055/TestRainmeterGPMDP
+No license provided.
