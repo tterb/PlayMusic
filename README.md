@@ -8,7 +8,7 @@
 *********************************************************************************************************
    
 ##DESCRIPTION:  
-  This Rainmeter skin is one that I have been looking for, as a Google Play Music user for a long time.  
+  This Rainmeter skin is one that I have been looking for, as a Google Play Music user, for a long time.  
   Though more features are being developed constantly, the skin currently displays the Title, Artist, Album, and Album  
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
   
