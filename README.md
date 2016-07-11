@@ -2,9 +2,9 @@
 ######Simple Rainmeter skin for Google Play Music#####
 
 ***PlayMusic***  
-  Author=Brett Stevenson  
-  Contact=BStevensonDev@gmail.com  
-  Version=1.2
+  Author: Brett Stevenson  
+  Contact: BStevensonDev@gmail.com  
+  Version: 1.2
 
 *********************************************************************************************************
 
@@ -23,21 +23,18 @@
 #####INSTRUCTIONS:  
   
 ***GPMDP Setup:***  
-  This skin requires you have GPMDP installed to function properly.  
+  This skin requires you have *GPMDP* installed to function properly.  
   If not, you can download it here: [Google Play Desktop Player](http://www.googleplaymusicdesktopplayer.com/)   
-  After installation, you must also ensure that Playback API is enabled in the *Desktop Settings*, as shown in the image below. 
-  This allows GPMDP to interface with external applications.   
-  
-***Skin Setup:***  
-  *Modification no longer necessary to configure the skin file.*
-  
+  You must also ensure that *Playback API* is enabled in GPMDP's Desktop Settings, shown in the image below. 
+  As this allows GPMDP to interface with external applications.   
+    
   ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SetupImg.png)
   
 *********************************************************************************************************
 
 #####CREDITS:  
 Thank you to all of the resources which inspired and/or aided the creation of this skin.  
-  *Primary resources linked below*:  
+  Primary resources linked below:  
   * [Google Play Desktop Player](http://www.googleplaymusicdesktopplayer.com/)   
   * [TestRainmeterGPMDP](https://github.com/maarten1055/TestRainmeterGPMDP)  
   * [Google Play Music Desktop Player UNOFFICIAL](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-)  
