@@ -12,7 +12,7 @@ ReadPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_sto
 [TextStyle]
 FontFace=Monospaced
 FontSize=12
-FontColor=255,255,255,255
+FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,225
 ClipString=1
