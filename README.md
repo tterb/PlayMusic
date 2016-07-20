@@ -14,7 +14,7 @@
   Though more features are being developed constantly, the skin currently displays the Title, Artist, Album, and Album  
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
   
-  <br> 
+  
 *********************************************************************************************************  
   
 ##SETUP:
