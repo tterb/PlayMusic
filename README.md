@@ -1,5 +1,7 @@
 # PlayMusic
 #### Simple Rainmeter skin for Google Play Music#####
+<br>
+  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png)  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SquarePreview.png)
 
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
@@ -12,8 +14,7 @@
   Though more features are being developed constantly, the skin currently displays the Title, Artist, Album, and Album  
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
   
-   ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png)  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SquarePreview.png)
-   
+  <br> 
 *********************************************************************************************************  
   
 ##SETUP:
