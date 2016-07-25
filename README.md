@@ -15,6 +15,10 @@
   This Rainmeter skin is one that I have been looking for, as a Google Play Music user, for a long time.  
   Though more features are being developed constantly, the skin currently displays the Title, Artist, Album, and Album  
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
+  The skin can now also display the lyrics (*if available*) of the current song by clicking the *i* icon.  
+    
+  **Update:** The skin now displays a launcher icon whenever GPMDP is inactive, which can be used to open the program  
+  easily from your desktop, while also providing the skin a minimal footprint when not in use.
   
   
 *********************************************************************************************************  
