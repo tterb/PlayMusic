@@ -1,7 +1,9 @@
 # PlayMusic
 #### Simple Rainmeter skin for Google Play Music#####
 <br>
-  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png)  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SquarePreview.png)
+  <p align="center">
+  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="575" title="Preview">
+  </p>
 
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
