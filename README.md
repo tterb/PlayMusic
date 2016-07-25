@@ -1,7 +1,9 @@
 # PlayMusic
 #### Simple Rainmeter skin for Google Play Music#####
 <br>
-  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png)  ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SquarePreview.png)
+  <p align="center">
+  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="575" title="Preview">
+  </p>
 
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
@@ -29,9 +31,10 @@
 ###CREDITS:  
 Thank you to all of the resources which inspired and/or aided the creation of this skin.  
   Primary resources linked below:  
-  * [Google Play Desktop Player](http://www.googleplaymusicdesktopplayer.com/)   
+  * [Google Play Music Desktop Player](http://www.googleplaymusicdesktopplayer.com/)   
   * [TestRainmeterGPMDP](https://github.com/maarten1055/TestRainmeterGPMDP)  
   * [Google Play Music Desktop Player UNOFFICIAL](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-)  
 
+<br>
 *********************************************************************************************************
 
