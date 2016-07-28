@@ -20,3 +20,10 @@ H=20
 W=153
 ClipString=1
 AntiAlias=1
+DynamicVariables=1
+
+[Status]
+ImageTint=245,245,245
+X=250
+H=20
+W=20
