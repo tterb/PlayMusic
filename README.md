@@ -1,10 +1,11 @@
 # PlayMusic
-#### Simple Rainmeter skin for Google Play Music#####
+#### Simple Rainmeter skin for Google Play Music
 <br>
   <p align="center">
-  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="575" title="Preview">
+  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="600" title="Preview">
   </p>
-
+  <br>
+  
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
   Version: 1.2
@@ -19,19 +20,17 @@
     
   **Update:** The skin now displays a launcher icon whenever GPMDP is inactive, which can be used to open the program  
   easily from your desktop, while also providing the skin a minimal footprint when not in use.
-  
-  
+  <br>
 *********************************************************************************************************  
   
 ##SETUP:
   This skin requires you have *GPMDP* installed to function properly. If not, you can download it [here](http://www.googleplaymusicdesktopplayer.com/).   
   You must also ensure that *Playback API* is enabled in GPMDP's Desktop Settings, shown in the image below. 
   As this allows GPMDP to interface with external applications.   
-    
+  
   ![alt tag](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SetupImg.png)
   
 *********************************************************************************************************
-<br>
 ###CREDITS:  
 Thank you to all of the resources which inspired and/or aided the creation of this skin.  
   Primary resources linked below:  
