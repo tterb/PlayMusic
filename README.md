@@ -9,7 +9,6 @@
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
   Version: 1.2
-
 *********************************************************************************************************
    
 ##DESCRIPTION:  
