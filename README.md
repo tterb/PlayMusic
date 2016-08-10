@@ -8,7 +8,8 @@
   
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
-  Version: 1.2
+  Version: v1.2  
+  [License](https://github.com/JonSn0w/PlayMusic/blob/master/LICENSE)
 *********************************************************************************************************
    
 ##DESCRIPTION:  
