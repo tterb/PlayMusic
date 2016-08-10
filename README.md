@@ -8,8 +8,8 @@
   
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
-  Version: 1.2
-
+  Version: v1.2  
+  [License](https://github.com/JonSn0w/PlayMusic/blob/master/LICENSE)
 *********************************************************************************************************
    
 ##DESCRIPTION:  
@@ -18,8 +18,7 @@
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
   The skin can now also display the lyrics (*if available*) of the current song by clicking the *i* icon.  
     
-  **Update:** The skin now displays a minimized icon whenever GPMDP is inactive, which can also be used to easily open the program  
-  from your desktop.
+  **Update:** The skin now displays a <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/icon_preview.png" width="30" height="30"/>  icon whenever *GPMDP* is inactive, which can also be used to easily open the program from your desktop.
   <br>
 *********************************************************************************************************  
   
