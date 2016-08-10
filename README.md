@@ -9,7 +9,7 @@
   Author: Brett Stevenson  
   Contact: BStevensonDev@gmail.com  
   Version: v1.2  
-  [License](https://github.com/JonSn0w/PlayMusic/blob/master/LICENSE)
+  [License](https://github.com/JonSn0w/PlayMusic/Documentation/blob/master/LICENSE)
 *********************************************************************************************************
    
 ##DESCRIPTION:  
