@@ -1,4 +1,5 @@
-# PlayMusic
+<img src="http://www.fontspace.com/preview/m/42f11bc72becc20eacd18d71aa68eeb6.png" height="70">
+---------------------------------------------------------------------------------------------------------
 #### Simple Rainmeter skin for Google Play Music
 <br>
   <p align="center">
