@@ -12,7 +12,7 @@
   [License](.../.../blob/master/LICENSE)
 *********************************************************************************************************
    
-## DESCRIPTION:  
+## <img title="" alt="" src="http://image.flaticon.com/icons/svg/149/149187.svg" height="30" width="30" align="absmiddle">&nbsp;&nbsp;DESCRIPTION:  
   This Rainmeter skin is one that I have been looking for, as a Google Play Music user, for a long time.  
   Though more features are being developed constantly, the skin currently displays the Title, Artist, Album, and Album  
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
@@ -22,7 +22,7 @@
   <br>
 *********************************************************************************************************  
   
-## <img title="setup" alt="setup" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="30" width="30" align="absmiddle">&nbsp; SETUP:
+## <img title="setup" alt="setup" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" width="35" align="absmiddle">&nbsp;&nbsp;SETUP:
   This skin requires you have [Google Play Music Desktop Player](http://www.googleplaymusicdesktopplayer.com/) installed to function properly.  
   You must also ensure that *Playback API* is enabled in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.   
   
