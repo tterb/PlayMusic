@@ -1,9 +1,9 @@
-&nbsp;<img src="http://www.fontspace.com/preview/m/42f11bc72becc20eacd18d71aa68eeb6.png" height="70">
+<img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp;&nbsp;<img src="http://www.fontspace.com/preview/m/42f11bc72becc20eacd18d71aa68eeb6.png" height="80" width="240">
 ---------------------------------------------------------------------------------------------------------
-#### Simple Rainmeter skin for Google Play Music
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Rainmeter skin for Google Play Music
 <br>
   <p align="center">
-  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="600" title="Preview">
+  <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="640" title="Preview">
   </p>
   <br>
   
