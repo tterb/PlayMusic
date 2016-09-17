@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp;&nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/18604432/67de25e0-7c31-11e6-92ab-0d042904b244.png" height="80" width="240">
+<img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp;&nbsp;  <img src="https://cloud.githubusercontent.com/assets/16360374/18604467/d361e41e-7c31-11e6-967a-1ab7b091837e.png" height="80" width="240">
 ---------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Rainmeter skin for Google Play Music
 <br>
@@ -19,12 +19,12 @@
   Artwork of the song that's currently being played, as well as the status of both the *shuffle* and *repeat* features.  
   The skin can now also display the lyrics (*if available*) of the current song by clicking the *i* icon.  
     
-  **Update:** The skin now displays a <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/icon_preview.png" width="30" height="30"/>  icon whenever *GPMDP* is inactive, which can also be used to easily open the program from your desktop.
+  **Update:** The skin now displays a <img src="https://cloud.githubusercontent.com/assets/16360374/18604473/f2c1e336-7c31-11e6-94f9-a3dc17840435.png" width="25" height="25"/>  icon whenever *GPMDP* is inactive, which can also be used to easily open the program from your desktop.
   <br>
 *********************************************************************************************************  
   
 ## <img title="setup" alt="setup" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" width="35" align="absmiddle">&nbsp;&nbsp;SETUP:
-  This skin requires you have [Google Play Music Desktop Player](http://www.googleplaymusicdesktopplayer.com/) installed to function properly.  
+  This skin requires you have [**Google Play Music Desktop Player**](http://www.googleplaymusicdesktopplayer.com/) installed to function properly.  
   You must also ensure that *Playback API* is enabled in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.   
   
   ![Playback API](https://github.com/JonSn0w/PlayMusic/blob/master/Preview/SetupImg.png)
