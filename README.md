@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp;&nbsp;  <img src="https://cloud.githubusercontent.com/assets/16360374/18604467/d361e41e-7c31-11e6-967a-1ab7b091837e.png" height="80" width="240">
+<img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/18604467/d361e41e-7c31-11e6-967a-1ab7b091837e.png" height="70">
 ---------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Rainmeter skin for Google Play Music
 <br>
@@ -7,10 +7,10 @@
   </p>
   <br>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author: Brett Stevenson  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact: BStevensonDev@gmail.com  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version: v1.2  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](.../.../blob/master/LICENSE)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author: Brett Stevenson  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact: BStevensonDev@gmail.com  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version: v1.2  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](.../.../blob/master/LICENSE)
 *********************************************************************************************************
    
 ## <img title="" alt="" src="http://image.flaticon.com/icons/svg/149/149187.svg" height="30" width="30" align="absmiddle">&nbsp;&nbsp;DESCRIPTION:  
