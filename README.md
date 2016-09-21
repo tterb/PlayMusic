@@ -1,6 +1,8 @@
 <img src="http://i.imgur.com/FAxF3zx.png" height="78" width="82">&nbsp;&nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/18604467/d361e41e-7c31-11e6-967a-1ab7b091837e.png" height="70">
 ---------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Rainmeter skin for Google Play Music
+
+[![Join the chat at https://gitter.im/JonSn0w/PlayMusic](https://badges.gitter.im/JonSn0w/PlayMusic.svg)](https://gitter.im/JonSn0w/PlayMusic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <br>
   <p align="center">
   <img src="https://github.com/JonSn0w/PlayMusic/blob/master/Preview/LandscapePreview.png" width="640" title="Preview">
