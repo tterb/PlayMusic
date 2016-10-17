@@ -3,11 +3,12 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Rainmeter skin for Google Play Music
 
 <p align="right">
-  <a href="https://github.com/JonSn0w/PlayMusic/releases">  
-    <img src="https://img.shields.io/github/tag/strongloop/express.svg?maxAge=2592000" height="21" title="Tags">&nbsp;
-  </a>
-   <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
- <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a></span>&nbsp;
+  <a href="https://badge.fury.io/gh/JonSn0w%2FPlayMusic">
+      <img src="https://badge.fury.io/gh/JonSn0w%2FPlayMusic.svg" height="21" alt="GitHub version" >
+  </a>&nbsp;
+  <span class="badge-paypal">
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
+      <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a></span>&nbsp;
   <a href="https://gitter.im/PlayMusic/Lobby">
         <img src="https://badges.gitter.im/PlayMusic/Lobby.svg" height="21" title="Gitter">
   </a>
