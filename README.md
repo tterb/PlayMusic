@@ -51,5 +51,5 @@ Thank you to all of the resources which inspired and/or aided the creation of th
   * [TestRainmeterGPMDP](https://github.com/maarten1055/TestRainmeterGPMDP)  
   * [Google Play Music Desktop Player UNOFFICIAL](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-)  
 
-*********************************************************************************************************
+<br>
 
