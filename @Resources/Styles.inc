@@ -36,6 +36,6 @@ DynamicVariables=1
 
 [Status]
 ImageTint=245,245,245
-X=250
+X=254
 H=20
 W=20
