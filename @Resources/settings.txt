@@ -1,0 +1,2 @@
+variant: 0
+minimize: 1
