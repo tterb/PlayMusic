@@ -8,6 +8,8 @@ StringStyle=Normal
 StringEffect=Shadow
 FontEffectColor = 0,0,0,0
 X=3R
+ClipString=2
+AntiAlias=1
 
 [Checkbox]
 X=78
@@ -17,3 +19,9 @@ SolidColor=0,0,0,0
 Padding=5,5,5,5
 DynamicVariables=1
 AntiAlias=1
+
+[ColorOption]
+H=38
+W=38
+X=1R
+Y=r
