@@ -3,32 +3,30 @@
 [Variables]
 ;White
 color1=FFFFFF
-;Red
-color10=E53935
-;Orange 
-color14=FF5722
-;Orange
-color3=FF9800
-;Yellow
-color8=FFD600
-;Light Green 
-color6=689F38
-;Green
-color9=43A047
-;Teal
-color5=00769E
 ;Cyan
 color2=00BCD4
-;Blue
-color12=1389F4
+;Orange
+color3=FF9800
+;Purple
+color4=673AB7
+;Teal
+color5=008A9E
+;Light Green 
+color6=689F38
+;Pink
+color7=F94E73
+;Yellow
+color8=FFDE00
+;Green
+color9=43A047
+;Red
+color10=E53935
 ;Indigo
 color11=3F51B5
-;Purple
-color4=AA22EF
-;Deep Purple
-color13=673AB7
-;Pink
-color7=F92E73
+;Orange 
+color12=FF5722
+;Blue
+;color13=1389F4
 
 [SubHeading]
 FontSize=16
@@ -51,11 +49,11 @@ ClipString=2
 AntiAlias=1
 
 [Checkbox]
-X=78
 FontSize=11
 FontColor=40,40,40,255
 SolidColor=0,0,0,0
 Padding=5,5,5,5
+X=80
 DynamicVariables=1
 AntiAlias=1
 
@@ -64,3 +62,17 @@ H=38
 W=38
 X=1R
 Y=r
+
+[IconStyle]
+ImageTint=#accent#
+PreserveAspectRatio=1
+X=6r
+Y=4r
+H=62
+LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Square).ini"][!WriteKeyValue Variables  icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Landscape).ini"][!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\Settings\Config.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+
+[IconButton]
+H=70
+W=70
+DynamicVariables=1
+AntiAlias=1
