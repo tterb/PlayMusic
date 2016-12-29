@@ -14,25 +14,26 @@ FontFace=Monospaced
 FontSize=12
 FontColor=255,255,255,250
 StringEffect=Shadow
-FontEffectColor=0,0,0,225
+FontEffectColor=0,0,0,245
 X=95
 H=20
 W=156
 ClipString=1
-AntiAlias=1
 DynamicVariables=1
+AntiAlias=1
 
 [SquareText]
 FontFace=Monospaced
 FontSize=12
-FontColor=255,255,255,250
+FontColor=255,255,255,255
 StringEffect=Shadow
-FontEffectColor=0,0,0,225
+FontEffectColor=0,0,0,255
+X=7
 H=20
-W=153
+W=122
 ClipString=1
-AntiAlias=1
 DynamicVariables=1
+AntiAlias=1
 
 [Status]
 ImageTint=245,245,245
@@ -42,12 +43,12 @@ H=22
 
 [TimeStyle]
 BarOrientation=HORIZONTAL
-X=1
-H=4
 MaxValue=100
 SolidColor=225,225,225,75
 BarColor=#accent#
 ImageAlpha=140
+X=1
+H=4
 BackgroundMode=3
-AntiAlias=1
 DynamicVariables=1
+AntiAlias=1
