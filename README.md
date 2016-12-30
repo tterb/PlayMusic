@@ -43,3 +43,22 @@
 
 <br>
 --------------------------------------------------------------------------------
+## <img title="" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" width="35" align="absmiddle">&nbsp;&nbsp;FEATURES:  
+
+### Variants
+Play Music features both a square and a landscape variant, allowing users to select the layout that best fits their desktop.
+
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/21562127/bfc7cd88-ce2a-11e6-9bf0-003a62f95b4d.png" height="110" align="center" title="landscape">&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21562149/fd267a62-ce2a-11e6-9536-d5054b25e947.png" height="185" align="center" title="square">
+</p>  
+
+### Accent Colors
+The addition of selectable accent colors allows users to add a splash of color to their skin while also allowing **PlayMusic** to tastefully adapt to any theme, layout, or wallpaper.  
+
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/21562636/4dbf015c-ce2f-11e6-94cc-4f1e6e035d3e.png" height="135" align="center" tile="accent colors">
+</p>  
+
+### Minimization  
+ By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/18604473/f2c1e336-7c31-11e6-94f9-a3dc17840435.png" width="25" height="25"/>  icon whenever *GPMDP* is inactive, which may also be used to launch the application from your desktop. Though this functionality, as well as the displayed icon can be modified in the config menu.
+<br>
