@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21558221/2710a478-cdeb-11e6-83fb-68717833bf9f.png" height="90" title="PlayMusic">
+<img src="https://cloud.githubusercontent.com/assets/16360374/21558221/2710a478-cdeb-11e6-83fb-68717833bf9f.png" height="120" title="PlayMusic">
 --------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Simple Rainmeter skin for Google Play Music
 
