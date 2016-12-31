@@ -3,11 +3,11 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Simple Rainmeter skin for Google Play Music  
 
 <p align="right">
-  <a href="https://github.com/JonSn0w/GitHubCalendar/issues">
-    <img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25920000" height="21" title="Issues">
-  </a>
   <a href="https://badge.fury.io/gh/JonSn0w%2FPlayMusic">
 	  <img src="https://badge.fury.io/gh/JonSn0w%2FPlayMusic.svg" height="21" alt="version" >
+  </a>
+  <a href="https://github.com/JonSn0w/GitHubCalendar/issues">
+	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25920000" height="21" title="Issues">
   </a>
   <a href="https://gitter.im/PlayMusic/Lobby">
         <img src="https://badges.gitter.im/PlayMusic/Lobby.svg" height="21" title="Gitter">
@@ -16,13 +16,12 @@
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
         <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a>
   </span>
+</p>  
+<!-- Screenshot -->
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview">
 </p>
 
-<!-- Preview -->
-<br>  
-  <p align="center">
-      <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview">
-  </p>
 <br>  
 
 --------------------------------------------------------------------------------  
@@ -48,19 +47,19 @@
 --------------------------------------------------------------------------------  
 
 ## <img title="" alt="Features" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" align="absmiddle"/>&nbsp;&nbsp;FEATURES:  
+<br>
 
 ### Variants  
   Play Music features both a square and a landscape variant, allowing users to select the layout that best fits their desktop.  
+  <p align="center">
+  	<img src="https://cloud.githubusercontent.com/assets/16360374/21562127/bfc7cd88-ce2a-11e6-9bf0-003a62f95b4d.png" height="110" align="center" title="landscape">&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21576261/05c0eaf0-cede-11e6-8c4b-71d1b63144df.png" height="175" align="center" title="square">
+  </p>
 
-<p align="center">
-	<img src="https://cloud.githubusercontent.com/assets/16360374/21562127/bfc7cd88-ce2a-11e6-9bf0-003a62f95b4d.png" height="110" align="center" title="landscape">&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21562149/fd267a62-ce2a-11e6-9536-d5054b25e947.png" height="185" align="center" title="square">
-</p>  
-
-### Accent Colors  
+### Accent Colors
   The addition of selectable accent colors allows users to add a splash of color to their skin while also allowing **PlayMusic** to tastefully adapt to any theme, layout, or wallpaper.  
 
 <p align="center">
-	<img src="https://cloud.githubusercontent.com/assets/16360374/21562636/4dbf015c-ce2f-11e6-94cc-4f1e6e035d3e.png" height="135" align="center" tile="accent colors">
+	<img src="https://cloud.githubusercontent.com/assets/16360374/21562636/4dbf015c-ce2f-11e6-94cc-4f1e6e035d3e.png" height="105" align="center" tile="accent colors">
 </p>  
 
 ### Minimization  
