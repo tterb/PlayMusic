@@ -1,15 +1,15 @@
--- ## Information ###################################################################
--- Filename: config.lua
+-- ## Information ##############################################################
+-- Filename: Config.lua
+-- Project: PlayMusic
 -- Author: Brett Stevenson
--- Project: GitHubCalendar
--- License: BSD 3-Clause 
--- Updated: July 31, 2016
--- ###############################################################################
+-- License: BSD 3-Clause
+-- Updated: Dec 30, 2016
+-- #############################################################################
 
--- ## Description ###################################################################
--- A work-in-progress Lua script, intended to improve the ease of use of the GitHubCalendar Rainmeter 
--- skin by automating much of the user configuration processes. 
--- ###############################################################################
+-- ## Description ##############################################################
+-- This is the Lua script which allows the PlayMusic skin to read and write the 
+-- user's settings to 'settings.txt'
+-- #############################################################################
 
 
 function Initialize()
@@ -21,7 +21,6 @@ function Update()
 	local file = io.open(path, "r")
 	io.input(file)
 	data = io.read("*all")
-	-- io.close(file)
 	return tostring(data)
 end
 
