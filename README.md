@@ -21,7 +21,7 @@
 <!-- Preview -->
 <br>  
   <p align="center">
-      <img src="https://cloud.githubusercontent.com/assets/16360374/21575385/4d2b2776-cebf-11e6-82cb-1f6e20088d32.png" width="640" title="Preview">
+      <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview">
   </p>
 <br>  
 
@@ -33,7 +33,8 @@
 
   **Update:** The skin now also features a settings menu which will appear upon installation and allows the user to customize the skins appearance and functionalities. Though, these settings are accessible at any time by clicking the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="15">&nbsp; on the skin.  
 
-<br>
+<br>  
+
 --------------------------------------------------------------------------------  
 
 ## <img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/21559954/53f864ec-ce0b-11e6-9ae7-1e20a8ad7fcf.png" height="35" align="absmiddle"/>&nbsp;SETUP:
@@ -42,7 +43,8 @@
 
   ![Desktop Settings](https://cloud.githubusercontent.com/assets/16360374/21575213/50c3698e-ceba-11e6-988e-f99c8c51fa7c.png)  
 
-<br>
+<br>  
+
 --------------------------------------------------------------------------------  
 
 ## <img title="" alt="Features" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" align="absmiddle"/>&nbsp;&nbsp;FEATURES:  
