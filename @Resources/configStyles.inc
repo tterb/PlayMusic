@@ -2,31 +2,31 @@
 
 [Variables]
 ;White
-color1=FFFFFF
+color1=FFFFFF89
 ;Cyan
-color2=00BCD4
-;Orange
-color3=FF9800
+color2=00BCD4F1
+;Light Orange
+color3=FF9800F1
 ;Purple
-color4=673AB7
+color4=673AB7B5
 ;Teal
-color5=008A9E
-;Light Green 
-color6=689F38
+color5=008A9EFE
+;Light Green
+color6=689F38FE
 ;Pink
-color7=F94E73
+color7=F94E73E2
 ;Yellow
-color8=FFDE00
+color8=FFDE00E6
 ;Green
-color9=43A047
+color9=43A047FE
 ;Red
-color10=E53935
+color10=E53935E8
 ;Indigo
-color11=3F51B5
-;Orange 
-color12=FA5722
+color11=3F51B5E8
+;Orange
+color12=FA5722EA
 ;Blue
-;color13=1389F4
+; color13=1389F4
 
 [SubHeading]
 FontSize=16
