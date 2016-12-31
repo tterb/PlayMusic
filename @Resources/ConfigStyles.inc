@@ -1,4 +1,4 @@
-;PlayMusic/@Resources/configStyles.inc
+;PlayMusic/@Resources/ConfigStyles.inc
 
 [Variables]
 ;White
