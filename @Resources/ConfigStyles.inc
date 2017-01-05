@@ -1,4 +1,4 @@
-;PlayMusic/@Resources/configStyles.inc
+;PlayMusic/@Resources/ConfigStyles.inc
 
 [Variables]
 ;White
@@ -53,13 +53,13 @@ FontSize=11
 FontColor=40,40,40,255
 SolidColor=0,0,0,0
 Padding=5,5,5,5
-X=99
+X=101
 DynamicVariables=1
 AntiAlias=1
 
 [ColorOption]
-H=36
-W=36
+H=35
+W=35
 X=1R
 Y=r
 
@@ -68,6 +68,12 @@ ImageTint=#accent#
 PreserveAspectRatio=1
 H=48
 LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Square).ini"][!WriteKeyValue Variables  icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Landscape).ini"][!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\Settings\Config.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+
+[BorderStyle]
+SolidColor=190,190,190, 140
+X=66
+H=1
+W=306
 
 [IconButton]
 H=59
