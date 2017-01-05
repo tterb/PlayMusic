@@ -3,12 +3,12 @@
 -- Project: PlayMusic
 -- Author: Brett Stevenson
 -- License: BSD 3-Clause
--- Updated: Dec 30, 2016
+-- Updated: Jan 4, 2017
 -- #############################################################################
 
 -- ## Description ##############################################################
--- This is the Lua script which allows the PlayMusic skin to read and write the 
--- user's settings to 'settings.txt'
+-- This is the Lua script which allows the PlayMusic skin to read and write the
+-- user's settings to 'settings.txt'.
 -- #############################################################################
 
 
