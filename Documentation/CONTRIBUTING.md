@@ -1,10 +1,12 @@
+(*Modified from the guidelines of Atom Editor*)
+
 # Contributing
 
 The following is a set of guidelines for contributing to this project. These are not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
 ### Code of Conduct
 
-This project adheres to the Contributor Covenant [code of conduct](http://contributor-covenant.org/version/1/4/). By participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.
+This project adheres to the Contributor Covenant [code of conduct](http://contributor-covenant.org/version/1/4/). By participating, you are expected to uphold this code. Please report unacceptable behavior to BStevensonDev@gmail.com.
 
 ## How Can I Contribute?
 
@@ -46,7 +48,9 @@ Users provide the best insight for improving a product. So always feel free to s
  * Do your best to conform the tense to that of the existing commits. ("Add feature" not "Added feature" or vice versa)
  * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
  * Consider starting the commit message with an applicable emoji:
-    * :art: `:art:` when improving the format/structure of the code
+    * :art: `:art:` when improving the UI/visual design of the project
+    * :triangle_ruler: `triangle_ruler` when improving project formatting
+    * :shower: `:shower:` when cleaning up the format/structure of the code
     * :racehorse: `:racehorse:` when improving performance
     * :non-potable_water: `:non-potable_water:` when plugging memory leaks
     * :memo: `:memo:` when writing docs
@@ -55,12 +59,11 @@ Users provide the best insight for improving a product. So always feel free to s
     * :checkered_flag: `:checkered_flag:` when fixing something on Windows
     * :bug: `:bug:` when fixing a bug
     * :fire: `:fire:` when removing code or files
-    * :green_heart: `:green_heart:` when fixing the CI build
     * :white_check_mark: `:white_check_mark:` when adding tests
     * :lock: `:lock:` when dealing with security
     * :arrow_up: `:arrow_up:` when upgrading dependencies
     * :arrow_down: `:arrow_down:` when downgrading dependencies
-    * :shirt: `:shirt:` when removing linter warnings
+    * :shirt: `:shirt:` when removing warnings
 
 ### Code   
 
