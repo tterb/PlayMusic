@@ -10,7 +10,7 @@ AppPath="C:%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20P
 ReadPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
 
 [TextStyle]
-FontFace=Monospaced
+FontFace=Segoe UI
 FontSize=12
 FontColor=255,255,255,250
 StringEffect=Shadow
@@ -23,12 +23,12 @@ DynamicVariables=1
 AntiAlias=1
 
 [SquareText]
-FontFace=Monospaced
+FontFace=Segoe UI
 FontSize=12
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=7
+X=147
 H=20
 W=122
 ClipString=1
@@ -46,7 +46,6 @@ BarOrientation=HORIZONTAL
 MaxValue=100
 SolidColor=225,225,225,75
 BarColor=#accent#
-ImageAlpha=140
 X=1
 H=4
 BackgroundMode=3
