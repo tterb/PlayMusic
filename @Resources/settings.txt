@@ -1,3 +1,0 @@
-variant: 1
-minimize: 1
-Icon style: 1
