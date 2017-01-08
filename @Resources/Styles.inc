@@ -51,3 +51,12 @@ H=4
 BackgroundMode=3
 DynamicVariables=1
 AntiAlias=1
+
+[VisualizerStyle]
+Group=Visualizer
+BarColor=255,255,255,80
+X=(3*#Scale#)R
+Y=r
+W=#BarWidthScale#
+H=#BarHeightScale#
+BarOrientation=Vertical
