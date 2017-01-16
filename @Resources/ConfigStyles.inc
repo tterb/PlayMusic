@@ -25,8 +25,7 @@ color10=E53935E8
 color11=3F51B5E8
 ;Orange
 color12=FA5722EA
-;Blue
-; color13=1389F4
+
 
 [SubHeading]
 FontSize=16
@@ -58,10 +57,18 @@ DynamicVariables=1
 AntiAlias=1
 
 [ColorOption]
+Group=StylePage
 H=35
 W=35
 X=1R
 Y=r
+Hidden=1
+
+[PageIcons]
+X=379
+H=20
+PreserveAspectRatio=1
+AntiAlias=1
 
 [IconStyle]
 ImageTint=#accent#
@@ -71,9 +78,9 @@ LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTC
 
 [BorderStyle]
 SolidColor=190,190,190, 140
-X=66
+X=60
 H=1
-W=306
+W=336
 
 [IconButton]
 H=59
