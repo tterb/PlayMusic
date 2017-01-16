@@ -17,8 +17,9 @@
 
 function Initialize()
 	sJSONParser = SELF:GetOption('JSONParser')
-	sFileToRead = SELF:GetOption('FileToRead')
-	sSettingsFile = SELF:GetOption('SettingsFile')
+	sPlaybackFile = SELF:GetOption('Playback')
+	sSettingsFile = SELF:GetOption('Settings')
+	sWriteFile = SELF:GetOption('WriteFile')
 	--load the external JSON library
 	JSON = assert(loadfile(sJSONParser))()
     	JSON.strictTypes = true
@@ -30,25 +31,48 @@ function Update()
 	if prevSongInfo == nill then
 		local prevSongInfo
 	end
-
-	local File = io.open(sFileToRead)
+	local File = io.open(sPlaybackFile)
 	-- Handle errors opening file
 	if not File then
-		print('ReadFile: unable to open file at ' .. sFileToRead)
+		print('ReadFile: unable to open file at ' .. sPlaybackFile)
 		return
 	end
+
+
+	-- Read settings file
+	local WriteFile = io.open(sWriteFile)
+	local Variant = tonumber(string.match(WriteFile:read("*line"), "%d+"))
+	SKIN:Bang('!SetVariable', 'VariantStatus', Variant)
+	local MinString = WriteFile:read("*line")
+	local MinStatus = tonumber(string.match(MinString, "%d+"))
+	SKIN:Bang('!SetVariable', 'MinimizeStatus', MinStatus)
+
+	-- local EnabledPlaybackAPI = tonumber(string.match(WriteFile:read("*line"), "%d+"))
+	-- if (EnabledPlaybackAPI > 0) then
+	-- local Settings = io.open(sSettingsFile)
+	-- -- Handle errors opening file
+	-- if not Settings then
+	-- 	print('SettingsFile: unable to open file at ' .. sSettingsFile)
+	-- 	return
+	-- end
+	-- -- Read the file contents and close
+	-- local SettingContents = Settings:read("*all")
+	-- Settings:close()
+	-- --Convert JSON to lua table and set meters
+	-- settings_info = JSON:decode(SettingContents)
+	-- if settings_info ~= nil then
+	-- 	-- Check that 'Playback API' is enabled
+	-- 	SKIN:Bang('!SetVariable', 'PlaybackAPI', settings_info.playbackAPI)
+	-- 	-- Check if GPMDP is using a custom theme
+	-- 	if settings_info.theme then
+	-- 		SKIN:Bang('!SetVariable', 'ThemeColor', settings_info.themeColor)
+	-- 	end
+	-- end
+
 
 	-- Read the file contents and close
 	local FileContents = File:read("*all")
 	File:close()
-
-	-- Read settings file
-	local SettingsFile = io.open(sSettingsFile)
-	local Variant = tonumber(string.match(SettingsFile:read("*line"), "%d+"))
-	SKIN:Bang('!SetVariable', 'VariantStatus', Variant)
-	local MinString = SettingsFile:read("*line")
-	local MinStatus = tonumber(string.match(MinString, "%d+"))
-	SKIN:Bang('!SetVariable', 'MinimizeStatus', MinStatus)
 
 	--Convert JSON to lua table and set meters
 	nowPlaying_info = JSON:decode(FileContents)
