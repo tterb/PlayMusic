@@ -12,7 +12,7 @@ SettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json
 
 [TextStyle]
 FontFace=Segoe UI
-FontSize=(#size#*3.2)
+FontSize=(#size#*2.7)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
@@ -24,7 +24,7 @@ AntiAlias=1
 
 [SquareText]
 FontFace=Segoe UI
-FontSize=(#size#*3.2)
+FontSize=(#size#*2.7)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
