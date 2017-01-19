@@ -30,7 +30,7 @@
   This [Rainmeter] skin is one that I have been looking for, as a Google Play Music user, for a long time.  
   The skin displays the Title, Artist, Album, and Album Artwork of the song being played, as well as the status of both the *shuffle* and *repeat* features.  
 
-  **Update:** The skin now also features a settings menu which will appear upon installation and allows the user to customize the skins appearance and functionalities. Though, these settings are accessible at any time by clicking the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="15">&nbsp; on the skin.  
+  **Update:** The skin now also features a settings menu which will appear upon installation and allows the user to customize the skins appearance and functionalities. Though, these settings are accessible at any time by clicking the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="10">&nbsp; on the skin.  
 
 <br>  
 
