@@ -58,8 +58,8 @@ AntiAlias=1
 
 [ColorOption]
 Group=StylePage
-H=35
-W=35
+H=40
+W=40
 X=1R
 Y=r
 Hidden=1
