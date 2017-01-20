@@ -73,8 +73,8 @@ AntiAlias=1
 [IconStyle]
 ImageTint=#accent#
 PreserveAspectRatio=1
-H=48
-LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Square).ini"][!WriteKeyValue Variables  icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic (Landscape).ini"][!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\Settings\Config.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+H=60
+LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
 
 [BorderStyle]
 SolidColor=190,190,190, 140
@@ -83,7 +83,7 @@ H=1
 W=336
 
 [IconButton]
-H=59
-W=59
+H=72
+W=72
 DynamicVariables=1
 AntiAlias=1
