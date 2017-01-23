@@ -2,23 +2,23 @@
 
 [Variables]
 ;White
-color1=FFFFFF89
+color1=FFFFFFB9
 ;Cyan
-color2=00BCD4F1
+color2=00BCD4E1
 ;Light Orange
-color3=FF9800F1
+color3=FF9800E1
 ;Purple
 color4=673AB7B5
 ;Teal
-color5=008A9EFE
+color5=008A9EEE
 ;Light Green
-color6=689F38FE
+color6=689F38EE
 ;Pink
 color7=F94E73E2
 ;Yellow
 color8=FFDE00E6
 ;Green
-color9=43A047FE
+color9=43A047EE
 ;Red
 color10=E53935E8
 ;Indigo
@@ -52,7 +52,7 @@ FontSize=11
 FontColor=40,40,40,255
 SolidColor=0,0,0,0
 Padding=5,5,5,5
-X=101
+X=100
 DynamicVariables=1
 AntiAlias=1
 
@@ -74,7 +74,7 @@ AntiAlias=1
 ImageTint=#accent#
 PreserveAspectRatio=1
 H=60
-LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\icon_fill.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
 
 [BorderStyle]
 SolidColor=190,190,190, 140
