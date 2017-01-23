@@ -1,6 +1,7 @@
 ;PlayMusic/@Resources/Styles.inc
 
 [Variables]
+@include=#@#Variables.inc
 MeterTitleName=MeterTitle
 MeterArtistName=MeterArtist
 MeterAlbumName=MeterAlbum
@@ -21,6 +22,7 @@ W=(#size#*34.7)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
+UpdateRate=100
 
 [SquareText]
 FontFace=Segoe UI
@@ -28,19 +30,22 @@ FontSize=(#size#*2.7)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#size#*32)
+X=(#size#*2)
 W=(#size#*27.1)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
+UpdateRate=100
 
 [Status]
 ImageTint=245,245,245
 PreserveAspectRatio=1
-X=(#size#*56.4)
+X=(#size#*57.6)
 H=(#size#*4.9)
+UpdateRate=1000
 
 [TimeStyle]
+Group=Active
 BarOrientation=HORIZONTAL
 MaxValue=100
 SolidColor=225,225,225,75
@@ -50,12 +55,16 @@ H=(#size#*0.9)
 BackgroundMode=3
 DynamicVariables=1
 AntiAlias=1
+UpdateRate=50
 
 [VisualizerStyle]
 Group=Active | Visualizer
-BarColor=255,255,255,90
+BarOrientation=Vertical
+BarColor=#BarColor#
 X=(3*#Scale#)R
 Y=r
 W=#BarWidthScale#
 H=#BarHeightScale#
-BarOrientation=Vertical
+DynamicVariables=1
+AntiAlias=1
+UpdateRate=20
