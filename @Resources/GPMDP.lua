@@ -4,7 +4,7 @@
 -- Contact: BStevensonDev@gmail.com
 -- Version: v1.0.6
 -- License: BSD 3-Clause
--- Updated: Jan 4, 2017
+-- Updated: Jan 23, 2017
 -- #############################################################################
 
 
@@ -79,8 +79,8 @@ function Update()
 	if nowPlaying_info ~= nill then
 		SKIN:Bang('!SetVariable', 'Shuffle', nowPlaying_info.shuffle)
 		if nowPlaying_info.playing or prevSongInfo == nil then
-		SKIN:Bang('!SetVariable', 'SongPlaying', 1)
-		SKIN:Bang('!SetVariable', 'GPMDPOpen', 1)
+			SKIN:Bang('!SetVariable', 'SongPlaying', 1)
+			SKIN:Bang('!SetVariable', 'GPMDPOpen', 1)
 			if prevSongInfo == nil or prevSongInfo.title ~= nowPlaying_info.song.title then
 				--Set all variables
 				SKIN:Bang('!SetVariable', 'AlbumArtUrl', nowPlaying_info.song.albumArt)
@@ -110,7 +110,9 @@ function Update()
 		else
 			SKIN:Bang('!SetVariable', 'SongPlaying', 0)
 			if nowPlaying_info.song.artist == nil or nowPlaying_info.time.total == 0 then
-				SKIN:Bang('!SetVariable', 'GPMDPOpen', 0)
+				if tonumber(SKIN:GetVariable("minimizeOnClose")) > 0 then
+					SKIN:Bang('!SetVariable', 'GPMDPOpen', 0)
+				end
 			end
 		end
 	end
