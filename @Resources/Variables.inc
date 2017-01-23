@@ -1,7 +1,7 @@
 [Variables]
 
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
-variant=Round
+variant=Square
 
 ;These variables determines which theme and text color is used by the skin
 theme=Dark
@@ -12,7 +12,7 @@ size=4.5
 
 ;This variable determines whether info is always present on the skin or shown only on mouse-over
 ;(For Square & Round variants only)
-InfoHover=1
+InfoOnHover=0
 
 ;Tells the skin whether volume control is enabled
 enableVolumeControl=1
@@ -22,10 +22,10 @@ volumeStep=2
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
 ;This is the variable that determines the accent color used by the skin
-accent=FF9800F1
+accent=FF9800E1
 
 ;This is the icon variant used when the skin is minimized
-icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIcon.png
+icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\headphoneIcon.png
 
 ;This determines whether the skin minimizes when GPMDP is closed (0 = off, on = 1)
 minimizeOnClose=1
@@ -41,10 +41,10 @@ playbackAPI=1
 showVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=FF9800F1
+barColor=FF9800E1
 
 ;This variable determines the width of the bands in the visualizer
-wideBands=0
+barWidth=5
 
 ; A number value for the frequency resolution of the output data.
 ; Increasing this value will add more cpu load, so  if you are using a slower pc change
@@ -69,4 +69,3 @@ FFTAttack=45
 ; Higher values will extend the time the bars stay viisible, lower values makes it quicker and more choppy.
 ; Default: 60
 FFTDecay=60
-InfoOnHover=0
