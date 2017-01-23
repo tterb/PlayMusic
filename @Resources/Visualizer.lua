@@ -2,13 +2,16 @@
 -- Filename: Visualizer.lua
 -- Project: PlayMusic
 -- Author: Brett Stevenson
+-- Contact: BStevensonDev@gmail.com
+-- Version: v1.0.6
 -- License: GNU AGPLv3.0
--- Updated: Jan 19, 2017
+-- Updated: Jan 22, 2017
+-- Copyright (c) 2016 Brett Stevenson
 -- ##########################################################################
 
--- ## Description ###############################################################
--- This is the Lua script which allows the PlayMusic skin to create a custom visualizer based on the
--- configuration.
+-- ## Description ##############################################################
+-- This is the Lua script which allows the PlayMusic skin to create a custom
+-- visualizer based on the configuration.
 -- ###########################################################################
 
 function Initialize()
@@ -31,4 +34,3 @@ function Initialize()
 	end
 	file:close()
 end
-
