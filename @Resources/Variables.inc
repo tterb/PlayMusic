@@ -3,16 +3,11 @@
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
 variant=Round
 
-;These variables determines which theme and text color is used by the skin
-theme=Dark
-textColor=255,255,255,250
-
 ;This is the variable used to scale each of the skins (Default: 5)
 size=4.5
 
-;This variable determines whether info is always present on the skin or shown only on mouse-over
-;(For Square & Round variants only)
-InfoOnHover=1
+;This determines the accent color used by the skin (Default: FFFFFF89)
+accent=FFFFFFD9
 
 ;Tells the skin whether volume control is enabled
 enableVolumeControl=1
@@ -20,9 +15,8 @@ enableVolumeControl=1
 ;This variable determines the increments that the volume increases/decreases
 volumeStep=2
 
-;This determines the accent color used by the skin (Default: FFFFFF89)
-;This is the variable that determines the accent color used by the skin
-accent=FFFFFFB9
+;This variable allows the volume bar to remain visible with all accent colors FFFFC8
+volumeColor=FF9800D1
 
 ;This is the icon variant used when the skin is minimized
 icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\headphoneIcon.png
@@ -34,7 +28,7 @@ minimizeOnClose=1
 playbackAPI=1
 
 
-;======================================
+;=================================================
 ; VISUALIZER
 
 ;This variable determines whether the visualizer is shown
@@ -44,7 +38,7 @@ showVisualizer=1
 barColor=255,255,255,180
 
 ;This variable determines the width of the bands in the visualizer
-wideBands=1
+barWidth=5
 
 ; A number value for the frequency resolution of the output data.
 ; Increasing this value will add more cpu load, so  if you are using a slower pc change
@@ -69,4 +63,3 @@ FFTAttack=45
 ; Higher values will extend the time the bars stay viisible, lower values makes it quicker and more choppy.
 ; Default: 60
 FFTDecay=60
-barWidth=5
