@@ -2,9 +2,10 @@
 -- Filename: GPMDP.lua
 -- Project: PlayMusic
 -- Contact: BStevensonDev@gmail.com
--- Version: v1.0.6
--- License: BSD 3-Clause
+-- Version: v1.2.0
+-- License: GNU AGPLv3.0
 -- Updated: Jan 23, 2017
+-- Copyright (c) 2016 Brett Stevenson
 -- #############################################################################
 
 
@@ -38,7 +39,6 @@ function Update()
 		return
 	end
 
-
 	-- Read settings file
 	local WriteFile = io.open(sWriteFile)
 	local Variant = tonumber(string.match(WriteFile:read("*line"), "%d+"))
@@ -46,29 +46,6 @@ function Update()
 	local MinString = WriteFile:read("*line")
 	local MinStatus = tonumber(string.match(MinString, "%d+"))
 	SKIN:Bang('!SetVariable', 'MinimizeStatus', MinStatus)
-
-	-- local EnabledPlaybackAPI = tonumber(string.match(WriteFile:read("*line"), "%d+"))
-	-- if (EnabledPlaybackAPI > 0) then
-	-- local Settings = io.open(sSettingsFile)
-	-- -- Handle errors opening file
-	-- if not Settings then
-	-- 	print('SettingsFile: unable to open file at ' .. sSettingsFile)
-	-- 	return
-	-- end
-	-- -- Read the file contents and close
-	-- local SettingContents = Settings:read("*all")
-	-- Settings:close()
-	-- --Convert JSON to lua table and set meters
-	-- settings_info = JSON:decode(SettingContents)
-	-- if settings_info ~= nil then
-	-- 	-- Check that 'Playback API' is enabled
-	-- 	SKIN:Bang('!SetVariable', 'PlaybackAPI', settings_info.playbackAPI)
-	-- 	-- Check if GPMDP is using a custom theme
-	-- 	if settings_info.theme then
-	-- 		SKIN:Bang('!SetVariable', 'ThemeColor', settings_info.themeColor)
-	-- 	end
-	-- end
-
 
 	-- Read the file contents and close
 	local FileContents = File:read("*all")
@@ -116,4 +93,26 @@ function Update()
 			end
 		end
 	end
+
+	-- Open GPMDP settings file
+	local Settings = io.open(sSettingsFile)
+	-- Handle errors opening file
+	if not Settings then
+		print('SettingsFile: unable to open file at ' .. sSettingsFile)
+		return
+	end
+
+	-- Read the file contents and close
+	local SettingContents = Settings:read("*all")
+	Settings:close()
+	--Convert JSON to lua table and set meters
+	local settingsInfo = JSON:decode(SettingContents)
+	-- local APIstatus = settingsInfo.playbackAPI
+	if settingsInfo.playbackAPI then
+		-- Check that 'Playback API' is enabled
+		SKIN:Bang('!SetVariable', 'EnabledPlaybackAPI', 'true')
+	else
+		SKIN:Bang('!SetVariable', 'EnabledPlaybackAPI', 'false')
+	end
+	
 end
