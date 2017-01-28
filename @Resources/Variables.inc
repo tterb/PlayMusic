@@ -19,13 +19,10 @@ volumeStep=2
 volumeColor=FF9800D1
 
 ;This is the icon variant used when the skin is minimized
-icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\headphoneIcon.png
+icon=#@#images\headphoneIcon.png
 
 ;This determines whether the skin minimizes when GPMDP is closed (0 = off, on = 1)
 minimizeOnClose=1
-
-;Tells the skin whether 'Playback API' is enabled in GPMDP
-playbackAPI=1
 
 
 ;=================================================
