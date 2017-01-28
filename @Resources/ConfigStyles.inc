@@ -2,7 +2,7 @@
 
 [Variables]
 ;White
-color1=FFFFFFB9
+color1=FFFFFFD9
 ;Cyan
 color2=00BCD4E1
 ;Light Orange
@@ -25,7 +25,9 @@ color10=E53935E8
 color11=3F51B5E8
 ;Orange
 color12=FA5722EA
-
+;Volume bar
+volumeWhite=FFFFFFC8
+volumeColored=FF9800D1
 
 [SubHeading]
 FontSize=16
@@ -73,7 +75,7 @@ AntiAlias=1
 [IconStyle]
 ImageTint=#accent#
 PreserveAspectRatio=1
-H=60
+H=65
 LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
 
 [BorderStyle]
