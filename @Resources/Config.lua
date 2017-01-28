@@ -2,8 +2,10 @@
 -- Filename: Config.lua
 -- Project: PlayMusic
 -- Author: Brett Stevenson
--- License: BSD 3-Clause
+-- Version: v1.2.0
+-- License: GNU AGPLv3.0
 -- Updated: Jan 4, 2017
+-- Copyright (c) 2016 Brett Stevenson
 -- #############################################################################
 
 -- ## Description #################################################################
