@@ -9,7 +9,7 @@ MeterCurrentTime=MeterTime
 StatusImg=#@#images\play.png
 AppPath="C:%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
 PlaybackPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
-SettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
+DesktopSettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
 
 [TextStyle]
 FontFace=Segoe UI
@@ -20,6 +20,7 @@ FontEffectColor=0,0,0,245
 X=(#size#*21.1)
 W=(#size#*34.7)
 ClipString=1
+StringCase=Proper
 DynamicVariables=1
 AntiAlias=1
 UpdateRate=100
@@ -33,6 +34,7 @@ FontEffectColor=0,0,0,255
 X=(#size#*32)
 W=(#size#*27.1)
 ClipString=1
+StringCase=Proper
 DynamicVariables=1
 AntiAlias=1
 UpdateRate=100
