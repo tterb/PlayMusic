@@ -1,13 +1,16 @@
 [Variables]
 
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
-variant=Round
+variant=Landscape
 
 ;This is the variable used to scale each of the skins (Default: 5)
 size=4.5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
-accent=FFFFFFD9
+accent=FF9800E1
+
+;This variable determines whether the the song info is shown only on mouseover
+InfoOnHover=1
 
 ;Tells the skin whether volume control is enabled
 enableVolumeControl=1
@@ -16,7 +19,7 @@ enableVolumeControl=1
 volumeStep=2
 
 ;This variable allows the volume bar to remain visible with all accent colors FFFFC8
-volumeColor=FF9800D1
+volumeColor=FFFFFFC8
 
 ;This is the icon variant used when the skin is minimized
 icon=#@#images\headphoneIcon.png
@@ -32,7 +35,7 @@ minimizeOnClose=1
 showVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=255,255,255,180
+barColor=FF9800E1
 
 ;This variable determines the width of the bands in the visualizer
 barWidth=5
@@ -60,3 +63,4 @@ FFTAttack=45
 ; Higher values will extend the time the bars stay viisible, lower values makes it quicker and more choppy.
 ; Default: 60
 FFTDecay=60
+InfoOnHover=0

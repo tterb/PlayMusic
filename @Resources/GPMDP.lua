@@ -114,5 +114,21 @@ function Update()
 	else
 		SKIN:Bang('!SetVariable', 'EnabledPlaybackAPI', 'false')
 	end
-	
+
+	--Handle toggling of 'Info on Hover' functionality
+	local variant = SKIN:GetVariable('variant')
+	-- Only effects Square and Round variants
+	if variant ~= 'landscape' then
+		local infoOnHover = SKIN:GetVariable('InfoOnHover')
+		-- check variable state
+		if tonumber(infoOnHover) == 1 then
+			SKIN:Bang('!WriteKeyValue', 'MeterArtwork', 'MouseOverAction','[!ShowMeterGroup Info][!Redraw]')
+			SKIN:Bang('!WriteKeyValue','MeterArtwork', 'MouseLeaveAction','[!HideMeterGroup Info][!HideMeterGroup Volume][!Redraw]')
+		else
+			SKIN:Bang('!WriteKeyValue', 'MeterArtwork', 'MouseOverAction','')
+			SKIN:Bang('!WriteKeyValue', 'MeterArtwork', 'MouseLeaveAction','')
+			SKIN:GetMeter('Filter'):Hide()
+		end
+	end
+
 end
