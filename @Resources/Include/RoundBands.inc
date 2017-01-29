@@ -4,7 +4,7 @@
 Meter=Bar
 Group=Active | Visualizer
 MeasureName=MeasureBand0
-X=(#size#*20.8)+((5-#size#)*7)
+X=(#size#*20.5)+((5-#size#)*7)
 Y=(#size#*21.8)-((5-#size#)*18)
 DynamicVariables=1
 AntiAlias=1
@@ -12,7 +12,8 @@ AntiAlias=1
 Meter=Bar
 MeasureName=MeasureBand1
 MeterStyle=VisualizerStyle
-Y=(#size#*8.5)-((5-#size#)*18)
+Y=(#size#*14)-((5-#size#)*18)
+H=(#size#*21.6)
 [MeterBand2]
 Meter=Bar
 MeasureName=MeasureBand2
@@ -132,4 +133,5 @@ Y=(#size#*11.8)-((5-#size#)*18)
 Meter=Bar
 MeasureName=MeasureBand25
 MeterStyle=VisualizerStyle
-Y=(#size#*8.8)-((5-#size#)*18)
+Y=(#size#*14)-((5-#size#)*18)
+H=(#size#*21.6)
