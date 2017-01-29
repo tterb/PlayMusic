@@ -3,7 +3,7 @@
 -- Project: PlayMusic
 -- Author: Brett Stevenson
 -- Contact: BStevensonDev@gmail.com
--- Version: v1.0.6
+-- Version: v1.2.0
 -- License: GNU AGPLv3.0
 -- Updated: Jan 22, 2017
 -- Copyright (c) 2016 Brett Stevenson
