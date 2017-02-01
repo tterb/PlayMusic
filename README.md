@@ -38,9 +38,10 @@
 #### In Progress:  
   * Add requested support for Spotify as well as other media players  
   * Improve element color adaptability for light and dark album artwork   
+  * Add performance and further customization to visualizer  
+<br>
 
 ***Note:***&nbsp; Due to current limitations, it's not yet possible to integrate remote control of GPMDP into the skin, though a feature request has been made to the developers and I believe this is a functionality that can be expected from future updates.  
-
 <br>  
 
 ------------------------------------------------------------------------------  
@@ -63,27 +64,34 @@
   	<img src="https://cloud.githubusercontent.com/assets/16360374/21562127/bfc7cd88-ce2a-11e6-9bf0-003a62f95b4d.png" height="140" align="center" title="landscape">&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21576261/05c0eaf0-cede-11e6-8c4b-71d1b63144df.png" height="205" align="center" title="square">
   </p> -->
 
-### Settings Menu
-  In order to facilitate the customization options offered in this skin, *PlayMusic* includes a highly intuitive settings menu, making configuration and modification a breeze. This menu will be launched upon installation, though it can also be accessed at any time by pressing the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="12">&nbsp; on any of the skin variants.  
+------------------------------------------------------------------------------  
 
+### Settings Menu
+  In order to facilitate easy customization, *PlayMusic* includes a highly intuitive settings menu, making configuration and modification a breeze. This menu will be launched upon installation, though it can also be accessed at any time by pressing the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="12">&nbsp; on any of the skin variants.  
+
+------------------------------------------------------------------------------  
 
 ### Accent Colors
-  The addition of selectable accent colors allows users to add a splash of color to their skin while also allowing *PlayMusic* to tastefully adapt to any theme, layout, or wallpaper.  
+  The addition of selectable accent colors allows users to add a splash of color to their skin, while also allowing *PlayMusic* to tastefully adapt to any theme, layout, or wallpaper.  
 <!-- <p align="center">
 	<img src="https://cloud.githubusercontent.com/assets/16360374/21562636/4dbf015c-ce2f-11e6-94cc-4f1e6e035d3e.png" height="125" align="center" tile="accent colors">
 </p>   -->
 
-### Visualizer
-  Similarly, the recent adoption of a highly customizable visualizer allows one more way of making this skin your own.
+------------------------------------------------------------------------------  
 
+### Visualizer
+  In addition to providing added functionality to the skin, the recent adoption of a highly customizable visualizer also allows one more way of making this skin your own.  
+
+------------------------------------------------------------------------------  
 
 ### Minimization  
   By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/18604473/f2c1e336-7c31-11e6-94f9-a3dc17840435.png" height="25"/>  icon whenever *GPMDP* is inactive, conserving useful desktop space while also serving as a convenient launcher for the application. Though this functionality, as well as the displayed icon can be modified or disabled in the settings menu.  
 
-
+------------------------------------------------------------------------------  
 ### Volume control
-  This skin also features the ability to easily adjust your computers volume by scrolling up or down with the mouse-wheel with your cursor over the skin.  
+  This skin also features the ability to easily adjust your computers volume by scrolling up or down on the mouse-wheel with your cursor over the skin.  
 
+------------------------------------------------------------------------------  
 <br>  
 ------------------------------------------------------------------------------  
 
@@ -92,8 +100,8 @@
   * [Changelog](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CHANGELOG.md)
   * [Contributing](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CONTRIBUTING.md)
   * [Credits](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CREDITS.md)
-  <br>
 
+<br>  
 ------------------------------------------------------------------------------  
 <p align="right">
 <a href="https://gitter.im/PlayMusic/Lobby">
