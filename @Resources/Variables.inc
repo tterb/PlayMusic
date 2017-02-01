@@ -1,13 +1,13 @@
 [Variables]
 
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
-variant=Landscape
+variant=Round
 
 ;This is the variable used to scale each of the skins (Default: 5)
 size=4.5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
-accent=FF9800E1
+accent=FFFFFFD9
 
 ;This variable determines whether the the song info is shown only on mouseover
 InfoOnHover=1
@@ -19,7 +19,7 @@ enableVolumeControl=1
 volumeStep=2
 
 ;This variable allows the volume bar to remain visible with all accent colors FFFFC8
-volumeColor=FFFFFFC8
+volumeColor=FF9800D1
 
 ;This is the icon variant used when the skin is minimized
 icon=#@#images\headphoneIcon.png
@@ -35,32 +35,33 @@ minimizeOnClose=1
 showVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=FF9800E1
+barColor=255,255,255,180
 
 ;This variable determines the width of the bands in the visualizer
 barWidth=5
 
 ; A number value for the frequency resolution of the output data.
-; Increasing this value will add more cpu load, so  if you are using a slower pc change
-; the value to 1024, 512, or 256.
+; Increasing this value will add more cpu load, so  if you are using a
+; slower pc change the value to 1024, 512, or 256.
 ; This will increase/decrease performance and the quality of the visualization.
-; Default: 2048
-FFTSize=2048
+; Default: 1024
+FFTSize=1024
 
 ; A number value for the frequency resolution overlapping the output data.
-; Increasing this value will add more cpu load, so  if you are using a slower pc you can
-; change this to 256 or 0 for better performance.
+; Increasing this value will add more cpu load, so  if you are using a slower
+; pc you can change this to 256 or 0 for better performance.
 ; This will increase/decrease performance and the quality of the visualization.
 ; Default: 512
 FFTOverlap=512
 
 ; Time in Milliseconds till the bars rise to the signal level.
-; Higher values adds delay to the visualization, but makes it much smoother and calmer.
+; Higher values adds delay to the visualization, but makes it much smoother
+; and calmer.
 ; Default: 45
 FFTAttack=45
 
 ; Time in Milliseconds till the bars fall from the signal level.
-; Higher values will extend the time the bars stay viisible, lower values makes it quicker and more choppy.
-; Default: 60
-FFTDecay=60
-InfoOnHover=0
+; Higher values will extend the time the bars stay viisible, lower values makes
+; it quicker and more choppy.
+; Default: 70
+FFTDecay=70
