@@ -19,9 +19,7 @@ function Initialize()
 	local space = SELF:GetNumberOption("Spacing")
 	local enabled = SELF:GetNumberOption("EnableVisualizer")
 	local file = io.open(SKIN:MakePathAbsolute(SELF:GetOption("IncFile")), "w")
-	if enabled == 0 then
-		return
-	else
+	if enabled == 1 then
 		for i = 1, count-1 do
 			file:write("[MeterBand" .. i .. "]\n")
 			file:write("Meter=Bar\n")
