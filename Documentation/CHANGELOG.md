@@ -11,6 +11,7 @@
   * Added modular scaling to all skin variants
   * Overhauled the settings menu to accommodate further customization
   * Added configurable options to improve text visibility on bright or elaborate album covers
+  * Optimized skin update processes and performance
 
 --------------------------------------------------------------------------------
 
