@@ -24,7 +24,8 @@
 <br>
 <!-- Screenshot -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22546568/790b625a-e8f2-11e6-9975-59423929345f.gif" width="680">
+  <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview"> -->
 </p>
 
 <br>  
@@ -32,8 +33,9 @@
 ------------------------------------------------------------------------------  
 
 ## <img title="" alt="Description" src="http://image.flaticon.com/icons/svg/149/149187.svg" height="30" align="absmiddle"/>&nbsp;&nbsp;DESCRIPTION:  
-  This [Rainmeter] skin is one that I have been looking for, as a Google Play Music user, for a quite some time.  
-  This skin displays the Title, Artist, Album, and Album Artwork of the song being played, as well as the status of both the *shuffle* and *repeat* features on each of its three variants. Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.  
+  This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
+  <!-- This [Rainmeter] skin is one that I have been looking for, as a Google Play Music user, for a quite some time.  
+  This skin displays the Title, Artist, Album, and Album Artwork of the song being played, as well as the status of both the *shuffle* and *repeat* features on each of its three variants. Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.   -->
 
 #### In Progress:  
   * Add requested support for Spotify as well as other media players  
@@ -91,8 +93,9 @@
 ### Volume control
   This skin also features the ability to easily adjust your computers volume by scrolling up or down on the mouse-wheel with your cursor over the skin.  
 
-------------------------------------------------------------------------------  
+
 <br>  
+
 ------------------------------------------------------------------------------  
 
 ## <img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22450907/e6582b52-e71e-11e6-9754-678952bdf889.png" height="35" align="absmiddle"/>&nbsp;&nbsp;DOCS:  
@@ -110,4 +113,5 @@
 
 <!-- Links -->
 [Rainmeter]: https://www.rainmeter.net/
+[Google Play Music]: https://
 [Google Play Music Desktop Player]: http://www.googleplaymusicdesktopplayer.com/
