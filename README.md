@@ -1,6 +1,6 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/22064489/af0161ea-dd38-11e6-84d3-63ef931f1fa6.png" height="110" title="PlayMusic"/>
 --------------------------------------------------------------------------------  
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Simple Rainmeter skin for Google Play Music  
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Rainmeter skin for Google Play Music  
 
 <p align="right">
   <a href="https://badge.fury.io/gh/JonSn0w%2FPlayMusic">
@@ -13,7 +13,7 @@
 	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25920000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%203%2C712-green.svg" height="21" title="Downloads">
+  		<img src="https://img.shields.io/badge/downloads-%203%2C740-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -22,20 +22,19 @@
   </span>
 </p>  
 <br>
+
 <!-- Screenshot -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/22546568/790b625a-e8f2-11e6-9975-59423929345f.gif" width="680">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22546568/790b625a-e8f2-11e6-9975-59423929345f.gif" width="780">
   <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview"> -->
-</p>
+</p>  
 
-<br>  
 
 ------------------------------------------------------------------------------  
 
 ## <img title="" alt="Description" src="http://image.flaticon.com/icons/svg/149/149187.svg" height="30" align="absmiddle"/>&nbsp;&nbsp;DESCRIPTION:  
-  This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
-  <!-- This [Rainmeter] skin is one that I have been looking for, as a Google Play Music user, for a quite some time.  
-  This skin displays the Title, Artist, Album, and Album Artwork of the song being played, as well as the status of both the *shuffle* and *repeat* features on each of its three variants. Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.   -->
+  This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.  
+  Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
 
 #### In Progress:  
   * Add requested support for Spotify as well as other media players  
@@ -43,7 +42,7 @@
   * Add performance and further customization to visualizer  
 <br>
 
-***Note:***&nbsp; Due to current limitations, it's not yet possible to integrate remote control of GPMDP into the skin, though a feature request has been made to the developers and I believe this is a functionality that can be expected from future updates.  
+***Note:***&nbsp; Due to current limitations, it's not yet possible to integrate remote control of GPMDP into the skin, though a feature request has been made to the developers and I believe this functionality can be expected in future updates.  
 <br>  
 
 ------------------------------------------------------------------------------  
@@ -107,9 +106,11 @@
 <br>  
 ------------------------------------------------------------------------------  
 <p align="right">
-<a href="https://gitter.im/PlayMusic/Lobby">
+  <a href="https://gitter.im/PlayMusic/Lobby">
       <img src="https://badges.gitter.im/PlayMusic/Lobby.svg" height="21" title="Gitter">
-</a></p>
+  </a>
+</p>
+
 
 <!-- Links -->
 [Rainmeter]: https://www.rainmeter.net/
