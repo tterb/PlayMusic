@@ -25,7 +25,7 @@
 
 <!-- Screenshot -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/22546568/790b625a-e8f2-11e6-9975-59423929345f.gif" width="780">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22547134/1a4e0da0-e8f5-11e6-9802-08228a312ec6.gif" width="780">
   <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview"> -->
 </p>  
 
@@ -49,10 +49,11 @@
 
 ## <img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/21559954/53f864ec-ce0b-11e6-9ae7-1e20a8ad7fcf.png" height="35" align="absmiddle"/>&nbsp;SETUP:
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.  
-  After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.   
+  After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.  
 
-  ![Desktop Settings](https://cloud.githubusercontent.com/assets/16360374/22097291/3a6c4ffa-ddd5-11e6-9e46-229c73cb1c84.png)  
-
+  <p align="center">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/22547192/66e31a98-e8f5-11e6-82d5-20c956411f50.png" width="720" title="Desktop Settings">  
+  </p>
 <br>  
 
 ------------------------------------------------------------------------------  
