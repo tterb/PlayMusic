@@ -7,7 +7,7 @@ variant=Round
 size=4.5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
-accent=FFFFFFD9
+accent=FF9800E1
 
 ;This variable determines whether the the song info is shown only on mouseover
 InfoOnHover=1
@@ -19,7 +19,7 @@ enableVolumeControl=1
 volumeStep=2
 
 ;This variable allows the volume bar to remain visible with all accent colors FFFFC8
-volumeColor=FF9800D1
+volumeColor=FFFFFFC8
 
 ;This is the icon variant used when the skin is minimized
 icon=#@#images\headphoneIcon.png
@@ -35,10 +35,16 @@ minimizeOnClose=1
 showVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=255,255,255,180
+barColor=255,255,255,170
 
 ;This variable determines the width of the bands in the visualizer
 barWidth=5
+
+;This variable determines the space between bands in the visualizer
+; bandSpace=2
+
+;This variable determines the average height of the visualizer bands
+averageSize=3
 
 ; A number value for the frequency resolution of the output data.
 ; Increasing this value will add more cpu load, so  if you are using a
@@ -57,11 +63,11 @@ FFTOverlap=512
 ; Time in Milliseconds till the bars rise to the signal level.
 ; Higher values adds delay to the visualization, but makes it much smoother
 ; and calmer.
-; Default: 45
-FFTAttack=45
+; Default: 95
+FFTAttack=95
 
 ; Time in Milliseconds till the bars fall from the signal level.
 ; Higher values will extend the time the bars stay viisible, lower values makes
 ; it quicker and more choppy.
-; Default: 70
-FFTDecay=70
+; Default: 90
+FFTDecay=90
