@@ -2,6 +2,7 @@
 --------------------------------------------------------------------------------  
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Rainmeter skin for Google Play Music  
 
+<!-- Badges -->
 <p align="right">
   <a href="https://badge.fury.io/gh/JonSn0w%2FPlayMusic">
 	  <img src="https://badge.fury.io/gh/JonSn0w%2FPlayMusic.svg" height="21" alt="version">
@@ -9,11 +10,11 @@
   <a href="http://www.gnu.org/licenses/agpl-3.0">
 		<img src="https://img.shields.io/badge/license-AGPL-blue.svg" height="21" title="License">
   </a>
-  <a href="https://github.com/JonSn0w/GitHubCalendar/issues">
-	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25920000" height="21" title="Issues">
+  <a href="https://github.com/JonSn0w/PlayMusic/issues">
+	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=2592000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%203%2C740-green.svg" height="21" title="Downloads">
+  		<img src="https://img.shields.io/badge/downloads-%203%2C771-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -62,9 +63,6 @@
 
 ### Variants  
   *PlayMusic* features square, round, and landscape variants, which in conjunction with its added scalability settings, guarantee its ability to compliment any desktop layout.  
-  <!-- <p align="center">
-  	<img src="https://cloud.githubusercontent.com/assets/16360374/21562127/bfc7cd88-ce2a-11e6-9bf0-003a62f95b4d.png" height="140" align="center" title="landscape">&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21576261/05c0eaf0-cede-11e6-8c4b-71d1b63144df.png" height="205" align="center" title="square">
-  </p> -->
 
 ------------------------------------------------------------------------------  
 
@@ -75,9 +73,6 @@
 
 ### Accent Colors
   The addition of selectable accent colors allows users to add a splash of color to their skin, while also allowing *PlayMusic* to tastefully adapt to any theme, layout, or wallpaper.  
-<!-- <p align="center">
-	<img src="https://cloud.githubusercontent.com/assets/16360374/21562636/4dbf015c-ce2f-11e6-94cc-4f1e6e035d3e.png" height="125" align="center" tile="accent colors">
-</p>   -->
 
 ------------------------------------------------------------------------------  
 
