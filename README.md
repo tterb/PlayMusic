@@ -33,7 +33,6 @@
 ------------------------------------------------------------------------------  
 
 <img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />  
-<br>
 
   This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.  
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
@@ -50,7 +49,6 @@
 ------------------------------------------------------------------------------  
 
 <img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623857/445972e4-eb1e-11e6-9608-fce5c7d4f52d.png" width="900" />  
-<br>
 
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.  
   After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.  
@@ -62,7 +60,6 @@
 ------------------------------------------------------------------------------  
 
 <img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />  
-<br>
 
 ### Variants  
   *PlayMusic* features square, round, and landscape variants, which in conjunction with its added scalability settings, guarantee its ability to compliment any desktop layout.  
@@ -97,7 +94,6 @@
 ------------------------------------------------------------------------------  
 
 <img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623858/446b33bc-eb1e-11e6-96ae-2494c5072887.png" width="900" />  
-<br>
 
   * [License](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/LICENSE.md)
   * [Changelog](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CHANGELOG.md)
