@@ -32,7 +32,7 @@
 
 ------------------------------------------------------------------------------  
 
-<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623799/9bb27cea-eb1c-11e6-938a-7e625a760a55.png" width="900" />  
+<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />  
 <br>
 
   This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.  
@@ -49,7 +49,7 @@
 
 ------------------------------------------------------------------------------  
 
-<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623801/9bb2ef5e-eb1c-11e6-82d8-de36d27c7d5e.png" width="900" />  
+<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623857/445972e4-eb1e-11e6-9608-fce5c7d4f52d.png" width="900" />  
 <br>
 
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.  
@@ -61,7 +61,7 @@
 
 ------------------------------------------------------------------------------  
 
-<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623800/9bb2e2e8-eb1c-11e6-96c4-596a1b7d0a31.png" width="900" />  
+<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />  
 <br>
 
 ### Variants  
@@ -96,7 +96,7 @@
 
 ------------------------------------------------------------------------------  
 
-<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623798/9bb24770-eb1c-11e6-8039-1cb5dd7975a9.png" width="900" />  
+<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623858/446b33bc-eb1e-11e6-96ae-2494c5072887.png" width="900" />  
 <br>
 
   * [License](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/LICENSE.md)
