@@ -22,18 +22,19 @@
     </a>
   </span>
 </p>  
-<br>
+
 
 <!-- Screenshot -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/22547134/1a4e0da0-e8f5-11e6-9802-08228a312ec6.gif" width="780">
-  <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/21575451/000fb7de-cec1-11e6-887e-5e9a4528f6e9.png" width="640" title="Preview"> -->
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22547134/1a4e0da0-e8f5-11e6-9802-08228a312ec6.gif" width="810">
 </p>  
 
 
 ------------------------------------------------------------------------------  
+<br>
+<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623718/03f2a22a-eb19-11e6-8e91-52a58cb2d062.png" width="900" />  
+<br>
 
-## <img title="" alt="Description" src="http://image.flaticon.com/icons/svg/149/149187.svg" height="30" align="absmiddle"/>&nbsp;&nbsp;DESCRIPTION:  
   This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.  
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
 
@@ -47,19 +48,21 @@
 <br>  
 
 ------------------------------------------------------------------------------  
+<br>
+<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623741/de8cb2d6-eb19-11e6-816d-7a57b5c43d4b.png" width="900" />  
+<br>
 
-## <img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/21559954/53f864ec-ce0b-11e6-9ae7-1e20a8ad7fcf.png" height="35" align="absmiddle"/>&nbsp;SETUP:
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.  
   After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.  
 
   <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/16360374/22547192/66e31a98-e8f5-11e6-82d5-20c956411f50.png" width="720" title="Desktop Settings">  
-  </p>
-<br>  
+  </p>  
 
 ------------------------------------------------------------------------------  
-
-## <img title="" alt="Features" src="http://image.flaticon.com/icons/svg/149/149421.svg" height="35" align="absmiddle"/>&nbsp;&nbsp;FEATURES:  
+<br>
+<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623733/9777df92-eb19-11e6-81c7-2c82a42d719c.png" width="900" />  
+<br>
 
 ### Variants  
   *PlayMusic* features square, round, and landscape variants, which in conjunction with its added scalability settings, guarantee its ability to compliment any desktop layout.  
@@ -92,8 +95,10 @@
 <br>  
 
 ------------------------------------------------------------------------------  
+<br>
+<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623734/977cc890-eb19-11e6-90c1-da12ad64d42b.png" width="900" />  
+<br>
 
-## <img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22450907/e6582b52-e71e-11e6-9754-678952bdf889.png" height="35" align="absmiddle"/>&nbsp;&nbsp;DOCS:  
   * [License](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/LICENSE.md)
   * [Changelog](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CHANGELOG.md)
   * [Contributing](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CONTRIBUTING.md)
