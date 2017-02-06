@@ -61,14 +61,14 @@
 
 <img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22631966/e3b226b4-ebc9-11e6-8c7f-e762a9add3bd.png" height="40" title="Square"><img src="https://cloud.githubusercontent.com/assets/16360374/22631964/e3aec9b0-ebc9-11e6-96f0-990763daec05.png" height="60" title="Round"><img src="https://cloud.githubusercontent.com/assets/16360374/22631965/e3af0236-ebc9-11e6-8209-061afec458a2.png" height="30" title="Landscape">
+<img src="https://cloud.githubusercontent.com/assets/16360374/22636149/fb289782-ebed-11e6-8f33-1ba0613d171e.png" height="220" title="Variants">
 </p>
 <!-- ### Variants   -->
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/16360374/22628811/c03a199c-eb8f-11e6-82b7-30566966bb7e.png" height="40" title="Variants"/>
 </p>
 <p align="center">
-  PlayMusic features square, round, and landscape variants, which in conjunction with <br>  its added scalability settings, guarantee its ability to compliment any desktop layout.
+  PlayMusic features square, round, and landscape variants, which in conjunction with its <br>  added scalability settings, guarantee its ability to compliment any desktop layout.
 </p>
 ------------------------------------------------------------------------------
 <!-- ### Settings Menu -->
