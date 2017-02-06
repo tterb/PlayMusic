@@ -61,7 +61,7 @@
 
 <img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22636149/fb289782-ebed-11e6-8f33-1ba0613d171e.png" height="220" title="Variants">
+	<img src="https://cloud.githubusercontent.com/assets/16360374/22636397/a1ef1ffe-ebef-11e6-8443-49c8b71d6bff.png" height="210" title="Variants">
 </p>
 <!-- ### Variants   -->
 <p align="center">
