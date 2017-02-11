@@ -34,16 +34,16 @@
 
 <img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />
 
-  This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork, accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
+  This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
 
 #### In Progress:
-  * Add requested support for Spotify as well as other media players
+  * Add requested support for *Spotify* as well as other media players
   * Improve element color adaptability for light and dark album artwork
-  * Add performance and further customization to visualizer
+  * Add performance settings and further customization to visualizer
 <br>
 
-***Note:***&nbsp; Due to current limitations, it's not yet possible to integrate remote control of GPMDP into the skin, though a feature request has been made to the developers and I believe this functionality can be expected in future updates.
+***Note:***&nbsp; Due to current limitations, it's not possible to integrate remote control of GPMDP into the skin, though the developers have been made aware of this feature request and I believe this functionality can be expected in future updates.
 <br>
 
 ------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ The addition of selectable accent colors allows users to add a splash of color t
 <img src="https://cloud.githubusercontent.com/assets/16360374/22628812/c03a222a-eb8f-11e6-8492-0615c4b1d140.png" height="40" title="Minimization"/>
 </p>
 <p align="center">
-  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22849707/836b1588-efb4-11e6-9670-e5494dda6171.png" height="22"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
+  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22849857/31389fc2-efb6-11e6-93b0-9ad3d70ae929.png" height="30"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
 </p><br>
 
 <!-- ### Volume control -->
