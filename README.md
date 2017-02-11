@@ -14,7 +14,7 @@
 	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=2592000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%203%2C845-green.svg" height="21" title="Downloads">
+  		<img src="https://img.shields.io/badge/downloads-%203%2C875-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -100,7 +100,7 @@ The addition of selectable accent colors allows users to add a splash of color t
 <img src="https://cloud.githubusercontent.com/assets/16360374/22628812/c03a222a-eb8f-11e6-8492-0615c4b1d140.png" height="40" title="Minimization"/>
 </p>
 <p align="center">
-  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/18604473/f2c1e336-7c31-11e6-94f9-a3dc17840435.png" height="25"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
+  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22849707/836b1588-efb4-11e6-9670-e5494dda6171.png" height="22"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
 </p><br>
 
 <!-- ### Volume control -->
