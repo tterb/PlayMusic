@@ -1,6 +1,5 @@
 [<img src="https://cloud.githubusercontent.com/assets/16360374/22064489/af0161ea-dd38-11e6-84d3-63ef931f1fa6.png" height="110" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
---------------------------------------------------------------------------------
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Rainmeter skin for Google Play Music
+--------------------------------------------------------------------------------  
 
 <!-- Badges -->
 <p align="right">
