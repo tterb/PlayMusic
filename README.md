@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/22064489/af0161ea-dd38-11e6-84d3-63ef931f1fa6.png" height="110" title="PlayMusic"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22064489/af0161ea-dd38-11e6-84d3-63ef931f1fa6.png" height="110" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
 --------------------------------------------------------------------------------
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Rainmeter skin for Google Play Music
 
@@ -32,7 +32,7 @@
 
 ------------------------------------------------------------------------------
 
-<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />
+[<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />](#description)
 
   This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
@@ -48,7 +48,7 @@
 
 ------------------------------------------------------------------------------
 
-<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623857/445972e4-eb1e-11e6-9608-fce5c7d4f52d.png" width="900" />
+[<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623857/445972e4-eb1e-11e6-9608-fce5c7d4f52d.png" width="900" />](#setup)
 
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.
   After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.
@@ -59,13 +59,13 @@
 
 ------------------------------------------------------------------------------
 
-<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />
+[<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />](#features)
 <p align="center">
 	<img src="https://cloud.githubusercontent.com/assets/16360374/22849281/99fc5a7c-efb0-11e6-8f52-9e1c4b3c96ab.png" height="210" title="Variants">
 </p>
 <!-- ### Variants   -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628811/c03a199c-eb8f-11e6-82b7-30566966bb7e.png" height="40" title="Variants"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628811/c03a199c-eb8f-11e6-82b7-30566966bb7e.png" height="40" title="Variants"/>](#variants)
 </p>
 <p align="center">
   PlayMusic features square, round, and landscape variants, which in conjunction with its <br>  added scalability settings, guarantee its ability to compliment any desktop layout.
@@ -73,7 +73,7 @@
 
 <!-- ### Settings Menu -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628809/c039003e-eb8f-11e6-91f3-34bb8af4364a.png" height="40" title="Settings Menu"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628809/c039003e-eb8f-11e6-91f3-34bb8af4364a.png" height="40" title="Settings Menu"/>](#settings)
 </p>
 <p align="center">
   In order to facilitate easy customization, PlayMusic includes a highly intuitive settings menu, <br>  making configuration and modification a breeze. This menu will be launched upon installation, <br>  though it can also be accessed at any time by pressing the &nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/21559428/fe6a3654-ce00-11e6-8d2c-ba8570e3132c.png" height="12">&nbsp; on any of the skin variants.
@@ -81,7 +81,7 @@
 
 <!-- ### Accent Colors -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628810/c03a239c-eb8f-11e6-8e3c-bb09caaebf4f.png" height="40" title="Accent Colors"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628810/c03a239c-eb8f-11e6-8e3c-bb09caaebf4f.png" height="40" title="Accent Colors"/>](#accent)
 </p>
 <p align="center">
 The addition of selectable accent colors allows users to add a splash of color to their skin, <br>  while also allowing PlayMusic to tastefully adapt to any theme, layout, or wallpaper.
@@ -89,7 +89,7 @@ The addition of selectable accent colors allows users to add a splash of color t
 
 <!-- ### Visualizer -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628814/c03dc38a-eb8f-11e6-95cf-1df0835a4f83.png" height="40" title="Visualizer"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628814/c03dc38a-eb8f-11e6-95cf-1df0835a4f83.png" height="40" title="Visualizer"/>](#visualizer)
 </p>
 <p align="center">
   In addition to providing added functionality to the skin, the recent adoption of a highly <br>  customizable visualizer also allows one more way of making this skin your own.
@@ -97,15 +97,15 @@ The addition of selectable accent colors allows users to add a splash of color t
 
 <!-- ### Minimization   -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628812/c03a222a-eb8f-11e6-8492-0615c4b1d140.png" height="40" title="Minimization"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628812/c03a222a-eb8f-11e6-8492-0615c4b1d140.png" height="40" title="Minimization"/>](#minimization)
 </p>
 <p align="center">
-  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22849857/31389fc2-efb6-11e6-93b0-9ad3d70ae929.png" height="30"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
+  By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22850002/fb77e47c-efb7-11e6-9199-b6b027504656.png" height="23"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
 </p><br>
 
 <!-- ### Volume control -->
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/16360374/22628813/c03a5ace-eb8f-11e6-9b27-64f91515d2af.png" height="40" title="Volume Control"/>
+[<img src="https://cloud.githubusercontent.com/assets/16360374/22628813/c03a5ace-eb8f-11e6-9b27-64f91515d2af.png" height="40" title="Volume Control"/>](#volcontrol)
 </p><p align="center">
   This skin also features the ability to easily adjust your computers volume by simply <br>  scrolling up or down on the mouse-wheel with your cursor over the skin.
 </p>
@@ -114,7 +114,7 @@ The addition of selectable accent colors allows users to add a splash of color t
 
 ------------------------------------------------------------------------------
 
-<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623858/446b33bc-eb1e-11e6-96ae-2494c5072887.png" width="900" />
+[<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623858/446b33bc-eb1e-11e6-96ae-2494c5072887.png" width="900" />](#documentation)
 
   * [License](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/LICENSE.md)
   * [Changelog](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CHANGELOG.md)
