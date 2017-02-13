@@ -7,7 +7,7 @@ variant=Round
 size=4.5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
-accent=FF9800E1
+accent=00BCD4E1
 
 ;This variable determines whether the the song info is shown only on mouseover
 InfoOnHover=1
@@ -22,7 +22,7 @@ volumeStep=2
 volumeColor=FFFFFFC8
 
 ;This is the icon variant used when the skin is minimized
-icon=#@#images\headphoneIcon.png
+icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIcon.png
 
 ;This determines whether the skin minimizes when GPMDP is closed (0 = off, on = 1)
 minimizeOnClose=1
@@ -35,7 +35,7 @@ minimizeOnClose=1
 showVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=255,255,255,170
+barColor=00BCD4E1
 
 ;This variable determines the width of the bands in the visualizer
 barWidth=5
@@ -45,6 +45,9 @@ barWidth=5
 
 ;This variable determines the average height of the visualizer bands
 averageSize=3
+
+;This determines the values of the fallowing variables based of the selected performance setting.
+VisualizerPerformance=High
 
 ; A number value for the frequency resolution of the output data.
 ; Increasing this value will add more cpu load, so  if you are using a
