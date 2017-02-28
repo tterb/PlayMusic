@@ -1,5 +1,5 @@
 [<img src="https://cloud.githubusercontent.com/assets/16360374/22064489/af0161ea-dd38-11e6-84d3-63ef931f1fa6.png" height="110" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
---------------------------------------------------------------------------------  
+------------------------------------------------------------------------------  
 
 <!-- Badges -->
 <p align="right">
@@ -13,7 +13,6 @@
 	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=2592000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%204%2C001-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -60,7 +59,7 @@
 
 [<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />](#features)
 <p align="center">
-	<img src="https://cloud.githubusercontent.com/assets/16360374/22849281/99fc5a7c-efb0-11e6-8f52-9e1c4b3c96ab.png" height="210" title="Variants">
+	<img src="https://cloud.githubusercontent.com/assets/16360374/23335412/21511926-fb6a-11e6-8bb5-249567ecd85a.png" height="230" title="Variants">
 </p>
 <!-- ### Variants   -->
 <p align="center">
@@ -129,7 +128,8 @@ The addition of selectable accent colors allows users to add a splash of color t
 </p>
 
 
-<!-- Links -->
+<!---------------------------------- Links ------------------------------------>
+
 [Rainmeter]: https://www.rainmeter.net/
 [Google Play Music]: https://
 [Google Play Music Desktop Player]: http://www.googleplaymusicdesktopplayer.com/
