@@ -49,7 +49,7 @@
 
 [<img title="" alt="Features" src="https://cloud.githubusercontent.com/assets/16360374/22623859/446dbe70-eb1e-11e6-8f95-ec36076d7f52.png" width="900" />](#features)
 <p align="center">
-	<img src="https://cloud.githubusercontent.com/assets/16360374/23335412/21511926-fb6a-11e6-8bb5-249567ecd85a.png" height="235" title="Variants">
+	<img src="https://cloud.githubusercontent.com/assets/16360374/23335412/21511926-fb6a-11e6-8bb5-249567ecd85a.png" height="240" title="Variants">
 </p>
 <!-- ### Variants   -->
 <p align="center">
