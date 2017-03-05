@@ -14,13 +14,28 @@ Path=#SKINSPATH#PlayMusic\DownloadFile\image.jpg
 ; Path=[MeterArtwork]
 UpdateDivider=100
 
-[ColorBackground]
+[ColorForeground1]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Foreground1
+; Substitute="":"#Foreground#","0,0,0":"#Foreground#"
+
+[ColorBackground1]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Background1
 ; Substitute="":"#Background#","255,255,255":"#Background#"
+
+[ColorForeground2]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Foreground2
 
 [ColorBackground2]
 Measure=Plugin
@@ -30,21 +45,6 @@ Format=Hex
 Color=Background2
 ; Substitute="":"#Background#","255,255,255":"#Background#"
 
-[ColorForeground]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Foreground1
-; Substitute="":"#Foreground#","0,0,0":"#Foreground#"
-
-[ColorForeground2]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Foreground2
-
 [ColorAvg]
 Measure=Plugin
 Plugin=Chameleon
@@ -52,40 +52,19 @@ Parent=ChameleonNowPlaying
 Format=Hex
 Color=Average
 
-[ColorDark]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Dark1
-
-[ColorDark2]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Dark2
-
-[ColorDark3]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Dark3
-
-[ColorDark4]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Hex
-Color=Dark4
-
-[ColorLight]
+[ColorLight1]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Light1
+
+[ColorDark1]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Dark1
 
 [ColorLight2]
 Measure=Plugin
@@ -94,6 +73,13 @@ Parent=ChameleonNowPlaying
 Format=Hex
 Color=Light2
 
+[ColorDark2]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Dark2
+
 [ColorLight3]
 Measure=Plugin
 Plugin=Chameleon
@@ -101,12 +87,26 @@ Parent=ChameleonNowPlaying
 Format=Hex
 Color=Light3
 
+[ColorDark3]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Dark3
+
 [ColorLight4]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Light4
+
+[ColorDark4]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonNowPlaying
+Format=Hex
+Color=Dark4
 
 [ColorLuminance]
 Measure=Plugin
