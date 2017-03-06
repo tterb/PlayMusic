@@ -2,9 +2,9 @@
 -- Filename: Adaptive.lua
 -- Project: PlayMusic
 -- Author: Brett Stevenson
--- Version: v1.2.1
+-- Version: v1.2.2
 -- License: GNU AGPLv3.0
--- Updated: March 1, 2017
+-- Updated: March 5, 2017
 -- Copyright (c) 2016 Brett Stevenson
 -- #############################################################################
 
@@ -19,11 +19,7 @@
 function Initialize()
     ForegroundMeasure = SKIN:GetMeasure('ColorForeground')
     BackgroundMeasure = SKIN:GetMeasure('ColorBackground')
-    currentF = ForegroundMeasure:GetOption('Color')
-    currentB = BackgroundMeasure:GetOption('Color')
-    SKIN:Bang('!SetOption', ForegroundMeasure, 'Color', 'Foreground2')
-    SKIN:Bang('!SetOption', BackgroundMeasure, 'Color', 'Background2')
-    -- Update()
+    Update()
 end
 
 
@@ -35,50 +31,76 @@ function Update()
     local foreground3 = SELF:GetOption('foreground3')
     local background3 = SELF:GetOption('background3')
     local average = SELF:GetOption('average')
-    -- if (analyze(foreground1, foreground2) == foreground1) then
-    --     foreground = 'Foreground2'
-    -- else
-    --     foreground = 'Light1'
-    -- end
-    -- if (analyze(background1, background2) == background1) then
-    --     background = 'Background2'
-    -- else
-    --     background = 'Dark1'
-    -- end
-    local H1,S1,L1 = RGBtoHSL(HextoRGB(foreground1))
-    local H2,S2,L2 = RGBtoHSL(HextoRGB(background1))
-    local H3,S3,L3 = RGBtoHSL(HextoRGB(foreground2))
-    local H4,S4,L4 = RGBtoHSL(HextoRGB(background2))
-    local H5,S5,L5 = RGBtoHSL(HextoRGB(foreground3))
-    local H6,S6,L6 = RGBtoHSL(HextoRGB(background3))
-    print('foreground1 - '..H1..','..S1..','..L1)
-    print('background1 - '..H2..','..S2..','..L2)
-    print('foreground2 - '..H3..','..S3..','..L3)
-    print('background2 - '..H4..','..S4..','..L4)
-    print('foreground3 - '..H5..','..S5..','..L5)
-    print('background3 - '..H6..','..S6..','..L6)
-
-    local foreground = analyze(foreground3, analyze(foreground1, foreground2))
-    local background = analyze(background3, analyze(background1, background2))
-    -- if(foreground == background)
-
+    -- logs for debugging
+    -- local H1,S1,L1 = RGBtoHSL(HextoRGB(foreground1))
+    -- local H2,S2,L2 = RGBtoHSL(HextoRGB(background1))
+    -- local H3,S3,L3 = RGBtoHSL(HextoRGB(foreground2))
+    -- local H4,S4,L4 = RGBtoHSL(HextoRGB(background2))
+    -- local H5,S5,L5 = RGBtoHSL(HextoRGB(foreground3))
+    -- local H6,S6,L6 = RGBtoHSL(HextoRGB(background3))
+    -- print('foreground2 - '..H1..','..S1..','..L1)
+    -- print('background2 - '..H2..','..S2..','..L2)
+    -- print('light1 - '..H5..','..S5..','..L5)
+    -- print('dark1 - '..H6..','..S6..','..L6)
+    -- print('light2 - '..H3..','..S3..','..L3)
+    -- print('dark2 - '..H4..','..S4..','..L4)
+    local foreground = foreground(foreground3, foreground(foreground1, foreground2))
+    local background = background(background3, background(background1, background2, foreground), foreground)
     SKIN:Bang('!WriteKeyValue', 'Variables', 'foregroundColor', tostring(foreground))
     SKIN:Bang('!WriteKeyValue', 'Variables', 'backgroundColor', tostring(background))
 end
 
 -- Returns the preferable accent color
-function analyze(color1, color2)
-    if(color1 == '') or (color2 == '') then
-        return
+function background(color1, color2, foreground)
+    -- if(color1 == '') or (color2 == '') or (foreground = '') then
+    --     return
+    -- end
+    local H1,S1,L1 = RGBtoHSL(HextoRGB(color1))
+    local H2,S2,L2 = RGBtoHSL(HextoRGB(color2))
+    local H3,S3,L3 = RGBtoHSL(HextoRGB(foreground))
+
+    -- check that color isn't too dark
+    if (L1 < 0.15) and (L2 < 0.15) then
+        return 'EDEDED'
+    elseif (L1 < 0.15) then
+        return color2
+    elseif (L2 < 0.15) then
+        return color1
     end
+    -- contrast with foreground color
+    if (math.abs(H1 - H3) < 0.004) or (math.abs(H2 - H3) < 0.004) then
+        if (math.abs(H1 - H3) < math.abs(H2 - H3)) then
+            return color2
+        else
+            return color1
+        end
+    end
+    if (S1 == S2) then
+        if (L1 > L2) then
+            return color1
+        else
+            return color2
+        end
+    elseif (S1 < S2) then
+        return color2
+    else
+        return color1
+    end
+end
+
+function foreground(color1, color2)
+    -- if(color1 == '') or (color2 == '') then
+    --     return
+    -- end
     local H1,S1,L1 = RGBtoHSL(HextoRGB(color1))
     local H2,S2,L2 = RGBtoHSL(HextoRGB(color2))
 
-    if (H1 == 0) and (L1 == 0) then
-        -- too dark
+    -- check that color isn't too light or too dark
+    if (L1 < 0.23) and (L2 < 0.23) then
+        return 'EDEDED'
+    elseif (L1 < 0.23) or (L1 > 0.9) then
         return color2
-    elseif (H2 == 0) and (L2 == 0) then
-        -- too dark
+    elseif (L2 < 0.23) or (L2 > 0.9) then
         return color1
     end
     if (S1 == S2) then
