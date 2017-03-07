@@ -1,4 +1,4 @@
-[<img src="https://cloud.githubusercontent.com/assets/16360374/23640787/a5824436-02a4-11e7-883d-a29707003fa6.png" height="110" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
+[<img src="https://cloud.githubusercontent.com/assets/16360374/23640973/ac0fe0a0-02a5-11e7-91a1-fc9eb72514de.png" height="120" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
 ------------------------------------------------------------------------------  
 
 <!-- Badges -->
