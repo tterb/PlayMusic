@@ -1,13 +1,5 @@
 ;PlayMusic/@Resources/Include/RoundBands,inc
 
-[MeterBand0]
-Meter=Bar
-Group=Active | Visualizer
-MeasureName=MeasureBand0
-X=(#size#*20.5)+((5-#size#)*7)
-Y=(#size#*21.8)+((4.5-#size#)*10)
-DynamicVariables=1
-AntiAlias=1
 [MeterBand1]
 Meter=Bar
 MeasureName=MeasureBand1
@@ -38,12 +30,12 @@ Y=(#size#*14.6)+((4.5-#size#)*10)
 Meter=Bar
 MeasureName=MeasureBand6
 MeterStyle=VisualizerStyle
-Y=(#size#*15.6)+((4.5-#size#)*10)
+Y=(#size#*15.5)+((4.5-#size#)*10)
 [MeterBand7]
 Meter=Bar
 MeasureName=MeasureBand7
 MeterStyle=VisualizerStyle
-Y=(#size#*16.6)+((4.5-#size#)*10)
+Y=(#size#*16.4)+((4.5-#size#)*10)
 [MeterBand8]
 Meter=Bar
 MeasureName=MeasureBand8
