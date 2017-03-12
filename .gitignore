@@ -14,3 +14,5 @@ Config/colors/*
 @Resources/Images/gradient.png
 @Resources/Images/gradient2.png
 @Resources/settings.txt
+Test/test.ini
+Test/DownloadFile/image.jpg
