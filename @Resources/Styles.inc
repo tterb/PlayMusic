@@ -13,12 +13,12 @@ DesktopSettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Play
 
 [TextStyle]
 FontFace=Segoe UI
-FontSize=(#size#*2.7)
+FontSize=(#size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
-X=(#size#*21.1)
-W=(#size#*34.7)
+X=(#size#*20.4)
+W=(#size#*35)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
@@ -26,11 +26,11 @@ UpdateRate=100
 
 [SquareText]
 FontFace=Segoe UI
-FontSize=(#size#*2.7)
+FontSize=(#size#*2.85)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#size#*(1.5+#alignment#))
+X=(#size#*1.5)
 W=(#size#*27.1)
 ClipString=1
 DynamicVariables=1
@@ -39,7 +39,7 @@ UpdateRate=100
 
 [RoundText]
 FontFace=Segoe UI
-FontSize=(#size#*2.7)
+FontSize=(#size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
