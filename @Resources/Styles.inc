@@ -7,9 +7,9 @@ MeterArtistName=MeterArtist
 MeterAlbumName=MeterAlbum
 MeterCurrentTime=MeterTime
 StatusImg=#@#Images\play.png
-AppPath="C:%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
-PlaybackPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
-DesktopSettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
+AppPath="%HOMEDRIVE%%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
+PlaybackPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
+DesktopSettingsPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
 
 [TextStyle]
 FontFace=Segoe UI
