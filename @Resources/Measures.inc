@@ -10,11 +10,11 @@ UpdateDivider=10
 [MeasureAdaptiveScript]
 Measure=Script
 ScriptFile=#@#Scripts\Adaptive.lua
-foreground=[ColorForeground2]
+foreground=[ColorLight1]
 background=[ColorBackground2]
 foreground2=[ColorLight2]
 background2=[ColorDark2]
-foreground3=[ColorLight1]
+foreground3=[ColorLight3]
 background3=[ColorDark1]
 average=[ColorAvg]
 UpdateRate=80
