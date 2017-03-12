@@ -26,12 +26,12 @@ UpdateRate=100
 
 [SquareText]
 FontFace=Segoe UI
-FontSize=(#size#*2.85)
+FontSize=(#size#*2.75)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#size#*1.5)
-W=(#size#*27.1)
+X=(#size#*1.5)+((#size#-5)*2)
+W=(#size#*28.75)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
