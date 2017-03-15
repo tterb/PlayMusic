@@ -5,7 +5,7 @@ JSONParser=#@#Scripts\JSON.lua
 Playback=#PlaybackPath#
 Settings=#DesktopSettingsPath#
 WriteFile="#@#settings.txt"
-UpdateDivider=10
+UpdateDivider=5
 
 [MeasureAdaptiveScript]
 Measure=Script
@@ -17,14 +17,14 @@ background2=[ColorDark2]
 foreground3=[ColorLight3]
 background3=[ColorDark1]
 average=[ColorAvg]
-UpdateRate=80
+UpdateDivider=35
 
 [MeasureJSON]
 Measure=Plugin
 Plugin=WebParser
 URL=file://#PlaybackPath#
 RegExp=(?siU)"song.*songLyrics": (.*)"shuffle": "(.*)".*repeat": "(.*)"
-UpdateDivider=5
+UpdateDivider=25
 
 [MeasurePlaybackAPI]
 Measure=String
@@ -32,7 +32,7 @@ String=#EnabledPlaybackAPI#
 IfMatch=true
 IfNotMatchAction=[!HideMeterGroup Active][!ShowMeter Background][!ShowMeter MeterPlaybackPrompt]
 DynamicVariables=1
-UpdateDivider=10
+UpdateDivider=-1
 
 [MeasureImageDownload]
 Measure=Plugin
@@ -41,7 +41,7 @@ URL=#AlbumArtUrl#
 Download=1
 DownloadFile=image.jpg
 DynamicVariables=1
-UpdateDivider=10
+UpdateDivider=-1
 
 [MeasureArtwork]
 Measure=Plugin
@@ -60,7 +60,7 @@ IfMatch=NO_REPEAT
 IfMatchAction=[!SetOption MeterRepeat ImageAlpha 125][!Redraw]
 IfNotMatchAction=[!SetOption MeterRepeat ImageAlpha 255][!Redraw]
 DynamicVariables=1
-UpdateDivider=15
+UpdateDivider=35
 
 [MeasureShuffle]
 Measure=Plugin
@@ -71,7 +71,7 @@ IfMatch=NO_SHUFFLE
 IfMatchAction=[!SetOption MeterShuffle ImageAlpha 125][!Redraw]
 IfNotMatchAction=[!SetOption MeterShuffle ImageAlpha 255][!Redraw]
 DynamicVariables=1
-UpdateDivider=15
+UpdateDivider=35
 
 [HideActive]
 Measure=Calc
@@ -81,7 +81,7 @@ IfEqualAction=[!HideMeterGroup Active][!ShowMeterGroup Icon][!UpdateMeter *][!Re
 IfAboveValue=0
 IfAboveAction=[!ShowMeterGroup Active][!HideMeterGroup Icon][!UpdateMeter *][!Redraw]
 DynamicVariables=1
-UpdateDivider=5
+UpdateDivider=25
 
 [MeasureTime]
 Measure=Calc
@@ -95,15 +95,11 @@ IfEqualValue=0
 IfEqualAction=[!DisableMeasure MeasureVolume][!DisableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
 IfAboveValue=0
 IfAboveAction=[!EnableMeasure MeasureVolume][!EnableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
+UpdateDivider=5
 
 [MeasureVolume]
 Measure=Plugin
 Plugin=Win7AudioPlugin
-
-[MeasureVolumeValue]
-Measure=CALC
-Formula=MeasureVolume
-Substitute="-1":"Muted"
 
 [MeasureAudio]
 Measure=Plugin
