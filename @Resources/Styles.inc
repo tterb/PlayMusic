@@ -12,7 +12,7 @@ PlaybackPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Pl
 DesktopSettingsPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
 
 [TextStyle]
-FontFace=Segoe UI
+FontFace=Roboto
 FontSize=(#size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
@@ -25,7 +25,7 @@ AntiAlias=1
 UpdateRate=100
 
 [SquareText]
-FontFace=Segoe UI
+FontFace=Roboto
 FontSize=(#size#*2.75)
 FontColor=255,255,255,255
 StringEffect=Shadow
@@ -38,7 +38,7 @@ AntiAlias=1
 UpdateRate=100
 
 [RoundText]
-FontFace=Segoe UI
+FontFace=Roboto
 FontSize=(#size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
@@ -55,7 +55,7 @@ ImageTint=245,245,245
 PreserveAspectRatio=1
 X=(#size#*57.6)
 H=(#size#*4.9)
-UpdateRate=1000
+UpdateRate=100
 
 [TimeStyle]
 Group=Active
@@ -74,10 +74,22 @@ UpdateRate=50
 Group=Active | Visualizer
 BarOrientation=Vertical
 BarColor=[ColorForeground2]
-X=(3*#Scale#)R
+X=3R
 Y=r
 W=#BarWidthScale#
 H=#BarHeightScale#
 DynamicVariables=1
 AntiAlias=1
 UpdateRate=40
+
+[RoundVisStyle]
+Group=Active | Visualizer
+BarOrientation=Vertical
+BarColor=[ColorForeground2]
+X=(#barWidth#-1.5)R
+Y=r
+W=#BarWidthScale#
+H=#BarHeightScale#
+DynamicVariables=1
+AntiAlias=1
+UpdateRate=30
