@@ -50,33 +50,36 @@ ClipString=2
 AntiAlias=1
 
 [Checkbox]
-FontSize=11
-FontColor=40,40,40,255
+;FontSize=11
+;FontColor=40,40,40,255
 SolidColor=0,0,0,0
-Padding=5,5,5,5
-X=100
+Padding=5,5,7,5
+X=72
+H=25
+W=50
+PreserveAspectRatio=1
 DynamicVariables=1
 AntiAlias=1
 
 [ColorOption]
 Group=StylePage
-H=40
-W=40
 X=1R
 Y=r
+H=40
+W=40
 Hidden=1
 
 [PageIcons]
-X=379
+X=393
 H=20
 PreserveAspectRatio=1
 AntiAlias=1
 
 [IconStyle]
 ImageTint=#accent#
+H=58
 PreserveAspectRatio=1
-H=65
-LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+LeftMouseUpAction=[!WriteKeyValue Variables icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
 
 [BorderStyle]
 SolidColor=190,190,190, 140
