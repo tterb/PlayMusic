@@ -1,6 +1,7 @@
 ;PlayMusic/@Resources/ConfigStyles.inc
 
 [Variables]
+@include2=#@#Variables.inc
 ;White
 color1=FFFFFFD9
 ;Cyan
@@ -27,11 +28,22 @@ color11=3F51B5E8
 color12=FA5722EA
 ;Volume bar
 volumeWhite=FFFFFFC8
-volumeColored=FF9800D1
+
+
+[HeadingText]
+FontSize=24
+FontFace=Open Sans
+FontColor=230,90,0,180
+StringEffect=Shadow
+FontEffectColor= 0,0,0,20
+X=64
+Y=171
+ClipString=2
+AntiAlias=1
 
 [SubHeading]
 FontSize=16
-FontFace=Segoe UI
+FontFace=Gotham Rounded Medium
 FontColor=0,0,0,170
 X=83
 Y=200
@@ -39,24 +51,40 @@ ClipString=2
 AntiAlias=1
 
 [BodyText]
-FontFace=Segoe UI
-FontSize=12
-FontColor=30,30,30,240
+FontFace=Gotham Rounded Book
+FontSize=11
+FontColor=0,0,0,200
 StringStyle=Normal
-StringEffect=Shadow
-FontEffectColor = 0,0,0,0
-X=3R
+; StringEffect=Shadow
+; FontEffectColor = 0,0,0,0
+InlineSetting=CharacterSpacing | -0.25
+X=5R
+Y=1r
 ClipString=2
 AntiAlias=1
 
-[Checkbox]
-;FontSize=11
-;FontColor=40,40,40,255
-SolidColor=0,0,0,0
-Padding=5,5,7,5
+[SubtleText]
+FontFace=Gotham Rounded Book
+FontSize=9
+FontColor=0,0,0,115
+Y=2r
+ClipString=2
+AntiAlias=1
+
+[InputText]
+FontFace=Open Sans
+FontSize=11
+FontColor=0,0,0,175
+DynamicVariables=1
+ClipString=2
+AntiAlias=1
+
+
+[ToggleStyle]
+; Padding=5,5,5,5
 X=72
-H=25
-W=50
+Y=35r
+H=20
 PreserveAspectRatio=1
 DynamicVariables=1
 AntiAlias=1
@@ -70,7 +98,8 @@ W=40
 Hidden=1
 
 [PageIcons]
-X=393
+X=r
+Y=35R
 H=20
 PreserveAspectRatio=1
 AntiAlias=1
