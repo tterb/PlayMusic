@@ -1,17 +1,17 @@
-; Chameleon stuff!
-[MeasureCoverColors]
-Measure=Calc
-Formula=1
-IfAboveValue=0
-IfAboveAction=[!SetOption ColorBackground Parent "ChameleonNowPlaying"][!SetOption ColorForeground Parent "ChameleonNowPlaying"][!SetVariable ColorForeground ColorForeground][!SetVariable ColorBackground ColorBackground#][!Redraw]
-UpdateDivider=-1
+
+; [MeasureCoverColors]
+; Measure=Calc
+; Formula=1
+; IfAboveValue=0
+; IfAboveAction=[!SetOption ColorBackground Parent "ChameleonNowPlaying"][!SetOption ColorForeground Parent "ChameleonNowPlaying"][!SetVariable ColorForeground ColorForeground][!SetVariable ColorBackground ColorBackground#][!Redraw]
+; UpdateDivider=-1
 
 [ChameleonNowPlaying]
 Measure=Plugin
 Plugin=Chameleon
 Type=File
-Path=#SKINSPATH#PlayMusic\DownloadFile\image.jpg
-; Path=[MeterArtwork]
+; Path=#SKINSPATH#PlayMusic\DownloadFile\image.jpg
+Path=#@#Images\cover.png
 UpdateDivider=100
 
 [ColorForeground1]
@@ -20,7 +20,6 @@ Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Foreground1
-; Substitute="":"#Foreground#","0,0,0":"#Foreground#"
 
 [ColorBackground1]
 Measure=Plugin
@@ -28,7 +27,6 @@ Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Background1
-; Substitute="":"#Background#","255,255,255":"#Background#"
 
 [ColorForeground2]
 Measure=Plugin
@@ -36,6 +34,7 @@ Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Foreground2
+OnChangeAction=[!Refresh PlayMusic][!Refresh PlayMusic][!HideMeterGroup Info]
 
 [ColorBackground2]
 Measure=Plugin
@@ -43,7 +42,6 @@ Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Background2
-; Substitute="":"#Background#","255,255,255":"#Background#"
 
 [ColorAvg]
 Measure=Plugin
