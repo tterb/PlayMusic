@@ -4,157 +4,128 @@
 Meter=Bar
 MeasureName=MeasureBand1
 MeterStyle=RoundVisStyle
-; Y=(#size#*12)+((4.5-#size#)*10)
-X=(#RoundWidth#/#divisor#)
+X=(#VisX#)
 Y=((#RoundHeight#/3.42))
 H=(#size#*21.4)
 [MeterBand2]
 Meter=Bar
 MeasureName=MeasureBand2
 MeterStyle=RoundVisStyle
-; Y=(#size#*9.5)+((4.5-#size#)*10)
-; Y=(#size#*9.1)
 Y=((#RoundHeight#/4.45))
 [MeterBand3]
 Meter=Bar
 MeasureName=MeasureBand3
 MeterStyle=RoundVisStyle
-; Y=(#size#*11.9)+((4.5-#size#)*10)
-; Y=(#size#*11)
 Y=((#RoundHeight#/3.85))
 [MeterBand4]
 Meter=Bar
 MeasureName=MeasureBand4
 MeterStyle=RoundVisStyle
-; Y=(#size#*13.5)+((4.5-#size#)*10)
-; Y=(#size#*12.6)
 Y=((#RoundHeight#/3.45))
 [MeterBand5]
 Meter=Bar
 MeasureName=MeasureBand5
 MeterStyle=RoundVisStyle
-; Y=(#size#*14.6)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3.15))
 [MeterBand6]
 Meter=Bar
 MeasureName=MeasureBand6
 MeterStyle=RoundVisStyle
-; Y=(#size#*15.5)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3))
 [MeterBand7]
 Meter=Bar
 MeasureName=MeasureBand7
 MeterStyle=RoundVisStyle
-; Y=(#size#*16.4)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.83))
 [MeterBand8]
 Meter=Bar
 MeasureName=MeasureBand8
 MeterStyle=RoundVisStyle
-; Y=(#size#*17.1)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.74))
 [MeterBand9]
 Meter=Bar
 MeasureName=MeasureBand9
 MeterStyle=RoundVisStyle
-; Y=(#size#*17.7)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.64))
 [MeterBand10]
 Meter=Bar
 MeasureName=MeasureBand10
 MeterStyle=RoundVisStyle
-; Y=(#size#*18.2)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.59))
 [MeterBand11]
 Meter=Bar
 MeasureName=MeasureBand11
 MeterStyle=RoundVisStyle
-; Y=(#size#*18.3)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.55))
 [MeterBand12]
 Meter=Bar
 MeasureName=MeasureBand12
 MeterStyle=RoundVisStyle
-; Y=(#size#*18.4)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.52))
 [MeterBand13]
 Meter=Bar
 MeasureName=MeasureBand13
 MeterStyle=RoundVisStyle
-; SolidColor=255,255,255,255
-; Y=(#size#*18.4)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.51))
 [MeterBand14]
 Meter=Bar
 MeasureName=MeasureBand14
 MeterStyle=RoundVisStyle
-; Y=(#size#*18.4)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.52))
 [MeterBand15]
 Meter=Bar
 MeasureName=MeasureBand15
 MeterStyle=RoundVisStyle
-; Y=(#size#*18.3)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.55))
 [MeterBand16]
 Meter=Bar
 MeasureName=MeasureBand16
 MeterStyle=RoundVisStyle
-; Y=(#size#*17.8)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.59))
 [MeterBand17]
 Meter=Bar
 MeasureName=MeasureBand17
 MeterStyle=RoundVisStyle
-; Y=(#size#*17.5)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.64))
 [MeterBand18]
 Meter=Bar
 MeasureName=MeasureBand18
 MeterStyle=RoundVisStyle
-; Y=(#size#*17)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.74))
 [MeterBand19]
 Meter=Bar
 MeasureName=MeasureBand19
 MeterStyle=RoundVisStyle
-; Y=(#size#*16.2)+((4.5-#size#)*10)
 Y=((#RoundHeight#/2.83))
 [MeterBand20]
 Meter=Bar
 MeasureName=MeasureBand20
 MeterStyle=RoundVisStyle
-; Y=(#size#*15.3)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3))
 [MeterBand21]
 Meter=Bar
 MeasureName=MeasureBand21
 MeterStyle=RoundVisStyle
-; Y=(#size#*14.3)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3.15))
 [MeterBand22]
 Meter=Bar
 MeasureName=MeasureBand22
 MeterStyle=RoundVisStyle
-; Y=(#size#*13.2)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3.45))
 [MeterBand23]
 Meter=Bar
 MeasureName=MeasureBand23
 MeterStyle=RoundVisStyle
-; Y=(#size#*11.6)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3.85))
 [MeterBand24]
 Meter=Bar
 MeasureName=MeasureBand24
 MeterStyle=RoundVisStyle
-; Y=(#size#*9.8)+((4.5-#size#)*10)
 Y=((#RoundHeight#/4.45))
 [MeterBand25]
 Meter=Bar
 MeasureName=MeasureBand25
 MeterStyle=RoundVisStyle
-; Y=(#size#*12)+((4.5-#size#)*10)
 Y=((#RoundHeight#/3.42))
 H=(#size#*21.4)
 ; [MeterBand26]
