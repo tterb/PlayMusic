@@ -26,14 +26,12 @@ color10=E53935E8
 color11=3F51B5E8
 ;Orange
 color12=FA5722EA
-;Volume bar
-volumeWhite=FFFFFFC8
 
 
 [HeadingText]
 FontSize=24
 FontFace=Open Sans
-FontColor=230,90,0,180
+FontColor=230,90,0,190
 StringEffect=Shadow
 FontEffectColor= 0,0,0,20
 X=64
@@ -55,8 +53,6 @@ FontFace=Gotham Rounded Book
 FontSize=11
 FontColor=0,0,0,200
 StringStyle=Normal
-; StringEffect=Shadow
-; FontEffectColor = 0,0,0,0
 InlineSetting=CharacterSpacing | -0.25
 X=5R
 Y=1r
@@ -79,10 +75,8 @@ DynamicVariables=1
 ClipString=2
 AntiAlias=1
 
-
 [ToggleStyle]
-; Padding=5,5,5,5
-X=72
+X=75
 Y=35r
 H=20
 PreserveAspectRatio=1
