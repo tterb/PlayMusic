@@ -51,36 +51,16 @@ DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\cover.png
 UpdateDivider=20
 
-; [MeasureShuffle]
-; Measure=Plugin
-; Plugin=WebParser
-; URL=[MeasureJSON]
-; StringIndex=2
-; IfMatch=NO_SHUFFLE
-; IfMatchAction=[!SetOption MeterShuffle ImageAlpha 75][!UpdateMeter MeterShuffle][!Redraw]
-; IfNotMatchAction=[!SetOption MeterShuffle ImageAlpha 245][!UpdateMeter MeterShuffle][!Redraw]
-; DynamicVariables=1
-; UpdateDivider=25
-
-; [MeasureRepeat]
-; Measure=Plugin
-; Plugin=WebParser
-; URL=[MeasureJSON]
-; StringIndex=3
-; IfMatch=NO_REPEAT
-; IfMatchAction=[!SetOption MeterRepeat ImageAlpha 75][UpdateMeter MeterRepeat][!Redraw]
-; IfNotMatchAction=[!SetOption MeterRepeat ImageAlpha 240][UpdateMeter MeterRepeat][!Redraw]
-; DynamicVariables=1
-; UpdateDivider=25
-
 [MeasureRepeat]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Repeat
-IfEqualValue=0
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 75][!UpdateMeter MeterRepeat][!Redraw]
-IfAboveValue=0
-IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!UpdateMeter MeterRepeat][!Redraw]
+IfBelowValue=1
+IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualValue=1
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfAboveValue=1
+IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
 
 [MeasureShuffle]
@@ -109,7 +89,7 @@ Formula=[MeasureState]
 IfEqualValue=0
 IfEqualAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 IfAboveValue=0
-IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
+IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 DynamicVariables=1
 UpdateDivider=25
 
