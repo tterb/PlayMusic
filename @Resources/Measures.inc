@@ -93,6 +93,13 @@ IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGro
 DynamicVariables=1
 UpdateDivider=25
 
+[MeasureSkinSize]
+Measure=Calc
+Formula=#CURRENTCONFIGHEIGHT#
+IfAboveValue=0
+IfAboveAction=[!WriteKeyValue Variables SkinHeight #CURRENTCONFIGHEIGHT# "#@#Variables.inc"][!WriteKeyValue Variables SkinWidth #CURRENTCONFIGWIDTH# "#@#Variables.inc"][!UpdateMeasure *][!UpdateMeter *]
+DynamicVariables=1
+
 [MeasureTime]
 Measure=Calc
 Formula=#Length#
