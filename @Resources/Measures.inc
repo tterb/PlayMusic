@@ -1,3 +1,15 @@
+[MeasureStatus]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Status
+DynamicVariables=1
+
+[MeasureState]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=State
+DynamicVariables=1
+
 [MeasureLuaScript]
 Measure=Script
 ScriptFile=#@#Scripts\GPMDP.lua
@@ -7,17 +19,17 @@ Settings=#DesktopSettingsPath#
 WriteFile="#@#settings.txt"
 UpdateDivider=5
 
-[MeasureAdaptiveScript]
-Measure=Script
-ScriptFile=#@#Scripts\Adaptive.lua
-foreground=[ColorLight1]
-background=[ColorBackground2]
-foreground2=[ColorLight2]
-background2=[ColorDark2]
-foreground3=[ColorLight3]
-background3=[ColorDark1]
-average=[ColorAvg]
-UpdateDivider=45
+; [MeasureAdaptiveScript]
+; Measure=Script
+; ScriptFile=#@#Scripts\Adaptive.lua
+; foreground=[ColorLight1]
+; background=[ColorBackground2]
+; foreground2=[ColorLight2]
+; background2=[ColorDark2]
+; foreground3=[ColorLight3]
+; background3=[ColorDark1]
+; average=[ColorAvg]
+; UpdateDivider=30
 
 [MeasureJSON]
 Measure=Plugin
@@ -49,6 +61,7 @@ Plugin=GPMDPPlugin
 PlayerInfo=Cover
 DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\cover.png
+OnChangeAction=[!Redraw]
 UpdateDivider=20
 
 [MeasureRepeat]
@@ -87,11 +100,11 @@ Measure=Calc
 ; Formula=#GPMDPOpen#
 Formula=[MeasureState]
 IfEqualValue=0
-IfEqualAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
+IfEqualAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!PauseMeasureGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 IfAboveValue=0
-IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
+IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!UnpauseMeasureGroup Visualizer][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 DynamicVariables=1
-UpdateDivider=25
+; UpdateDivider=25
 
 [MeasureSkinSize]
 Measure=Calc
@@ -121,6 +134,7 @@ Plugin=Win7AudioPlugin
 [MeasureAudio]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Port=Output
 FFTSize=#FFTSize#
 FFTOverlap=#FFTOverlap#
@@ -138,6 +152,7 @@ DynamicVariables=1
 [MeasureAudioAverage]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Port=Output
 RMSAttack=10
 RMSDecay=2500
@@ -150,23 +165,7 @@ DynamicVariables=1
 [MeasureAverageVolume]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Parent=MeasureAudioAverage
 Channel=Avg
 Type=RMS
-
-[MeasureStatus]
-Measure=Plugin
-Plugin=GPMDPPlugin
-PlayerInfo=Status
-DynamicVariables=1
-
-[MeasureState]
-Measure=Plugin
-Plugin=GPMDPPlugin
-PlayerInfo=State
-Formula=[MeasureState]
-IfEqualValue=0
-IfEqualAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
-IfAboveValue=0
-IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
-DynamicVariables=1
