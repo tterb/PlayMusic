@@ -32,12 +32,12 @@ function Update()
     local background3 = SELF:GetOption('background3')
     local average = SELF:GetOption('average')
     -- logs for debugging
-    local H1,S1,L1 = RGBtoHSL(HextoRGB(foreground1))
-    local H2,S2,L2 = RGBtoHSL(HextoRGB(background1))
-    local H3,S3,L3 = RGBtoHSL(HextoRGB(foreground2))
-    local H4,S4,L4 = RGBtoHSL(HextoRGB(background2))
-    local H5,S5,L5 = RGBtoHSL(HextoRGB(foreground3))
-    local H6,S6,L6 = RGBtoHSL(HextoRGB(background3))
+    -- local H1,S1,L1 = RGBtoHSL(HextoRGB(foreground1))
+    -- local H2,S2,L2 = RGBtoHSL(HextoRGB(background1))
+    -- local H3,S3,L3 = RGBtoHSL(HextoRGB(foreground2))
+    -- local H4,S4,L4 = RGBtoHSL(HextoRGB(background2))
+    -- local H5,S5,L5 = RGBtoHSL(HextoRGB(foreground3))
+    -- local H6,S6,L6 = RGBtoHSL(HextoRGB(background3))
 
     -- print('foreground2 - '..H1..','..S1..','..L1)
     -- print('light1 - '..H5..','..S5..','..L5)
@@ -45,7 +45,20 @@ function Update()
     -- print('background2 - '..H2..','..S2..','..L2)
     -- print('dark1 - '..H6..','..S6..','..L6)
     -- print('dark2 - '..H4..','..S4..','..L4)
-
+    if (foreground1 == '') or (foreground2 == '') or (foreground3 == '') then
+        foreground1 = SELF:GetOption('foreground')
+        foreground2 = SELF:GetOption('foreground2')
+        foreground3 = SELF:GetOption('foreground3')
+    end
+    -- while (foreground1 == '') or (foreground2 == '') or (foreground3 == '') do
+    --     foreground1 = SELF:GetOption('foreground')
+    --     foreground2 = SELF:GetOption('foreground2')
+    --     foreground3 = SELF:GetOption('foreground3')
+    -- end
+    local background1 = SELF:GetOption('background')
+    local background2 = SELF:GetOption('background2')
+    local background3 = SELF:GetOption('background3')
+    local average = SELF:GetOption('average')
     local foreground = foreground(foreground3, foreground(foreground1, foreground2))
     local background = background(background3, background(background1, background2, foreground), foreground)
     SKIN:Bang('!WriteKeyValue', 'Variables', 'foregroundColor', tostring(foreground))
@@ -54,6 +67,9 @@ end
 
 
 function foreground(color1, color2)
+    if (color1 == nil) or (color2 == nil) then
+        return nil
+    end
     local H1,S1,L1 = RGBtoHSL(HextoRGB(color1))
     local H2,S2,L2 = RGBtoHSL(HextoRGB(color2))
 
