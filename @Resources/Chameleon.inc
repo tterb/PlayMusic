@@ -1,16 +1,8 @@
 
-; [MeasureCoverColors]
-; Measure=Calc
-; Formula=1
-; IfAboveValue=0
-; IfAboveAction=[!SetOption ColorBackground Parent "ChameleonNowPlaying"][!SetOption ColorForeground Parent "ChameleonNowPlaying"][!SetVariable ColorForeground ColorForeground][!SetVariable ColorBackground ColorBackground#][!Redraw]
-; UpdateDivider=-1
-
 [ChameleonNowPlaying]
 Measure=Plugin
 Plugin=Chameleon
 Type=File
-; Path=#SKINSPATH#PlayMusic\DownloadFile\image.jpg
 Path=#@#Images\cover.png
 UpdateDivider=100
 
@@ -34,7 +26,7 @@ Plugin=Chameleon
 Parent=ChameleonNowPlaying
 Format=Hex
 Color=Foreground2
-OnChangeAction=[!Refresh PlayMusic][!Refresh PlayMusic][!HideMeterGroup Info]
+OnChangeAction=[!Refresh PlayMusic]
 
 [ColorBackground2]
 Measure=Plugin
