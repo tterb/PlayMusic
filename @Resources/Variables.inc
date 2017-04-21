@@ -4,7 +4,7 @@
 variant=Round
 
 ;This is the variable used to scale each of the skins (Default: 5)
-size=4.5
+size=5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
 accent=00BCD4E1
@@ -27,6 +27,11 @@ icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIc
 ;This determines whether the skin minimizes when GPMDP is closed (0 = off, on = 1)
 minimizeOnClose=1
 
+PlayerMeasures=Measures
+
+SkinHeight=226
+
+SkinWidth=228
 
 ;=================================================
 ; VISUALIZER
@@ -47,7 +52,7 @@ barWidth=5
 averageSize=3
 
 ;This determines the values of the fallowing variables based of the selected performance setting.
-VisualizerPerformance=High
+VisualizerPerformance=Med
 
 ; A number value for the frequency resolution of the output data.
 ; Increasing this value will add more cpu load, so  if you are using a
@@ -74,3 +79,15 @@ FFTAttack=95
 ; it quicker and more choppy.
 ; Default: 90
 FFTDecay=90
+
+; This variable determines the X-offset of the visualizer and is automatically
+; set depending on the skin size
+VisX=25.75
+
+; This variable determines the width of the visualizer bands and is
+; automatically set depending on the round skin size
+RoundBarWidth=4.35
+
+AlignValue=1
+Alignment=Right
+align=30.7

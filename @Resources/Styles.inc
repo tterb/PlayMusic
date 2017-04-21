@@ -1,7 +1,6 @@
 ;PlayMusic/@Resources/Styles.inc
 
 [Variables]
-@include=#@#Variables.inc
 MeterTitleName=MeterTitle
 MeterArtistName=MeterArtist
 MeterAlbumName=MeterAlbum
@@ -86,9 +85,12 @@ UpdateRate=40
 Group=Active | Visualizer
 BarOrientation=Vertical
 BarColor=[ColorForeground2]
-X=(#barWidth#-1.5)R
+; X=((#SkinWidth#)/69)R
+X=(#RoundBarWidth#-0.5)R
+; X=3.75R
 Y=r
-W=#BarWidthScale#
+W=#RoundBarWidth#
+; W=4
 H=#BarHeightScale#
 DynamicVariables=1
 AntiAlias=1

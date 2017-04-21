@@ -138,3 +138,8 @@ Meter=Bar
 MeasureName=MeasureBand28
 MeterStyle=VisualizerStyle
 X=2R
+[MeterBand29]
+Meter=Bar
+MeasureName=MeasureBand29
+MeterStyle=VisualizerStyle
+X=2R
