@@ -6,6 +6,7 @@ Plugin=AudioLevel
 Parent=MeasureAudio
 Type=Band
 BandIdx=0
+UpdateDivider=1
 [MeasureBand1]
 Measure=Plugin
 Plugin=AudioLevel
@@ -13,6 +14,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=1
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand2]
 Measure=Plugin
 Plugin=AudioLevel
@@ -20,6 +22,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=2
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand3]
 Measure=Plugin
 Plugin=AudioLevel
@@ -27,6 +30,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=3
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand4]
 Measure=Plugin
 Plugin=AudioLevel
@@ -34,6 +38,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=4
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand5]
 Measure=Plugin
 Plugin=AudioLevel
@@ -41,6 +46,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=5
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand6]
 Measure=Plugin
 Plugin=AudioLevel
@@ -48,6 +54,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=6
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand7]
 Measure=Plugin
 Plugin=AudioLevel
@@ -55,6 +62,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=7
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand8]
 Measure=Plugin
 Plugin=AudioLevel
@@ -62,6 +70,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=8
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand9]
 Measure=Plugin
 Plugin=AudioLevel
@@ -69,6 +78,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=9
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand10]
 Measure=Plugin
 Plugin=AudioLevel
@@ -76,6 +86,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=10
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand11]
 Measure=Plugin
 Plugin=AudioLevel
@@ -83,6 +94,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=11
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand12]
 Measure=Plugin
 Plugin=AudioLevel
@@ -90,6 +102,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=12
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand13]
 Measure=Plugin
 Plugin=AudioLevel
@@ -97,6 +110,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=13
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand14]
 Measure=Plugin
 Plugin=AudioLevel
@@ -104,6 +118,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=14
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand15]
 Measure=Plugin
 Plugin=AudioLevel
@@ -111,6 +126,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=15
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand16]
 Measure=Plugin
 Plugin=AudioLevel
@@ -118,6 +134,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=16
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand17]
 Measure=Plugin
 Plugin=AudioLevel
@@ -125,6 +142,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=17
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand18]
 Measure=Plugin
 Plugin=AudioLevel
@@ -132,6 +150,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=18
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand19]
 Measure=Plugin
 Plugin=AudioLevel
@@ -139,6 +158,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=19
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand20]
 Measure=Plugin
 Plugin=AudioLevel
@@ -146,6 +166,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=20
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand21]
 Measure=Plugin
 Plugin=AudioLevel
@@ -153,6 +174,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=21
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand22]
 Measure=Plugin
 Plugin=AudioLevel
@@ -160,6 +182,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=22
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand23]
 Measure=Plugin
 Plugin=AudioLevel
@@ -167,6 +190,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=23
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand24]
 Measure=Plugin
 Plugin=AudioLevel
@@ -174,6 +198,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=24
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand25]
 Measure=Plugin
 Plugin=AudioLevel
@@ -181,6 +206,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=25
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand26]
 Measure=Plugin
 Plugin=AudioLevel
@@ -188,6 +214,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=26
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand27]
 Measure=Plugin
 Plugin=AudioLevel
@@ -195,6 +222,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=27
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand28]
 Measure=Plugin
 Plugin=AudioLevel
@@ -202,6 +230,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=28
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand29]
 Measure=Plugin
 Plugin=AudioLevel
@@ -209,6 +238,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=29
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand30]
 Measure=Plugin
 Plugin=AudioLevel
@@ -216,6 +246,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=30
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand31]
 Measure=Plugin
 Plugin=AudioLevel
@@ -223,6 +254,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=31
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand32]
 Measure=Plugin
 Plugin=AudioLevel
@@ -230,6 +262,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=32
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand33]
 Measure=Plugin
 Plugin=AudioLevel
@@ -237,6 +270,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=33
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand34]
 Measure=Plugin
 Plugin=AudioLevel
@@ -244,6 +278,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=34
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand35]
 Measure=Plugin
 Plugin=AudioLevel
@@ -251,6 +286,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=35
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand36]
 Measure=Plugin
 Plugin=AudioLevel
@@ -258,6 +294,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=36
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand37]
 Measure=Plugin
 Plugin=AudioLevel
@@ -265,6 +302,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=37
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand38]
 Measure=Plugin
 Plugin=AudioLevel
@@ -272,6 +310,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=38
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand39]
 Measure=Plugin
 Plugin=AudioLevel
@@ -279,6 +318,7 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=39
 AverageSize=#averageSize#
+UpdateDivider=1
 [MeasureBand40]
 Measure=Plugin
 Plugin=AudioLevel
@@ -286,3 +326,4 @@ Parent=MeasureAudio
 Type=Band
 BandIdx=40
 AverageSize=#averageSize#
+UpdateDivider=1

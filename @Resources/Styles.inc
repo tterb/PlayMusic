@@ -21,7 +21,7 @@ W=(#size#*35)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-UpdateRate=100
+; UpdateRate=100
 
 [SquareText]
 FontFace=Roboto
@@ -29,12 +29,12 @@ FontSize=(#size#*2.75)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#size#*1.5)+((#size#-5)*2)
+X=(#SkinWidth#/18)
 W=(#size#*28.75)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-UpdateRate=100
+; UpdateRate=100
 
 [RoundText]
 FontFace=Roboto
@@ -47,14 +47,14 @@ W=(#size#*34.7)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-UpdateRate=100
+; UpdateRate=100
 
 [Status]
 ImageTint=245,245,245
 PreserveAspectRatio=1
 X=(#size#*57.6)
 H=(#size#*4.9)
-UpdateRate=100
+; UpdateRate=100
 
 [TimeStyle]
 Group=Active
@@ -66,20 +66,22 @@ X=(#size#*0.2)
 H=(#size#*0.9)
 BackgroundMode=3
 DynamicVariables=1
+UpdateDivider=1
+; UpdateRate=50
 AntiAlias=1
-UpdateRate=50
 
 [VisualizerStyle]
 Group=Active | Visualizer
 BarOrientation=Vertical
 BarColor=[ColorForeground2]
-X=3R
+X=(#bandSpace#)R
 Y=r
-W=#BarWidthScale#
-H=#BarHeightScale#
+W=#BarWidth#
+H=#BarHeight#
 DynamicVariables=1
-AntiAlias=1
 UpdateRate=40
+UpdateDivider=1
+AntiAlias=1
 
 [RoundVisStyle]
 Group=Active | Visualizer
@@ -93,5 +95,6 @@ W=#RoundBarWidth#
 ; W=4
 H=#BarHeightScale#
 DynamicVariables=1
-AntiAlias=1
 UpdateRate=30
+UpdateDivider=1
+AntiAlias=1

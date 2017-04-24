@@ -36,7 +36,7 @@ Measure=Plugin
 Plugin=WebParser
 URL=file://#PlaybackPath#
 RegExp=(?siU)"song.*songLyrics": (.*)"shuffle": "(.*)".*repeat": "(.*)"
-UpdateDivider=25
+; UpdateDivider=25
 
 [MeasurePlaybackAPI]
 Measure=String
@@ -44,7 +44,12 @@ String=#EnabledPlaybackAPI#
 IfMatch=true
 IfNotMatchAction=[!HideMeterGroup Active][!ShowMeter Background][!ShowMeter MeterPlaybackPrompt]
 DynamicVariables=1
-UpdateDivider=-1
+; UpdateDivider=-1
+
+[MeasurePlayPause]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=State
 
 [MeasureImageDownload]
 Measure=Plugin
@@ -62,7 +67,7 @@ PlayerInfo=Cover
 DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\cover.png
 OnChangeAction=[!Redraw]
-UpdateDivider=20
+; UpdateDivider=20
 
 [MeasureRepeat]
 Measure=Plugin
@@ -71,7 +76,7 @@ PlayerInfo=Repeat
 IfBelowValue=1
 IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
 IfEqualValue=1
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat1.png"][!UpdateMeter MeterRepeat][!Redraw]
 IfAboveValue=1
 IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
@@ -88,7 +93,7 @@ DynamicVariables=1
 
 [MeasureShowVisualizer]
 Measure=Calc
-Formula=#showVisualizer#
+Formula=#ShowVisualizer#
 IfEqualValue=0
 IfEqualAction=[!HideMeterGroup Visualizer][!UpdateMeter *][!Redraw]
 IfAboveValue=0
@@ -117,6 +122,7 @@ DynamicVariables=1
 Measure=Calc
 Formula=#Length#
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureVolumeControl]
 Measure=Calc
@@ -125,11 +131,12 @@ IfEqualValue=0
 IfEqualAction=[!DisableMeasure MeasureVolume][!DisableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
 IfAboveValue=0
 IfAboveAction=[!EnableMeasure MeasureVolume][!EnableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
-UpdateDivider=5
+UpdateDivider=1
 
 [MeasureVolume]
 Measure=Plugin
 Plugin=Win7AudioPlugin
+UpdateDivider=1
 
 [MeasureAudio]
 Measure=Plugin
@@ -148,6 +155,7 @@ Sensitivity=([MeasureAverageVolume]*([MeasureAverageVolume]*38))
 FreqMin=40
 FreqMax=12000
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureAudioAverage]
 Measure=Plugin
@@ -161,6 +169,7 @@ Sensitivity=100
 FreqMin=20
 FreqMax=18000
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureAverageVolume]
 Measure=Plugin
@@ -169,3 +178,4 @@ Group=Visualizer
 Parent=MeasureAudioAverage
 Channel=Avg
 Type=RMS
+UpdateDivider=1
