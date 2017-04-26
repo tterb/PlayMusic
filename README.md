@@ -13,7 +13,7 @@
 	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%204%2C377-green.svg" height="21" title="Downloads">
+  		<img src="https://img.shields.io/badge/downloads-%204%2C769-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -38,10 +38,16 @@
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
 
 #### In Progress:
-  * Add requested support for *Spotify* as well as other media players
-  * Improve element color adaptability for light and dark album artwork
+  * Add requested support for **[Spotify]** as well as other media players
+  * Improve accent color adaptability for all album artwork
   * Add performance settings and further customization to visualizer
-<br>  
+<br><br>  
+
+<!-- <p align="center">
+  <a href="https://github.com/JonSn0w/PlayMusic/releases/latest">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/25461398/9aa72f6a-2a9d-11e7-948d-5c8691b2392c.png" width= "200" alt="Download PlayMusic"/>
+  </a>
+<p>   -->
 
 <!-- ***Note:***&nbsp; Due to current limitations, it's not possible to integrate remote control of GPMDP into the skin, though the developers have been made aware of this feature request and I believe this functionality can be expected in future updates.
 <br> -->
@@ -136,3 +142,4 @@ The addition of selectable accent colors allows users to add a splash of color t
 [Rainmeter]: https://www.rainmeter.net/
 [Google Play Music]: https://
 [Google Play Music Desktop Player]: http://www.googleplaymusicdesktopplayer.com/
+[Spotify]: https://github.com/JonSn0w/PlayMusic/tree/spotify
