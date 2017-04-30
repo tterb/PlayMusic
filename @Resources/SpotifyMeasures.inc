@@ -26,10 +26,12 @@ OnChangeAction=[!CommandMeasure "MeasureAdaptiveScript" "Update()""][!Redraw]
 Measure=Plugin
 Plugin=SpotifyPlugin.dll
 PlayerInfo=Repeat
-IfEqualValue=0
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 75][!UpdateMeter MeterRepeat][!Redraw]
-IfAboveValue=0
-IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!UpdateMeter MeterRepeat][!Redraw]
+IfBelowValue=1
+IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualValue=1
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfAboveValue=1
+IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
 
 [MeasureShuffle]
