@@ -1,55 +1,63 @@
 [Variables]
 
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
-variant=Round
+Variant=Round
 
 ;This is the variable used to scale each of the skins (Default: 5)
-size=5
+Size=4.5
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
-accent=00BCD4E1
+Accent=FFFFFF89
 
-;This variable determines whether the the song info is shown only on mouseover
+; This variable stores the active page of the settings menu
+MenuPage=2
+
+;This variable determines whether the skin uses adaptable accent colors (0/1)
+AdaptiveAccent=1
+
+;This variable determines whether the song info is shown only on mouseover (0/1)
 InfoOnHover=1
 
-;Tells the skin whether volume control is enabled
-enableVolumeControl=1
+;Tells the skin whether volume control is enabled (0/1)
+EnableVolumeControl=1
 
 ;This variable determines the increments that the volume increases/decreases
-volumeStep=2
+VolumeStep=2
 
 ;This variable allows the volume bar to remain visible with all accent colors FFFFC8
-volumeColor=FFFFFFC8
+VolumeColor=FFFFFFC8
 
 ;This is the icon variant used when the skin is minimized
-icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIcon.png
+Icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIcon.png
 
-;This determines whether the skin minimizes when GPMDP is closed (0 = off, on = 1)
+;This determines whether the skin minimizes when GPMDP is closed (0/1)
 minimizeOnClose=1
 
-PlayerMeasures=Measures
+PlayerMeasures=SpotifyMeasures
 
-SkinHeight=226
+;This variable contains the height of the current skin configuration
+SkinHeight=204
 
-SkinWidth=228
+;This variable contains the width of the current skin configuration
+SkinWidth=208
 
 ;=================================================
 ; VISUALIZER
 
-;This variable determines whether the visualizer is shown
-showVisualizer=1
+;This variable determines whether the visualizer is shown (0/1)
+ShowVisualizer=1
 
 ;This determines the color of the visualizer bars
-barColor=00BCD4E1
+BarColor=FFFFFF89
 
 ;This variable determines the width of the bands in the visualizer
-barWidth=5
+BarWidth=5
 
 ;This variable determines the space between bands in the visualizer
 ; bandSpace=2
 
 ;This variable determines the average height of the visualizer bands
-averageSize=3
+AverageSize=3
 
 ;This determines the values of the fallowing variables based of the selected performance setting.
 VisualizerPerformance=Med
@@ -82,12 +90,14 @@ FFTDecay=90
 
 ; This variable determines the X-offset of the visualizer and is automatically
 ; set depending on the skin size
-VisX=25.75
+VisX=17
 
 ; This variable determines the width of the visualizer bands and is
 ; automatically set depending on the round skin size
-RoundBarWidth=4.35
+RoundBarWidth=4.25
 
 AlignValue=1
 Alignment=Right
-align=30.7
+Align=30.7
+useSpotify=1
+useGPMDP=0
