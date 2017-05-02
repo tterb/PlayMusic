@@ -5,13 +5,8 @@ email: BStevensonDev@gmail.com
 description: A Rainmeter skin that allows Google Play Music users <br/>to access their music tastefully on their desktop
 baseurl: "/PlayMusic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address:
-city:
-state:
-zip_code:
+author: Brett Stevenson
 country: United States of America
-phone:
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -20,8 +15,9 @@ tiles-count: 4
 # Social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/JonSn0w
+github_url: https://github.com/JonSn0w/PlayMusic
 gitlab_url:
+deviantart_url: http://bstevenson.deviantart.com/art/PlayMusic-620128929
 googleplus_url:
 instagram_url:
 linkedin_url: https://www.linkedin.com/in/brett-stevenson-0a035a72/
