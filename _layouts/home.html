@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <!-- Banner -->
+  <section id="banner" class="major">
+    <div class="inner">
+      <header class="major">
+        <h1>
+          <img src="assets/Images/header.png" height="100"/>
+        </h1>
+      </header>
+      <div class="content">
+        <p style="text-transform: uppercase;">{{ site.description }}</p>
+        <ul class="actions">
+          <li><a href="https://github.com/JonSn0w/PlayMusic/releases/download/v1.2.1/PlayMusic_v1.2.1.rmskin" class="button next scrolly">Download</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+    <!-- Main -->
+  <div id="main">
+    <!-- One -->
+    {% include tiles.html %}
+    <!-- Two -->
+    <section id="two">
+      <div class="inner">
+        <header class="major">
+          <h2>Documentation</h2>
+        </header>
+        <p>{{ content }}</p>
+        <ul class="actions">
+          <li><a href="landing.html" class="button next">Get Started</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>

@@ -1,1 +1,36 @@
-theme: jekyll-theme-slate
+# Site settings
+title: PlayMusic
+subtitle: by Brett Stevenson
+email: BStevensonDev@gmail.com
+description: A Rainmeter skin that allows Google Play Music users <br/>to access their music tastefully on their desktop
+baseurl: "/PlayMusic" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address:
+city:
+state:
+zip_code:
+country: United States of America
+phone:
+
+# Homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/JonSn0w
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/brett-stevenson-0a035a72/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/BStevensonDev
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  style: compressed
