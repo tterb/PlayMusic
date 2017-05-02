@@ -2,7 +2,7 @@
 layout: post
 title: Setup
 description: Setup the skin
-image: assets/images/tiles/Setup.png
+image: assets/images/Setup.png
 nav-menu: true
 id: 3
 ---

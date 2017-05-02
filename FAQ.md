@@ -3,7 +3,7 @@ layout: landing
 title: FAQ
 landing-title: 'FAQ'
 description: Frequently Asked Questions
-image: assets/images/tiles/FAQ.jpg
+image: assets/images/FAQ.jpg
 author: null
 id: 1
 ---

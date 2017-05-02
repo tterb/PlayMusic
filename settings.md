@@ -2,7 +2,7 @@
 layout: landing
 title: Settings
 description: 'Discover the PlayMusic Setting Menu'
-image: assets/images/tiles/Settings.png
+image: assets/images/Settings.png
 nav-menu: true
 id: 2
 ---
