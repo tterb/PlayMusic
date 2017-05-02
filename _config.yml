@@ -31,6 +31,6 @@ twitter_url: https://twitter.com/BStevensonDev
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   style: compressed
