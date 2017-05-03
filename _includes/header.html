@@ -2,7 +2,7 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+<header id="header" {% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<a href="#menu"></a>
@@ -12,19 +12,19 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
+		{% assign sorted_pages = site.pages | sort:"id" | reverse %}
+    {% for page in sorted_pages %}
+		  {% if page.layout == "home" %}
+		    <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		 	{% endif %}
 		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
+		{% for page in sorted_pages %}
+		  {% if page.layout != "home" %}
+		    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		  {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
+		<li><a href="https://github.com/JonSn0w/PlayMusic/releases/download/v1.2.1/PlayMusic_v1.2.1.rmskin" class="button special fit">Download</a></li>
 	</ul>
 </nav>
