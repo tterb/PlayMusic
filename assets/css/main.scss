@@ -2,6 +2,15 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 @-moz-keyframes "reveal-header" {
 	0% {
 		top: -4em;
@@ -924,7 +933,8 @@ video {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 0 0 -1px -2em;
+	width: 100%;
+	margin: 0 0 -1px 0;
 	> * {
 		float: left;
 		-moz-box-sizing: border-box;
@@ -1073,7 +1083,7 @@ video {
 }
 
 .\36 u, .\36 u\24 {
-	width: 50%;
+	width: 45%;
 	clear: none;
 	margin-left: 0;
 }
@@ -3131,7 +3141,7 @@ button.disabled {
 			border-top: 0;
 		}
 		>.inner {
-			padding: 2em 0 2em 0;
+			padding: 0;
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
@@ -3425,7 +3435,7 @@ body.is-menu-visible {
 @media screen and (max-width: 1680px) {
 	.row {
 		> * {
-			padding: 0 0 0 2em;
+			padding: 0 2em 0 2em;
 		}
 		margin: 0 0 -1px -2em;
 	}
@@ -3666,7 +3676,7 @@ body.is-menu-visible {
 @media screen and (max-width: 1280px) {
 	.row {
 		> * {
-			padding: 0 0 0 1.5em;
+			padding: 0 1.5em 0 1.5em;
 		}
 		margin: 0 0 -1px -1.5em;
 	}
@@ -3895,7 +3905,7 @@ body.is-menu-visible {
 		padding-right: 5em;
 	}
 	.button.next {
-		padding-right: 5em;
+		padding-right: 5em !important;
 	}
 	.tiles {
 		article {
@@ -3932,7 +3942,7 @@ body.is-menu-visible {
 @media screen and (max-width: 980px) {
 	.row {
 		> * {
-			padding: 0 0 0 1.5em;
+			padding: 0 1.5em 0 1.5em;
 		}
 		margin: 0 0 -1px -1.5em;
 	}
@@ -4186,7 +4196,7 @@ body.is-menu-visible {
 @media screen and (max-width: 736px) {
 	.row {
 		> * {
-			padding: 0 0 0 1.25em;
+			padding: 0 1.25em 0 1.25em;
 		}
 		margin: 0 0 -1px -1.25em;
 	}
@@ -4536,7 +4546,7 @@ body.is-menu-visible {
 @media screen and (max-width: 480px) {
 	.row {
 		> * {
-			padding: 0 0 0 1.25em;
+			padding: 0 1.25em 0 1.25em;
 		}
 		margin: 0 0 -1px -1.25em;
 	}
@@ -5048,6 +5058,16 @@ body.is-menu-visible {
 }
 
 #one {
+	header {
+		position: relative;
+		margin: auto;
+		h1 {
+			font-size: 4em;
+			&::after {
+				margin: 0 0 1em 0;
+			}
+		}
+	}
     #variants {
         h3 {
             margin-bottom: 0;
@@ -5061,10 +5081,56 @@ body.is-menu-visible {
 			}
 		}
 		> div:nth-child(2) > img {
-			margin: 1em 0;
+			margin: 0.75em 0;
 		}
 		> div:nth-child(3) > img {
 			margin: 4.5em 0;
 		}
     }
+}
+
+#content {
+	font-size: 2.5em;
+}
+
+#feature {
+	position: relative;
+	margin: 1em 2.5%;
+	h2 {
+		margin-bottom: 0.75em;
+	}
+	.image {
+		display: block;
+		position: relative;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 1.25em;
+		img {
+			position: relative;
+			width: 80%;
+			margin: auto;
+			padding-right: 3em;
+			// margin-bottom: 0.5em;
+			// text-align: center;
+		}
+	}
+	// img {
+	// 	// position: relative;
+	// 	width: 60%;
+	// 	margin: auto;
+	// 	// margin-bottom: 0.5em;
+	// 	// text-align: center;
+	// }
+}
+
+#divider {
+	height: 1px;
+	width: 100%;
+	color: rgba(255,255,255,0.7);
+}
+
+#menu {
+	ul.links {
+		margin-bottom: 0;
+	}
 }
