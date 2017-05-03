@@ -35,43 +35,47 @@ id: 4
 			</div>
 			<div id="variants" class="row">
 				<div class="4u 12u$(medium)">
-					<!-- <img src="assets/images/round.png" width="275"/> -->
-					<!-- <h3>Round</h3> -->
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+					<p>The newest of the three, the round variant of PlayMusic has quickly become a favorite of many. Though, given the non-linear base, maintaining the flush alignment of the visualizer to the bottom of the skin can be a challenge while maintaining its scalability.</p>
+					<!-- <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> -->
 				</div>
 				<div class="4u 12u$(medium)">
-					<!-- <img src="assets/images/square.png" width="200"/> -->
-					<!-- <h3>Square</h3> -->
 					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 				</div>
 				<div class="4u$ 12u$(medium)">
-					<!-- <img src="assets/images/landscape.png" width="350"/> -->
-					<!-- <h3>Landscape</h3> -->
 					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 				</div>
 			</div>
-
-
+		</div>
+		<hr id="divider"/>
+		<div class="inner">
 			<div class="row">
-				<div class="6u 12u$(small)">
-					<h3>Sem turpis amet semper</h3>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+				<div id="feature" class="6u 12u$(small)">
+					<h2>Visualizer</h2>
+					<div class="image">
+						<img src="assets/images/visualizer.png" width="250"/>
+					</div>
+					<p>In response to many users (<i>myself included</i>), using PlayMusic in conjunction with other visualizer skins, PlayMusic now features a highly-customizable, integrated visualizer. These options include customizable accent colors, performance, and scalability, ensuring a perfect addition to any layout.</p>
 				</div>
-				<div class="6u$ 12u$(small)">
-					<h3>Magna odio tempus commodo</h3>
-					<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+				<div id="feature" class="6u$ 12u$(small)">
+					<h2>Volume Control</h2>
+					<div class="image">
+						<img src="assets/images/volume.png" width="250"/>
+					</div>
+					<p>In order to maximize the accessibility of the skin, volume control has also been seamlessly added to PlayMusic. To utilize this functionality, simply scroll your scroll-wheel up or down while hovering your cursor over the skin, which will also display a visual indication of the volume level.</p>
 				</div>
-				<div class="4u 12u$(medium)">
-					<h3>Interdum sapien gravida</h3>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+				<div id="feature" class="6u 12u$(small)">
+					<h2>Visualizer</h2>
+					<div class="image">
+						<img src="assets/images/visualizer.png" width="250"/>
+					</div>
+					<p>In response to many users (<i>myself included</i>), using PlayMusic in conjunction with other visualizer skins, PlayMusic now features a highly-customizable, integrated visualizer. These options include customizable accent colors, performance, and scalability, ensuring a perfect addition to any layout.</p>
 				</div>
-				<div class="4u 12u$(medium)">
-					<h3>Faucibus consequat lorem</h3>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-				</div>
-				<div class="4u$ 12u$(medium)">
-					<h3>Accumsan montes viverra</h3>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+				<div id="feature" class="6u$ 12u$(small)">
+					<h2>Volume Control</h2>
+					<div class="image">
+						<img src="assets/images/volume.png" width="250"/>
+					</div>
+					<p>In order to maximize the accessibility of the skin, volume control has also been seamlessly added to PlayMusic. To utilize this functionality, simply scroll your scroll-wheel up or down while hovering your cursor over the skin, which will also display a visual indication of the volume level.</p>
 				</div>
 			</div>
 		</div>
