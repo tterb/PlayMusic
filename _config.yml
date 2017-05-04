@@ -30,3 +30,10 @@ markdown: kramdown
 highlighter: rouge
 sass:
   style: compressed
+include: ['_pages','_projects','.htaccess']
+
+defaults:
+  - scope:
+      path: _pages
+    values:
+      layout: page
