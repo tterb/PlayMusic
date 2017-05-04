@@ -3200,7 +3200,7 @@ button.disabled {
 #footer {
 	text-align: center;
 	.icons {
-		font-size: 1.35em;
+		font-size: 1.5em;
 		color: rgba(255,255,255,0.5);
 		margin-bottom: 0.75em;
 	}
@@ -5057,7 +5057,7 @@ body.is-menu-visible {
 	}
 }
 
-#one {
+#page {
 	header {
 		position: relative;
 		margin: auto;
@@ -5104,7 +5104,7 @@ body.is-menu-visible {
 		position: relative;
 		width: 100%;
 		margin: auto;
-		margin-bottom: 1.25em;
+		margin-bottom: 0;
 		img {
 			position: relative;
 			width: 80%;
@@ -5133,4 +5133,8 @@ body.is-menu-visible {
 	ul.links {
 		margin-bottom: 0;
 	}
+}
+
+.row {
+    margin-right: 0;
 }
