@@ -7,7 +7,7 @@
   	<img src="https://img.shields.io/badge/downloads-%204%2C769-green.svg" height="21" title="Downloads">
   </a>
   <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2FJonSn0w.github.io%2F&tab=desktop">
-    <img src="https://pagespeed-badges.herokuapp.com/?url=jonsn0w.github.io&strat=desktop" height="21" title="PageSpeed"></a>&nbsp;
+    <img src="https://pagespeed-badges.herokuapp.com/?url=jonsn0w.github.io&strat=desktop" height="21" title="PageSpeed"></a>
   <a href="https://jekyllrb.com/">
     <img src="https://img.shields.io/badge/powered_by-Jekyll-red.svg" height="21" title="Jekyll">&nbsp;
   </a>
