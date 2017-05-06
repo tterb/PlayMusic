@@ -20,17 +20,18 @@ id: 3
 				<h3>Table of Contents</h3>
 				<ul class="list">
 				  <li><a href="#stepOne">Setting up Google Play Music Desktop Player</a></li>
-				  <li><a href="#stepOne">Authorizing the GPMDP Rainmeter plugin</a></li>
-				  <li><a href="#stepOne">Troubleshooting</a></li>
+				  <li><a href="#stepTwo">Authorizing the GPMDP Rainmeter plugin</a></li>
+				  <li><a href="#stepThree">Troubleshooting</a></li>
 				</ul>
 			</section>
+            <hr/>
 
 			<section id="stepOne">
 				<div class="step">
 				  <h2>Setting up Google Play Music Desktop Player</h2>
-				  <p>If you haven't already, the skin is can be downloaded as a <i>.rmskin</i> package, <a href="https://github.com/JonSn0w/PlayMusic/releases/download/v1.2.1/PlayMusic_v1.2.1.rmskin" target="_blank">here</a>. In order for this skin to function properly, you must also install <strong><a href="https://googleplaymusicdesktopplayer.com" target="_blank">Google Play Music Desktop Player</a></strong>. <br/>
-				  After installation, you'll then want to navigate to the applications <strong>Desktop Settings</strong>. You must then ensure that <i>Enable Playback API</i> and <i>Enable JSON API</i> are selected, as featured in the image below.</p>
-				  <div id="settings-img" class="image">
+				  <p>For this skin to function properly, you must first install <strong><a href="https://googleplaymusicdesktopplayer.com" target="_blank">Google Play Music Desktop Player</a></strong>.
+				  After installation, you then need to navigate to the applications <em><strong>Desktop Settings</strong></em>, where you must then ensure that "<em>Enable Playback API</em>" and "<em>Enable JSON API</em>" are selected, as featured in the image below.</p>
+				  <div id="settings-img" class="image" align="center">
 				    <img src="{{ site.baseurl }}/assets/images/DesktopSettings.png" alt="Desktop Settings" width="750"/>
 				  </div>
 				</div>
@@ -40,15 +41,15 @@ id: 3
 			<section id="stepTwo">
 				<div class="step">
 				  <h2>Authorizing the GPMDP Rainmeter plugin</h2>
-				  <p>While the inclusion of media controls into <strong>PlayMusic</strong> has been requested since the initial release, remote functionalities have been impossible until the recent release of <strong><a href="https://github.com/tjhrulz/GPMDP-Plugin" target="_blank">GPMDP-Plugin</a></strong> by <a href="https://github.com/tjhrulz/GPMDP-Plugin" target="_blank">tjhrulz</a>, which cleverly uses the GPMDP web-socket to allow remote control of the application. Though, this plugin requires authorization via the GPMDP application. To make this process as easy as straightforward as possible, a supplementary authorization skin has been included in PlayMusic. As shown below, the skin features an input for the four-digit code provided by the application and a prompt that provides confirmation of the skins state.</p>
+				  <p>While the inclusion of media controls into PlayMusic has been requested since the initial release, remote functionalities have been impossible until the recent release of <strong><a href="https://github.com/tjhrulz/GPMDP-Plugin" target="_blank">GPMDP-Plugin</a></strong> by <a href="https://github.com/tjhrulz/GPMDP-Plugin" target="_blank">tjhrulz</a>, which cleverly uses the GPMDP web-socket to allow remote control of the application. Though, in order for the plugin to work properly, the user must provide an four-digit authorization code obtained via the GPMDP application. To make this process as easy as straightforward as possible, a supplementary authorization skin has been included in PlayMusic, featuring a prompt that provides confirmation of the authorization state.</p>
         </div>
-	      <div class="row">
+	      <div class="row" align="center">
           <!-- <div id="settings-img" class="image"> -->
             <div id="feature" class="6u 12u$(small)">
-  					  <img src="{{ site.baseurl }}/assets/images/auth1.png" alt="No connection" width="400"/>
+  					  <img src="{{ site.baseurl }}/assets/images/auth1.png" alt="No connection" width="300"/>
             </div>
             <div id="feature" class="6u 12u$(small)">
-				      <img src="{{ site.baseurl }}/assets/images/auth2.png" alt="Connected" width="400"/>
+				      <img src="{{ site.baseurl }}/assets/images/auth2.png" alt="Connected" width="300"/>
             </div>
 				  <!-- </div> -->
         </div>
@@ -59,8 +60,7 @@ id: 3
 				<div class="step">
 				  <h2>Troubleshooting</h2>
 				  <p>If you run into any issues throughout the setup proces, I would first suggest refreshing the skin and/or relaunching the GPMDP application. Though, if the problem persists, feel free to open an issue <strong><a href="https://github.com/JonSn0w/PlayMusic/issues/new" target="_blank">here</a></strong>.<br/>
-          Also, if you have an issue during the authentication process of the GPMDP plugin, I would suggest that you visit the <i>Troubleshooting</i> page of the <strong><a href="https://github.com/tjhrulz/GPMDP-Plugin/wiki/Troubleshooting" target="_blank">GPMDP-Plugin wiki</a></strong>.
-          </p>
+          Also, if you have an issue during the authentication process of the GPMDP plugin, I would suggest that you visit the <i>Troubleshooting</i> page of the <strong><a href="https://github.com/tjhrulz/GPMDP-Plugin/wiki/Troubleshooting" target="_blank">GPMDP-Plugin wiki</a></strong>.</p><br/>
 				</div>
 			</section>
 
