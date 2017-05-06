@@ -21,9 +21,11 @@
 // Font.
 	$font: (
 		family:				('Source Sans Pro', Helvetica, sans-serif),
+        head:               ('Open Sans', Helvetica, sans-serif),
+		body:				('Source Sans Pro', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		600,
+		weight-bold:		700,
 		letter-spacing:		0.025em,
 		letter-spacing-alt:	0.25em
 	);
@@ -32,17 +34,18 @@
 	$palette: (
 		bg:					#242943,
 		bg-alt:				#2a2f4a,
-		fg:					#ffffff,
+		fg:					saturate(mix(#242943, #ffffff, 18%), 20%),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
 		border:				rgba(212,212,255,0.1),
 		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#e78a01,
+		highlight:			#ea8a01,
+        active:             #d76a01,
 		accent1:			#6fc3df,
 		accent2:			#8d82c4,
 		accent3:			#ec8d81,
-		// accent4:			#ecb780,
-		accent4:			#e78a01,
+		accent4:			#ecb780,
 		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		accent6:			#87c5a4,
+		accent7:			#d74246
 	);
