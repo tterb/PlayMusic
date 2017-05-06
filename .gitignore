@@ -13,6 +13,7 @@ node_modules/*
 gulpconfig.json
 README/*
 assets/images/*_.png
+assets/images/*_.jpg
 assets/images/Old/*
 assets/images/Text/*
 assets/images/Unused/*
