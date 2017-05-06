@@ -1,11 +1,68 @@
+# Jekyll ignores
+.jekyll-metadata
+.sass-cache/
 _site/
 _posts/30*
 .sass-cache/
-.jekyll-metadata
 Gemfile.lock
 *.gem
+
+# Other
+jspm_packages/*
+node_modules/*
+gulpconfig.json
+README/*
+assets/images/*_.png
 assets/images/Old/*
 assets/images/Text/*
 assets/images/Unused/*
-orig-README.md
 elements.md
+
+# =========================
+# Operating System Files
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
