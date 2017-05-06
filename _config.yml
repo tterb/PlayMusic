@@ -3,7 +3,7 @@ title: PlayMusic
 subtitle: by Brett Stevenson
 email: BStevensonDev@gmail.com
 description: A Rainmeter skin that allows Google Play Music users <br/>to access their music tastefully on their desktop
-baseurl: "/PlayMusic/" # the subpath of your site, e.g. /blog
+baseurl: "/PlayMusic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Brett Stevenson
 country: United States of America
