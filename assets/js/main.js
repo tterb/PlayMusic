@@ -6,347 +6,356 @@
 
 (function($) {
 
-	skel.breakpoints({
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	});
+    skel.breakpoints({
+        xlarge: '(max-width: 1680px)',
+        large: '(max-width: 1280px)',
+        medium: '(max-width: 980px)',
+        small: '(max-width: 736px)',
+        xsmall: '(max-width: 480px)',
+        xxsmall: '(max-width: 360px)'
+    });
 
-	/**
-	 * Applies parallax scrolling to an element's background image.
-	 * @return {jQuery} jQuery object.
-	 */
-	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
+    /**
+     * Applies parallax scrolling to an element's background image.
+     * @return {jQuery} jQuery object.
+     */
+    $.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() {
+        return $(this)
+    } : function(intensity) {
 
-		var	$window = $(window),
-			$this = $(this);
+        var $window = $(window),
+            $this = $(this);
 
-		if (this.length == 0 || intensity === 0)
-			return $this;
+        if (this.length == 0 || intensity === 0)
+            return $this;
 
-		if (this.length > 1) {
+        if (this.length > 1) {
 
-			for (var i=0; i < this.length; i++)
-				$(this[i])._parallax(intensity);
+            for (var i = 0; i < this.length; i++)
+                $(this[i])._parallax(intensity);
 
-			return $this;
+            return $this;
 
-		}
+        }
 
-		if (!intensity)
-			intensity = 0.25;
+        if (!intensity)
+            intensity = 0.25;
 
-		$this.each(function() {
+        $this.each(function() {
 
-			var $t = $(this),
-				on, off;
+            var $t = $(this),
+                on, off;
 
-			on = function() {
+            on = function() {
 
-				$t.css('background-position', 'center 100%, center 100%, center 0px');
+                $t.css('background-position', 'center 100%, center 100%, center 0px');
 
-				$window
-					.on('scroll._parallax', function() {
+                $window
+                    .on('scroll._parallax', function() {
+                        var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
+                        $t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+                    });
 
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+            };
 
-					});
+            off = function() {
+                $t
+                    .css('background-position', '');
 
-			};
+                $window
+                    .off('scroll._parallax');
+            };
 
-			off = function() {
+            skel.on('change', function() {
 
-				$t
-					.css('background-position', '');
+                if (skel.breakpoint('medium').active)
+                    (off)();
+                else
+                    (on)();
 
-				$window
-					.off('scroll._parallax');
+            });
 
-			};
+        });
 
-			skel.on('change', function() {
+        $window
+            .off('load._parallax resize._parallax')
+            .on('load._parallax resize._parallax', function() {
+                $window.trigger('scroll');
+            });
 
-				if (skel.breakpoint('medium').active)
-					(off)();
-				else
-					(on)();
+        return $(this);
 
-			});
+    };
 
-		});
+    $(function() {
 
-		$window
-			.off('load._parallax resize._parallax')
-			.on('load._parallax resize._parallax', function() {
-				$window.trigger('scroll');
-			});
+        var $window = $(window),
+            $body = $('body'),
+            $wrapper = $('#wrapper'),
+            $header = $('#header'),
+            $banner = $('#banner');
 
-		return $(this);
+        // Disable animations/transitions until the page has loaded.
+        $body.addClass('is-loading');
 
-	};
+        $window.on('load pageshow', function() {
+            window.setTimeout(function() {
+                $body.removeClass('is-loading');
+            }, 100);
+        });
 
-	$(function() {
+        // Clear transitioning state on unload/hide.
+        $window.on('unload pagehide', function() {
+            window.setTimeout(function() {
+                $('.is-transitioning').removeClass('is-transitioning');
+            }, 250);
+        });
 
-		var	$window = $(window),
-			$body = $('body'),
-			$wrapper = $('#wrapper'),
-			$header = $('#header'),
-			$banner = $('#banner');
+        // Fix: Enable IE-only tweaks.
+        if (skel.vars.browser == 'ie' || skel.vars.browser == 'edge')
+            $body.addClass('is-ie');
+
+        // Fix: Placeholder polyfill.
+        $('form').placeholder();
+
+        // Prioritize "important" elements on medium.
+        skel.on('+medium -medium', function() {
+            $.prioritize(
+                '.important\\28 medium\\29',
+                skel.breakpoint('medium').active
+            );
+        });
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+        // Scrolly.
+        $('.scrolly').scrolly({
+            offset: function() {
+                return $header.height() - 2;
+            }
+        });
 
-			$window.on('load pageshow', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+        // Tiles.
+        var $tiles = $('.tiles > article');
 
-		// Clear transitioning state on unload/hide.
-			$window.on('unload pagehide', function() {
-				window.setTimeout(function() {
-					$('.is-transitioning').removeClass('is-transitioning');
-				}, 250);
-			});
+        $tiles.each(function() {
 
-		// Fix: Enable IE-only tweaks.
-			if (skel.vars.browser == 'ie' || skel.vars.browser == 'edge')
-				$body.addClass('is-ie');
+            var $this = $(this),
+                $image = $this.find('.image'),
+                $img = $image.find('img'),
+                $link = $this.find('.link'),
+                x;
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+            // Image.
 
-		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+            // Set image.
+            $this.css('background-image', 'url(' + $img.attr('src') + ')');
 
-		// Scrolly.
-			$('.scrolly').scrolly({
-				offset: function() {
-					return $header.height() - 2;
-				}
-			});
+            // Set position.
+            if (x = $img.data('position'))
+                $image.css('background-position', x);
 
-		// Tiles.
-			var $tiles = $('.tiles > article');
+            // Hide original.
+            $image.hide();
 
-			$tiles.each(function() {
+            // Link.
+            if ($link.length > 0) {
 
-				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img'),
-					$link = $this.find('.link'),
-					x;
+                $x = $link.clone()
+                    .text('')
+                    .addClass('primary')
+                    .appendTo($this);
 
-				// Image.
+                $link = $link.add($x);
 
-					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
+                $link.on('click', function(event) {
 
-					// Set position.
-						if (x = $img.data('position'))
-							$image.css('background-position', x);
+                    var href = $link.attr('href');
 
-					// Hide original.
-						$image.hide();
+                    // Prevent default.
+                    event.stopPropagation();
+                    event.preventDefault();
 
-				// Link.
-					if ($link.length > 0) {
+                    // Start transitioning.
+                    $this.addClass('is-transitioning');
+                    $wrapper.addClass('is-transitioning');
 
-						$x = $link.clone()
-							.text('')
-							.addClass('primary')
-							.appendTo($this);
+                    // Redirect.
+                    window.setTimeout(function() {
 
-						$link = $link.add($x);
+                        if ($link.attr('target') == '_blank')
+                            window.open(href);
+                        else
+                            location.href = href;
 
-						$link.on('click', function(event) {
+                    }, 500);
 
-							var href = $link.attr('href');
+                });
+            }
+        });
 
-							// Prevent default.
-								event.stopPropagation();
-								event.preventDefault();
+        // Header.
+        if (skel.vars.IEVersion < 9)
+            $header.removeClass('alt');
 
-							// Start transitioning.
-								$this.addClass('is-transitioning');
-								$wrapper.addClass('is-transitioning');
+        if ($banner.length > 0 &&
+            $header.hasClass('alt')) {
 
-							// Redirect.
-								window.setTimeout(function() {
+            $window.on('resize', function() {
+                $window.trigger('scroll');
+            });
 
-									if ($link.attr('target') == '_blank')
-										window.open(href);
-									else
-										location.href = href;
+            $window.on('load', function() {
 
-								}, 500);
+                $banner.scrollex({
+                    bottom: $header.height() + 10,
+                    terminate: function() {
+                        $header.removeClass('alt');
+                    },
+                    enter: function() {
+                        $header.addClass('alt');
+                    },
+                    leave: function() {
+                        $header.removeClass('alt');
+                        $header.addClass('reveal');
+                    }
+                });
 
-						});
+                window.setTimeout(function() {
+                    $window.triggerHandler('scroll');
+                }, 100);
 
-					}
+            });
 
-			});
+        }
 
-		// Header.
-			if (skel.vars.IEVersion < 9)
-				$header.removeClass('alt');
+        // Banner.
+        $banner.each(function() {
 
-			if ($banner.length > 0
-			&&	$header.hasClass('alt')) {
+            var $this = $(this),
+                $image = $this.find('.image'),
+                $img = $image.find('img');
 
-				$window.on('resize', function() {
-					$window.trigger('scroll');
-				});
+            // Parallax.
+            $this._parallax(0.275);
 
-				$window.on('load', function() {
+            // Image.
+            if ($image.length > 0) {
 
-					$banner.scrollex({
-						bottom:		$header.height() + 10,
-						terminate:	function() { $header.removeClass('alt'); },
-						enter:		function() { $header.addClass('alt'); },
-						leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-					});
+                // Set image.
+                $this.css('background-image', 'url(' + $img.attr('src') + ')');
 
-					window.setTimeout(function() {
-						$window.triggerHandler('scroll');
-					}, 100);
+                // Hide original.
+                $image.hide();
+            }
 
-				});
+        });
 
-			}
+        // Menu.
+        var $menu = $('#menu'),
+            $menuInner;
 
-		// Banner.
-			$banner.each(function() {
+        $menu.wrapInner('<div class="inner"></div>');
+        $menuInner = $menu.children('.inner');
+        $menu._locked = false;
 
-				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img');
+        $menu._lock = function() {
 
-				// Parallax.
-					$this._parallax(0.275);
+            if ($menu._locked)
+                return false;
 
-				// Image.
-					if ($image.length > 0) {
+            $menu._locked = true;
 
-						// Set image.
-							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+            window.setTimeout(function() {
+                $menu._locked = false;
+            }, 350);
 
-						// Hide original.
-							$image.hide();
+            return true;
 
-					}
+        };
 
-			});
+        $menu._show = function() {
 
-		// Menu.
-			var $menu = $('#menu'),
-				$menuInner;
+            if ($menu._lock())
+                $body.addClass('is-menu-visible');
 
-			$menu.wrapInner('<div class="inner"></div>');
-			$menuInner = $menu.children('.inner');
-			$menu._locked = false;
+        };
 
-			$menu._lock = function() {
+        $menu._hide = function() {
 
-				if ($menu._locked)
-					return false;
+            if ($menu._lock())
+                $body.removeClass('is-menu-visible');
 
-				$menu._locked = true;
+        };
 
-				window.setTimeout(function() {
-					$menu._locked = false;
-				}, 350);
+        $menu._toggle = function() {
 
-				return true;
+            if ($menu._lock())
+                $body.toggleClass('is-menu-visible');
 
-			};
+        };
 
-			$menu._show = function() {
+        $menuInner
+            .on('click', function(event) {
+                event.stopPropagation();
+            })
+            .on('click', 'a', function(event) {
 
-				if ($menu._lock())
-					$body.addClass('is-menu-visible');
+                var href = $(this).attr('href');
 
-			};
+                event.preventDefault();
+                event.stopPropagation();
 
-			$menu._hide = function() {
+                // Hide.
+                $menu._hide();
 
-				if ($menu._lock())
-					$body.removeClass('is-menu-visible');
+                // Redirect.
+                window.setTimeout(function() {
+                    window.location.href = href;
+                }, 250);
 
-			};
+            });
 
-			$menu._toggle = function() {
+        $menu
+            .appendTo($body)
+            .on('click', function(event) {
 
-				if ($menu._lock())
-					$body.toggleClass('is-menu-visible');
+                event.stopPropagation();
+                event.preventDefault();
 
-			};
+                $body.removeClass('is-menu-visible');
 
-			$menuInner
-				.on('click', function(event) {
-					event.stopPropagation();
-				})
-				.on('click', 'a', function(event) {
+            })
+            .append('<a class="close" href="#menu">Close</a>');
 
-					var href = $(this).attr('href');
+        $body
+            .on('click', 'a[href="#menu"]', function(event) {
 
-					event.preventDefault();
-					event.stopPropagation();
+                event.stopPropagation();
+                event.preventDefault();
 
-					// Hide.
-						$menu._hide();
+                // Toggle.
+                $menu._toggle();
 
-					// Redirect.
-						window.setTimeout(function() {
-							window.location.href = href;
-						}, 250);
+            })
+            .on('click', function(event) {
 
-				});
+                // Hide.
+                $menu._hide();
 
-			$menu
-				.appendTo($body)
-				.on('click', function(event) {
+            })
+            .on('keydown', function(event) {
 
-					event.stopPropagation();
-					event.preventDefault();
+                // Hide on escape.
+                if (event.keyCode == 27)
+                    $menu._hide();
 
-					$body.removeClass('is-menu-visible');
+            });
 
-				})
-				.append('<a class="close" href="#menu">Close</a>');
-
-			$body
-				.on('click', 'a[href="#menu"]', function(event) {
-
-					event.stopPropagation();
-					event.preventDefault();
-
-					// Toggle.
-						$menu._toggle();
-
-				})
-				.on('click', function(event) {
-
-					// Hide.
-						$menu._hide();
-
-				})
-				.on('keydown', function(event) {
-
-					// Hide on escape.
-						if (event.keyCode == 27)
-							$menu._hide();
-
-				});
-
-	});
+    });
+    $(function() {
+        var fonts = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic|Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        if (document.createStyleSheet) document.createStyleSheet(fonts);
+        else $("head").append($("<link rel='stylesheet' href='" + fonts + "' type='text/css' media='screen' />"));
+    });
 
 })(jQuery);
