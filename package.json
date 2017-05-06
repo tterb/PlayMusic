@@ -1,0 +1,50 @@
+{
+  "name": "playmusic",
+  "version": "1.0.0",
+  "description": "PlayMusic website",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "critical": "^0.8.4",
+    "gulp": "^3.9.1",
+    "imagemin-pngquant": "^5.0.0",
+    "jspm": "^0.16.53",
+    "octicons": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-import-css": "^0.1.3",
+    "gulp-minify": "0.0.15",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-rsync": "0.0.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-uncss": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonSn0w/JonSn0w.github.io.git"
+  },
+  "author": "Brett Stevenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonSn0w/JonSn0w.github.io/issues"
+  },
+  "homepage": "https://github.com/JonSn0w/JonSn0w.github.io#readme",
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^3.2.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
