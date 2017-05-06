@@ -14,9 +14,9 @@
 </p>
 
 <br>
+
 <img src="https://cloud.githubusercontent.com/assets/16360374/25723965/fc424e8a-30ce-11e7-8bd6-5fef9be2a493.png" alt="Screenshot" width="875"/>
 <br>
 
 [<img title="" alt="Description" src="https://cloud.githubusercontent.com/assets/16360374/22623856/4459294c-eb1e-11e6-86e0-7a8392da4061.png" width="900" />](#description)
   This repository contains the website for [**PlayMusic**](https://github.com/JonSn0w/PlayMusic/). Although, the site is currently live, I'm still actively adding content to many of the pages so I appreciate you bearing with me while it comes together.
-  
