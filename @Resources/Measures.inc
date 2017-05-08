@@ -46,11 +46,6 @@ IfNotMatchAction=[!HideMeterGroup Active][!ShowMeter Background][!ShowMeter Mete
 DynamicVariables=1
 ; UpdateDivider=-1
 
-[MeasurePlayPause]
-Measure=Plugin
-Plugin=GPMDPPlugin
-PlayerInfo=State
-
 [MeasureImageDownload]
 Measure=Plugin
 Plugin=WebParser
@@ -69,16 +64,44 @@ CoverPath=#@#Images\cover.png
 OnChangeAction=[!Redraw]
 ; UpdateDivider=20
 
+[MeasureTitle]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Title
+; UpdateDivider = 10
+Substitute="":"N/A"
+
+[MeasureArtist]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Artist
+; UpdateDivider = 10
+Substitute="":"N/A"
+
+[MeasureAlbum]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Album
+; UpdateDivider = 10
+Substitute="":"N/A"
+
+[MeasurePlayPause]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=State
+Substitute="0":"#@#Images\playButton.png","1":"#@#Images\pauseButton.png","2":"#@#Images\playButton.png"
+UpdateDivider=2
+
 [MeasureRepeat]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Repeat
 IfBelowValue=1
-IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfEqualValue=1
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfAboveValue=1
-IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
 
 [MeasureShuffle]
