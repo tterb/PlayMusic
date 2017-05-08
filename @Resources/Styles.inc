@@ -12,12 +12,12 @@ DesktopSettingsPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Des
 
 [TextStyle]
 FontFace=Roboto
-FontSize=(#size#*2.85)
+FontSize=(#Size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
-X=(#size#*20.4)
-W=(#size#*35)
+X=(#Size#*20.7)
+W=(#Size#*35)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
@@ -25,12 +25,12 @@ AntiAlias=1
 
 [SquareText]
 FontFace=Roboto
-FontSize=(#size#*2.75)
+FontSize=(#Size#*2.75)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#SkinWidth#/18)
-W=(#size#*28.75)
+X=(#SkinWidth#/17)
+W=(#Size#*29.5)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
@@ -38,12 +38,12 @@ AntiAlias=1
 
 [RoundText]
 FontFace=Roboto
-FontSize=(#size#*2.85)
+FontSize=(#Size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
-; X=(#size#*(3.3+#align#))
-W=(#size#*34.7)
+; X=(#Size#*(3.3+#align#))
+W=(#Size#*34.7)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
@@ -52,8 +52,8 @@ AntiAlias=1
 [Status]
 ImageTint=245,245,245
 PreserveAspectRatio=1
-X=(#size#*57.6)
-H=(#size#*4.9)
+X=(#Size#*57.6)
+H=(#Size#*4.9)
 ; UpdateRate=100
 
 [TimeStyle]
@@ -62,8 +62,8 @@ BarOrientation=HORIZONTAL
 MaxValue=100
 SolidColor=225,225,225,75
 BarColor=#accent#
-X=(#size#*0.2)
-H=(#size#*0.9)
+X=(#Size#*0.2)
+H=(#Size#*0.9)
 BackgroundMode=3
 DynamicVariables=1
 UpdateDivider=1
