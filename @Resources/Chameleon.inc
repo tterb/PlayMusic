@@ -3,7 +3,7 @@
 Measure=Plugin
 Plugin=Chameleon
 Type=File
-Path=#@#Images\cover.png
+Path=[MeasureArtwork]
 UpdateDivider=100
 
 [ColorForeground1]
