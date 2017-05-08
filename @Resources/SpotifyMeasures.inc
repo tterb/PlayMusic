@@ -1,3 +1,8 @@
+[MeasurePlayer]
+Measure=Plugin
+Plugin=NowPlaying.dll
+PlayerName=Spotify
+
 [MeasureTitle]
 Measure=Plugin
 Plugin=SpotifyPlugin.dll
@@ -27,11 +32,11 @@ Measure=Plugin
 Plugin=SpotifyPlugin.dll
 PlayerInfo=Repeat
 IfBelowValue=1
-IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Shuffle"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfEqualValue=1
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeatOne.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Shuffle"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfAboveValue=1
-IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!UpdateMeter MeterRepeat][!Redraw]
+IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Shuffle"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
 
 [MeasureShuffle]
