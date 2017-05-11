@@ -5,7 +5,7 @@
 -- Contact: BStevensonDev@gmail.com
 -- Version: v1.2.0
 -- License: GNU AGPLv3.0
--- Updated: Feb 1, 2017
+-- Updated: Jan 22, 2017
 -- Copyright (c) 2016 Brett Stevenson
 -- ##########################################################################
 

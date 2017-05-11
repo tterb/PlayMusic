@@ -1,7 +1,6 @@
 ;PlayMusic/@Resources/ConfigStyles.inc
 
 [Variables]
-@include2=#@#Variables.inc
 ;White
 color1=FFFFFFD9
 ;Cyan
@@ -26,22 +25,13 @@ color10=E53935E8
 color11=3F51B5E8
 ;Orange
 color12=FA5722EA
-
-
-[HeadingText]
-FontSize=24
-FontFace=Open Sans
-FontColor=230,90,0,190
-StringEffect=Shadow
-FontEffectColor= 0,0,0,20
-X=64
-Y=171
-ClipString=2
-AntiAlias=1
+;Volume bar
+volumeWhite=FFFFFFC8
+volumeColored=FF9800D1
 
 [SubHeading]
 FontSize=16
-FontFace=Gotham Rounded Medium
+FontFace=Segoe UI
 FontColor=0,0,0,170
 X=83
 Y=200
@@ -49,60 +39,44 @@ ClipString=2
 AntiAlias=1
 
 [BodyText]
-FontFace=Gotham Rounded Book
-FontSize=11
-FontColor=0,0,0,200
+FontFace=Segoe UI
+FontSize=12
+FontColor=30,30,30,240
 StringStyle=Normal
-InlineSetting=CharacterSpacing | -0.25
-X=5R
-Y=1r
+StringEffect=Shadow
+FontEffectColor = 0,0,0,0
+X=3R
 ClipString=2
 AntiAlias=1
 
-[SubtleText]
-FontFace=Gotham Rounded Book
-FontSize=9
-FontColor=0,0,0,115
-Y=2r
-ClipString=2
-AntiAlias=1
-
-[InputText]
-FontFace=Open Sans
+[Checkbox]
 FontSize=11
-FontColor=0,0,0,175
-DynamicVariables=1
-ClipString=2
-AntiAlias=1
-
-[ToggleStyle]
-X=75
-Y=35r
-H=20
-PreserveAspectRatio=1
+FontColor=40,40,40,255
+SolidColor=0,0,0,0
+Padding=5,5,5,5
+X=100
 DynamicVariables=1
 AntiAlias=1
 
 [ColorOption]
 Group=StylePage
-X=1R
-Y=r
 H=40
 W=40
+X=1R
+Y=r
 Hidden=1
 
 [PageIcons]
-X=r
-Y=35R
+X=379
 H=20
 PreserveAspectRatio=1
 AntiAlias=1
 
 [IconStyle]
 ImageTint=#accent#
-H=58
 PreserveAspectRatio=1
-LeftMouseUpAction=[!WriteKeyValue Variables icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#Images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
+H=65
+LeftMouseUpAction=[!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Square).ini"][!WriteKeyValue Variables  icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\PlayMusic(Landscape).ini"][!WriteKeyValue Variables icon #@#images\headphoneIcon.png "#ROOTCONFIGPATH#\Settings\Settings.ini"][!SetOption icon2 "(1-#icon2#)"][!SetVariable icon2 "(1-#icon2#)"][!SetVariable icon1 "(1-#icon1#)"][!SetVariable icon1 "(1-#icon1#)"][!CommandMeasure MeasureLuaScript "Write()"][!UpdateMeasure MeasureButton][!Refresh PlayMusic][!Refresh PlayMusic\Settings]
 
 [BorderStyle]
 SolidColor=190,190,190, 140

@@ -1,60 +1,48 @@
 ;PlayMusic/@Resources/Styles.inc
 
 [Variables]
+@include=#@#Variables.inc
 MeterTitleName=MeterTitle
 MeterArtistName=MeterArtist
 MeterAlbumName=MeterAlbum
 MeterCurrentTime=MeterTime
-StatusImg=#@#Images\play.png
-AppPath="%HOMEDRIVE%%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
-PlaybackPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
-DesktopSettingsPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
+StatusImg=#@#images\play.png
+AppPath="C:%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
+PlaybackPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
+DesktopSettingsPath="C:%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
 
 [TextStyle]
-FontFace=Roboto
-FontSize=(#Size#*2.85)
+FontFace=Segoe UI
+FontSize=(#size#*2.7)
 FontColor=255,255,255,250
 StringEffect=Shadow
 FontEffectColor=0,0,0,245
-X=(#Size#*20.7)
-W=(#Size#*35)
+X=(#size#*21.1)
+W=(#size#*34.7)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-; UpdateRate=100
+UpdateRate=100
 
 [SquareText]
-FontFace=Roboto
-FontSize=(#Size#*2.75)
+FontFace=Segoe UI
+FontSize=(#size#*2.7)
 FontColor=255,255,255,255
 StringEffect=Shadow
 FontEffectColor=0,0,0,255
-X=(#SkinWidth#/17)
-W=(#Size#*29.5)
+X=(#size#*32)
+W=(#size#*27.1)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-; UpdateRate=100
-
-[RoundText]
-FontFace=Roboto
-FontSize=(#Size#*2.85)
-FontColor=255,255,255,250
-StringEffect=Shadow
-FontEffectColor=0,0,0,245
-; X=(#Size#*(3.3+#align#))
-W=(#Size#*34.7)
-ClipString=1
-DynamicVariables=1
-AntiAlias=1
-; UpdateRate=100
+UpdateRate=100
 
 [Status]
 ImageTint=245,245,245
 PreserveAspectRatio=1
-X=(#Size#*57.6)
-H=(#Size#*4.9)
-; UpdateRate=100
+X=(#size#*57.6)
+H=(#size#*4.9)
+UpdateRate=1000
 
 [TimeStyle]
 Group=Active
@@ -62,39 +50,21 @@ BarOrientation=HORIZONTAL
 MaxValue=100
 SolidColor=225,225,225,75
 BarColor=#accent#
-X=(#Size#*0.2)
-H=(#Size#*0.9)
+X=(#size#*0.2)
+H=(#size#*0.9)
 BackgroundMode=3
 DynamicVariables=1
-UpdateDivider=1
-; UpdateRate=50
 AntiAlias=1
+UpdateRate=50
 
 [VisualizerStyle]
 Group=Active | Visualizer
 BarOrientation=Vertical
-BarColor=[ColorForeground2]
-X=(#bandSpace#)R
+BarColor=#BarColor#
+X=(3*#Scale#)R
 Y=r
-W=#BarWidth#
-H=#BarHeight#
-DynamicVariables=1
-UpdateRate=40
-UpdateDivider=1
-AntiAlias=1
-
-[RoundVisStyle]
-Group=Active | Visualizer
-BarOrientation=Vertical
-BarColor=[ColorForeground2]
-; X=((#SkinWidth#)/69)R
-X=(#RoundBarWidth#-0.5)R
-; X=3.75R
-Y=r
-W=#RoundBarWidth#
-; W=4
+W=#BarWidthScale#
 H=#BarHeightScale#
 DynamicVariables=1
-UpdateRate=30
-UpdateDivider=1
 AntiAlias=1
+UpdateRate=40
