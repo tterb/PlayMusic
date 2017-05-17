@@ -1,5 +1,7 @@
 [<img src="https://cloud.githubusercontent.com/assets/16360374/23640973/ac0fe0a0-02a5-11e7-91a1-fc9eb72514de.png" height="120" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
-------------------------------------------------------------------------------  
+----------------------------------------------------------------------------  
+
+<!-- [![PayPal]http://ionicabizau.github.io/badges/paypal_donate.svg][http://ionicabizau.github.io/badges/paypal.svg] -->
 
 <!-- Badges -->
 <p align="right">
@@ -13,7 +15,7 @@
 	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%204%2C769-green.svg" height="21" title="Downloads">
+  		<img src="https://img.shields.io/badge/downloads-%204%2C962-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
