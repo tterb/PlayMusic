@@ -353,7 +353,7 @@
 
     });
     $(function() {
-        var fonts = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic|Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        var fonts = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic|Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic|Source+Code+Pro:200,200italic,300,300italic,600,600italic,700,700italic'
         if (document.createStyleSheet) document.createStyleSheet(fonts);
         else $("head").append($("<link rel='stylesheet' href='" + fonts + "' type='text/css' media='screen' />"));
     });
