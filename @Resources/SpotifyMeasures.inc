@@ -26,7 +26,6 @@ Res=640
 DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\Cover.png
 OnChangeAction=[!CommandMeasure "MeasureAdaptiveScript" "Update()""][!Redraw]
-UpdateDivider=-1
 
 [MeasureRepeat]
 Measure=Plugin
@@ -99,6 +98,7 @@ UpdateDivider=1
 [MeasureAudio]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Port=Output
 FFTSize=#FFTSize#
 FFTOverlap=#FFTOverlap#
@@ -117,6 +117,7 @@ UpdateDivider=1
 [MeasureAudioAverage]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Port=Output
 RMSAttack=10
 RMSDecay=2500
@@ -130,6 +131,7 @@ UpdateDivider=1
 [MeasureAverageVolume]
 Measure=Plugin
 Plugin=AudioLevel
+Group=Visualizer
 Parent=MeasureAudioAverage
 Channel=Avg
 Type=RMS
