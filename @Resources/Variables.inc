@@ -1,10 +1,11 @@
 [Variables]
 
 ;This determines the PlayMusic variant used by the skin (Default: Landscape)
-Variant=Round
+Variant=Landscape
 
 ;This is the variable used to scale each of the skins (Default: 5)
-Size=4.5
+Size=5
+SizeValue=2
 
 ;This determines the accent color used by the skin (Default: FFFFFF89)
 Accent=FFFFFF89
@@ -27,8 +28,12 @@ VolumeStep=2
 ;This variable allows the volume bar to remain visible with all accent colors FFFFC8
 VolumeColor=FFFFFFC8
 
+SourceIcon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\Images\spotifyIcon.png
+
 ;This is the icon variant used when the skin is minimized
-Icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\images\playIcon.png
+Icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\Images\playIcon.png
+
+AppPath=C:\Users\there\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe
 
 ;This determines whether the skin minimizes when GPMDP is closed (0/1)
 minimizeOnClose=1
@@ -36,10 +41,19 @@ minimizeOnClose=1
 PlayerMeasures=SpotifyMeasures
 
 ;This variable contains the height of the current skin configuration
-SkinHeight=204
+SkinHeight=226
 
 ;This variable contains the width of the current skin configuration
-SkinWidth=208
+SkinWidth=228
+
+
+;=================================================
+; SOURCE
+
+; These variables control whether the skin uses GPMDP or Spotify (not both)
+useSpotify=1
+useGPMDP=0
+
 
 ;=================================================
 ; VISUALIZER
@@ -90,14 +104,12 @@ FFTDecay=90
 
 ; This variable determines the X-offset of the visualizer and is automatically
 ; set depending on the skin size
-VisX=17
+VisX=25.75
 
 ; This variable determines the width of the visualizer bands and is
 ; automatically set depending on the round skin size
-RoundBarWidth=4.25
+RoundBarWidth=4.35
 
 AlignValue=1
 Alignment=Right
 Align=30.7
-useSpotify=1
-useGPMDP=0
