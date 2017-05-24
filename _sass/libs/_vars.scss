@@ -23,6 +23,7 @@
 		family:				('Source Sans Pro', Helvetica, sans-serif),
         head:               ('Open Sans', Helvetica, sans-serif),
 		body:				('Source Sans Pro', Helvetica, sans-serif),
+        code:               ('Source Code Pro', 'Courier New', monospace),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		700,
@@ -30,14 +31,15 @@
 		letter-spacing-alt:	0.25em
 	);
 
-// Palette.
+// Palette
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
-		fg:					saturate(mix(#242943, #ffffff, 18%), 20%),
+		bg:                 #242943,
+		bg-alt:             #303344,
+        head:               darken(desaturate(#2a2f4a, 12%), 5%),
+		fg:                 saturate(mix(#242943, #ffffff, 18%), 20%),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
+		border:				rgba(245,245,245,0.3),
 		border-bg:			rgba(212,212,255,0.035),
 		highlight:			#ea8a01,
         active:             #d76a01,
