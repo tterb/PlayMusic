@@ -26,6 +26,7 @@ Res=640
 DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\Cover.png
 OnChangeAction=[!CommandMeasure "MeasureAdaptiveScript" "Update()""][!Redraw]
+UpdateDivider=-1
 
 [MeasureRepeat]
 Measure=Plugin
@@ -63,9 +64,9 @@ Measure=Plugin
 Plugin=Process
 ProcessName=Spotify.exe
 IfBelowValue=1
-IfBelowAction=[!HideMeterGroup Active][!HideMeterGroup Info][!HideMeterGroup Volume][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
+IfBelowAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!PauseMeasureGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 IfAboveValue=0
-IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
+IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!UnpauseMeasureGroup Visualizer][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 DynamicVariables=1
 
 [MeasureSkinSize]
@@ -79,6 +80,7 @@ DynamicVariables=1
 Measure=Plugin
 Plugin=SpotifyPlugin.dll
 Type=Progress
+UpdateDivider=1
 
 [MeasureVolumeControl]
 Measure=Calc
@@ -87,11 +89,12 @@ IfEqualValue=0
 IfEqualAction=[!DisableMeasure MeasureVolume][!DisableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
 IfAboveValue=0
 IfAboveAction=[!EnableMeasure MeasureVolume][!EnableMeasure MeasureVolumeValue][!UpdateMeter *][!Redraw]
-UpdateDivider=5
+UpdateDivider=1
 
 [MeasureVolume]
 Measure=Plugin
 Plugin=Win7AudioPlugin
+UpdateDivider=1
 
 [MeasureAudio]
 Measure=Plugin
@@ -109,6 +112,7 @@ Sensitivity=([MeasureAverageVolume]*([MeasureAverageVolume]*38))
 FreqMin=40
 FreqMax=12000
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureAudioAverage]
 Measure=Plugin
@@ -121,6 +125,7 @@ Sensitivity=100
 FreqMin=20
 FreqMax=18000
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureAverageVolume]
 Measure=Plugin
@@ -128,3 +133,4 @@ Plugin=AudioLevel
 Parent=MeasureAudioAverage
 Channel=Avg
 Type=RMS
+UpdateDivider=1
