@@ -12,10 +12,10 @@
 		<img src="https://img.shields.io/badge/license-AGPL-blue.svg" height="21" title="License">
   </a>
   <a href="https://github.com/JonSn0w/PlayMusic/issues">
-	<img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
+	  <img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  		<img src="https://img.shields.io/badge/downloads-%204%2C962-green.svg" height="21" title="Downloads">
+  	<img src="https://img.shields.io/badge/downloads-%205%2C019-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
@@ -93,12 +93,12 @@ The addition of selectable accent colors allows users to add a splash of color t
 </p><br>
 
 <!-- ### Minimization   -->
-<p align="center">
+<!-- <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/16360374/23576130/3d78fd44-0051-11e7-816a-0cca182afa22.png" height="42" title="Minimization"/>
 </p>
 <p align="center">
   By default, the skin displays a <img src="https://cloud.githubusercontent.com/assets/16360374/22850002/fb77e47c-efb7-11e6-9199-b6b027504656.png" height="23"/>  icon whenever GPMDP is inactive, conserving useful <br>  desktop space, while also serving as a convenient launcher for the application. Though this <br>  functionality, as well as the displayed icon can be modified or disabled in the settings menu.
-</p><br>
+</p><br> -->
 
 <!-- ### Volume control -->
 <p align="center">
@@ -114,7 +114,7 @@ The addition of selectable accent colors allows users to add a splash of color t
 [<img title="" alt="Setup" src="https://cloud.githubusercontent.com/assets/16360374/22623857/445972e4-eb1e-11e6-9608-fce5c7d4f52d.png" width="900" />](#setup)
 
   This skin requires you have **[Google Play Music Desktop Player]** installed to function properly.
-  After installation, you must also enable *Playback API* in GPMDP's Desktop Settings, shown in the image below, as this allows GPMDP to interface with external applications.
+  After installation, you must also enable **Playback API** in GPMDP's *Desktop Settings*, shown in the image below, as this allows GPMDP to interface with external applications.
 
   <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/16360374/22547192/66e31a98-e8f5-11e6-82d5-20c956411f50.png" width="720" title="Desktop Settings">
