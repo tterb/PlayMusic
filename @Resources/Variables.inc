@@ -33,12 +33,13 @@ SourceIcon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\Images\
 ;This is the icon variant used when the skin is minimized
 Icon=C:\Users\there\Documents\Rainmeter\Skins\PlayMusic\@Resources\Images\playIcon.png
 
-AppPath=C:\Users\there\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe
+App=GPMDP
+AppPath=C:\Users\there\AppData\Roaming\Spotify\Spotify.exe
 
 ;This determines whether the skin minimizes when GPMDP is closed (0/1)
 minimizeOnClose=1
 
-PlayerMeasures=SpotifyMeasures
+PlayerMeasures=Measures
 
 ;This variable contains the height of the current skin configuration
 SkinHeight=226
@@ -51,8 +52,8 @@ SkinWidth=228
 ; SOURCE
 
 ; These variables control whether the skin uses GPMDP or Spotify (not both)
-useSpotify=1
-useGPMDP=0
+useSpotify=0
+useGPMDP=1
 
 
 ;=================================================

@@ -2,6 +2,8 @@
 
 [Variables]
 @include2=#@#Variables.inc
+GPMDPPath="%HOMEDRIVE%%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
+SpotifyPath="%HOMEDRIVE%%HOMEPATH%"\AppData\Roaming\Spotify\Spotify.exe"
 ;White
 color1=FFFFFFD9
 ;Cyan
@@ -84,7 +86,7 @@ DynamicVariables=1
 AntiAlias=1
 
 [ColorOption]
-Group=StylePage
+Group=PageTwo
 X=1R
 Y=r
 H=40

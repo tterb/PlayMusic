@@ -89,7 +89,7 @@ Substitute="":"N/A"
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=State
-Substitute="0":"#@#Images\playButton.png","1":"#@#Images\pauseButton.png","2":"#@#Images\playButton.png"
+Substitute="0":"#@#Images\play.png","1":"#@#Images\pause.png","2":"#@#Images\play.png"
 UpdateDivider=2
 
 [MeasureRepeat]
@@ -125,14 +125,12 @@ DynamicVariables=1
 
 [HideActive]
 Measure=Calc
-; Formula=#GPMDPOpen#
 Formula=[MeasureState]
 IfEqualValue=0
 IfEqualAction=[!HideMeterGroup Active][!HideMeterGroup Visualizer][!PauseMeasureGroup Visualizer][!ShowMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 IfAboveValue=0
 IfAboveAction=[!ShowMeterGroup Active][!ShowMeterGroup Visualizer][!HideMeterGroup Info][!HideMeterGroup Volume][!UnpauseMeasureGroup Visualizer][!HideMeterGroup Icon][!UpdateMeasure *][!UpdateMeter *][!Redraw]
 DynamicVariables=1
-; UpdateDivider=25
 
 [MeasureSkinSize]
 Measure=Calc
