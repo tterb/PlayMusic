@@ -9,6 +9,7 @@ TODO.txt
 *.psd
 *.lnk
 @Resources/Images/old/*
+@Resources/Images/unused/*
 @Resources/Images/cover.png
 @Resources/Images/gradient.png
 @Resources/Images/gradient2.png
