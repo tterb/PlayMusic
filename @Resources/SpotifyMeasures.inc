@@ -38,6 +38,7 @@ IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat Ima
 IfAboveValue=1
 IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Shuffle"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureShuffle]
 Measure=Plugin
@@ -48,6 +49,7 @@ IfEqualAction=[!SetOption MeterShuffle ImageAlpha 75][!UpdateMeter MeterRepeat][
 IfAboveValue=0
 IfAboveAction=[!SetOption MeterShuffle ImageAlpha 240][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
+UpdateDivider=1
 
 [MeasureShowVisualizer]
 Measure=Calc
