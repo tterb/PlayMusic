@@ -42,27 +42,28 @@ ClipString=2
 AntiAlias=1
 
 [SubHeading]
-FontSize=16
-FontFace=Gotham Rounded Medium
-FontColor=0,0,0,170
+FontSize=17
+FontFace=Segoe UI Historic
+FontColor=0,0,0,175
+StringStyle=Bold
 X=83
-Y=200
+Y=190
 ClipString=2
 AntiAlias=1
 
 [BodyText]
-FontFace=Gotham Rounded Book
+FontFace=Open Sans
 FontSize=11
 FontColor=0,0,0,200
 StringStyle=Normal
 InlineSetting=CharacterSpacing | -0.25
 X=5R
-Y=1r
+Y=r
 ClipString=2
 AntiAlias=1
 
 [SubtleText]
-FontFace=Gotham Rounded Book
+FontFace=Open Sans
 FontSize=9
 FontColor=0,0,0,115
 Y=2r
