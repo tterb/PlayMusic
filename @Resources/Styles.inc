@@ -6,12 +6,11 @@ MeterArtistName=MeterArtist
 MeterAlbumName=MeterAlbum
 MeterCurrentTime=MeterTime
 StatusImg=#@#Images\play.png
-AppPath="%HOMEDRIVE%%HOMEPATH%\AppData\Local\GPMDP_3\Update.exe --processStart Google%20Play%20Music%20Desktop%20Player.exe"
 PlaybackPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
 DesktopSettingsPath="%HOMEDRIVE%%HOMEPATH%\AppData\Roaming\Google Play Music Desktop Player\json_store\.settings.json"
 
 [TextStyle]
-FontFace=Roboto
+FontFace=Open Sans
 FontSize=(#Size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
@@ -21,10 +20,9 @@ W=(#Size#*35)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-; UpdateRate=100
 
 [SquareText]
-FontFace=Roboto
+FontFace=Open Sans
 FontSize=(#Size#*2.75)
 FontColor=255,255,255,255
 StringEffect=Shadow
@@ -34,10 +32,9 @@ W=(#Size#*29.5)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-; UpdateRate=100
 
 [RoundText]
-FontFace=Roboto
+FontFace=Open Sans
 FontSize=(#Size#*2.85)
 FontColor=255,255,255,250
 StringEffect=Shadow
@@ -47,14 +44,12 @@ W=(#Size#*34.7)
 ClipString=1
 DynamicVariables=1
 AntiAlias=1
-; UpdateRate=100
 
 [Status]
 ImageTint=245,245,245
 PreserveAspectRatio=1
 X=(#Size#*57.6)
 H=(#Size#*4.9)
-; UpdateRate=100
 
 [TimeStyle]
 Group=Active
@@ -64,10 +59,9 @@ SolidColor=225,225,225,75
 BarColor=#accent#
 X=(#Size#*0.2)
 H=(#Size#*0.9)
-BackgroundMode=3
+; BackgroundMode=3
 DynamicVariables=1
 UpdateDivider=1
-; UpdateRate=50
 AntiAlias=1
 
 [VisualizerStyle]
@@ -79,7 +73,7 @@ Y=r
 W=#BarWidth#
 H=#BarHeight#
 DynamicVariables=1
-UpdateRate=40
+; UpdateRate=40
 UpdateDivider=1
 AntiAlias=1
 
@@ -92,9 +86,8 @@ X=(#RoundBarWidth#-0.5)R
 ; X=3.75R
 Y=r
 W=#RoundBarWidth#
-; W=4
 H=#BarHeightScale#
 DynamicVariables=1
-UpdateRate=30
+; UpdateRate=30
 UpdateDivider=1
 AntiAlias=1
