@@ -44,7 +44,7 @@ AntiAlias=1
 [SubHeading]
 FontSize=17
 FontFace=Segoe UI Historic
-FontColor=0,0,0,175
+FontColor=0,0,0,185
 StringStyle=Bold
 X=83
 Y=190
