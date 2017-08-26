@@ -31,12 +31,12 @@ UpdateDivider=5
 ; average=[ColorAvg]
 ; UpdateDivider=30
 
-[MeasureJSON]
-Measure=Plugin
-Plugin=WebParser
-URL=file://#PlaybackPath#
-RegExp=(?siU)"song.*songLyrics": (.*)"shuffle": "(.*)".*repeat": "(.*)"
-; UpdateDivider=25
+; [MeasureJSON]
+; Measure=Plugin
+; Plugin=WebParser
+; URL=file://#PlaybackPath#
+; RegExp=(?siU)"song.*songLyrics": (.*)"shuffle": "(.*)".*repeat": "(.*)"
+; ; UpdateDivider=25
 
 [MeasurePlaybackAPI]
 Measure=String
@@ -44,7 +44,6 @@ String=#EnabledPlaybackAPI#
 IfMatch=true
 IfNotMatchAction=[!HideMeterGroup Active][!ShowMeter Background][!ShowMeter MeterPlaybackPrompt]
 DynamicVariables=1
-; UpdateDivider=-1
 
 [MeasureImageDownload]
 Measure=Plugin
@@ -62,30 +61,32 @@ PlayerInfo=Cover
 DefaultPath=#@#Images\nocover.png
 CoverPath=#@#Images\cover.png
 OnChangeAction=[!Redraw]
-; UpdateDivider=20
 
 [MeasureTitle]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Title
-; UpdateDivider = 10
 Substitute="":"N/A"
 
 [MeasureArtist]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Artist
-; UpdateDivider = 10
 Substitute="":"N/A"
 
 [MeasureAlbum]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Album
-; UpdateDivider = 10
 Substitute="":"N/A"
 
-[MeasurePlayPause]
+[MeasurePlayer]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=State
+UpdateDivider=5
+
+[MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=State
@@ -97,11 +98,11 @@ Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Repeat
 IfBelowValue=1
-IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
+IfBelowAction=[!SetOption MeterRepeat ImageAlpha 75][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayer "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfEqualValue=1
-IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat_one.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
+IfEqualAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat_one.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayer "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 IfAboveValue=1
-IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayPause "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
+IfAboveAction=[!SetOption MeterRepeat ImageAlpha 240][!SetOption MeterRepeat ImageName "#@#Images\repeat.png"][!SetOption MeterRepeat LeftMouseUpAction "[!CommandMeasure MeasurePlayer "Repeat"][!Redraw]"][!UpdateMeter MeterRepeat][!Redraw]
 DynamicVariables=1
 UpdateDivider=1
 
