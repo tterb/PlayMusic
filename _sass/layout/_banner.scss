@@ -63,10 +63,12 @@
 				width: auto;
 
 				> :first-child {
+                    font-size: 4em;
 					width: auto;
 
 					&:after {
 						max-width: 100%;
+                        margin-bottom: 0.25em !important;
 					}
 				}
 			}

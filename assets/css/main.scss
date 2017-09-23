@@ -1345,14 +1345,14 @@ header.major {
 				content: '';
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.5em 0;
+				margin: 0.325em 0 0.25em 0;
 				width: 100%;
 				border-top: 2px solid _palette(border) !important;
 			}
 		}
 	}
 	>p {
-		font-size: 0.7em;
+		font-size: 0.75em;
 		font-weight: 600;
 		letter-spacing: 0.25em;
 		color: _palette(fg-bold) !important;
@@ -3017,7 +3017,7 @@ button.disabled {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	padding: 6em 0 2em 0;
+	padding: 6em 0 2em 4px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -5050,6 +5050,9 @@ body.is-menu-visible {
 
 #two {
 	background-color: _palette(bg-alt);
+  p {
+    font-size: 0.8em;
+  }
 }
 
 #feature {
@@ -5082,6 +5085,9 @@ body.is-menu-visible {
 #menu {
 	ul.links {
 		margin-bottom: 0;
+    li > a:not(.button) {
+      font-size: 0.9em;
+    }
 	}
 }
 
