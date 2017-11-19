@@ -1345,7 +1345,7 @@ header.major {
 				content: '';
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.25em 0;
+				margin: 0.015em 0 0.5em 0;
 				width: 100%;
 				border-top: 2px solid _palette(border) !important;
 			}
@@ -3176,7 +3176,7 @@ button.disabled {
 	background: _palette(head);
 	text-align: center;
 	.icons {
-		// font-size: 2.5em;
+		font-size: 1.25em;
 		color: rgba(255,255,255,0.5);
 		margin-bottom: 0.5em;
 		&:before {
@@ -3191,21 +3191,20 @@ button.disabled {
 		}
 	}
 	.copyright {
-		font-size: 0.8em;
+		font-size: 0.85em;
+		letter-spacing: 0.085em;
 		list-style: none;
 		padding-left: 0;
-		a {
-			&:hover, &:active {
-				color: _palette(accent7) !important;
-			}
+		a:hover, &:active {
+			color: _palette(accent7) !important;
 		}
 		li {
-			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.3);
+			border-left: solid 1px rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.5);
 			display: inline-block;
 			line-height: 1;
-			margin-left: 1em;
-			padding-left: 1em;
+			margin-left: 0.7em;
+			padding-left: 0.7em;
 			&:first-child {
 				border-left: 0;
 				margin-left: 0;
@@ -3213,8 +3212,11 @@ button.disabled {
 			}
 		}
 	}
+	ul {
+		margin-bottom: 1.5em !important;
+	}
 	> div {
-		padding: 3em 0 0 0 !important;
+		padding: 2.2em 0 0 0 !important;
 	}
 }
 #wrapper {
@@ -3417,6 +3419,9 @@ body.is-menu-visible {
 			visibility: visible;
 		}
 	}
+}
+.left {
+	float: left !important;
 }
 @media screen and (max-width: 1680px) {
 	.row {
@@ -5009,7 +5014,7 @@ body.is-menu-visible {
 	}
 }
 
-#page {
+.page {
 	background-color: _palette(bg-alt);
 	box-shadow: 0 8px 8px 10px rgba(0,0,0,0.6);
 	header {
@@ -5050,13 +5055,22 @@ body.is-menu-visible {
 
 #two {
 	background-color: _palette(bg-alt);
+	.major {
+		margin-bottom: 16px;
+	}
   p {
-    font-size: 0.8em;
+    font-size: 1em;
+		margin-bottom: 1.25em;
   }
+	.action {
+		display: block;
+		margin-top: 2em;
+	}
 }
 
 #feature {
 	position: relative;
+	float: right;
 	margin: 1em 2.5%;
 	h2 {
 		margin-bottom: 0.75em;
