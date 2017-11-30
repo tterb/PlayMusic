@@ -5,8 +5,8 @@
 
 <!-- Badges -->
 <p align="right">
-  <a href="https://badge.fury.io/gh/JonSn0w%2FPlayMusic">
-	  <img src="https://badge.fury.io/gh/JonSn0w%2FPlayMusic.svg" height="21" alt="version">
+  <a href="https://github.com/JonSn0w/PlayMusic/releases">
+	  <img src="https://img.shields.io/badge/version-1.2.1-brightgreen.svg" height="21" alt="version">
   </a>
   <a href="http://www.gnu.org/licenses/agpl-3.0">
 		<img src="https://img.shields.io/badge/license-AGPL-blue.svg" height="21" title="License">
@@ -22,7 +22,7 @@
           <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate">
     </a>
   </span>
-</p>
+</p><br>
 
 
 <!-- Screenshot -->
@@ -129,14 +129,6 @@ The addition of selectable accent colors allows users to add a splash of color t
   * [Contributing](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CONTRIBUTING.md)
   * [Credits](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CREDITS.md)
 
-<br>
-
-------------------------------------------------------------------------------  
-<p align="right">
-  <a href="https://gitter.im/JonSn0w/PlayMusic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
-      <img src="https://badges.gitter.im/JonSn0w/PlayMusic.svg" height="21" title="Gitter">
-  </a>
-</p>
 
 
 <!---------------------------------- Links ------------------------------------>
