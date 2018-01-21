@@ -1,53 +1,53 @@
 // Misc.
-	$misc: (
-		z-index-base:		10000
-	);
+$misc: (
+  z-index-base:		10000
+);
 
 // Duration.
-	$duration: (
-		menu:				0.35s,
-		transition:			0.2s,
-		banner:				2.5s
-	);
+$duration: (
+  menu:				0.35s,
+  transition:			0.2s,
+  banner:				2.5s
+);
 
 // Size.
-	$size: (
-		border-radius:		4px,
-		element-height:		2.75em,
-		element-margin:		2em,
-		inner:				65em
-	);
+$size: (
+  border-radius:		4px,
+  element-height:		2.75em,
+  element-margin:		2em,
+  inner:				65em
+);
 
 // Font.
-	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-        head:               ('Open Sans', Helvetica, sans-serif),
-		body:				('Source Sans Pro', Helvetica, sans-serif),
-        code:               ('Source Code Pro', 'Courier New', monospace),
-		family-fixed:		('Courier New', monospace),
-		weight:				300,
-		weight-bold:		700,
-		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
-	);
+$font: (
+  family:				('Source Sans Pro', Helvetica, sans-serif),
+  head:               ('Open Sans', Helvetica, sans-serif),
+  body:				('Source Sans Pro', Helvetica, sans-serif),
+  code:               ('Source Code Pro', 'Courier New', monospace),
+  family-fixed:		('Courier New', monospace),
+  weight:				        300,
+  weight-bold:		      700,
+  letter-spacing:		0.025em,
+  letter-spacing-alt:	0.25em
+);
 
 // Palette
-	$palette: (
-		bg:                 #242943,
-		bg-alt:             #303344,
-        head:               darken(desaturate(#2a2f4a, 12%), 5%),
-		fg:                 saturate(mix(#152943, #ffffff, 18%), 5%),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(245,245,245,0.3),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#ea8a01,
-        active:             #d76a01,
-		accent1:			#6fc3df,
-		accent2:			#8d82c4,
-		accent3:			#ec8d81,
-		accent4:			#ecb780,
-		accent5:			#8ea9e8,
-		accent6:			#87c5a4,
-		accent7:			#d74246
-	);
+$palette: (
+  bg:             #242943,
+  bg-alt:         #303344,
+  head:           darken(desaturate(#2a2f4a, 12%), 5%),
+  fg:             mix(#152943, #fff, 22%),
+  fg-bold:			  #fff,
+  fg-light:			  rgba(244,244,255,0.2),
+  border:				  rgba(245,245,245,0.3),
+  border-bg:			rgba(212,212,255,0.035),
+  highlight:			#ea8a01,
+  active:         #d76a01,
+  accent1:			  #6fc3df,
+  accent2:			  #8d82c4,
+  accent3:			  #ec8d81,
+  accent4:			  #ecb780,
+  accent5:			  #8ea9e8,
+  accent6:			  #87c5a4,
+  accent7:			  #d74246
+);
