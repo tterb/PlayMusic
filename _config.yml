@@ -13,18 +13,18 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 4
 
 # Social settings
-500px_url:
-facebook_url:
 github_url: https://github.com/JonSn0w/PlayMusic
-gitlab_url:
 deviantart_url: http://bstevenson.deviantart.com/art/PlayMusic-620128929
 dribbble_url: https://dribbble.com/JonSn0w
-googleplus_url:
-instagram_url:
 linkedin_url: https://www.linkedin.com/in/brett-stevenson-0a035a72/
-pinterest_url:
-slack_url:
 twitter_url: https://twitter.com/BStevensonDev
+# 500px_url:
+# facebook_url:
+# gitlab_url:
+# googleplus_url:
+# instagram_url:
+# pinterest_url:
+# slack_url:
 
 # Build settings
 markdown: kramdown
