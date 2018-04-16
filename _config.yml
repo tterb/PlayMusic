@@ -7,13 +7,14 @@ baseurl: "/PlayMusic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Brett Stevenson
 country: United States of America
+repo: https://github.com/tterb/PlayMusic
+issue: https://github.com/tterb/PlayMusic/issues/new
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 4
 
 # Social settings
-github_url: https://github.com/JonSn0w/PlayMusic
 deviantart_url: http://bstevenson.deviantart.com/art/PlayMusic-620128929
 dribbble_url: https://dribbble.com/JonSn0w
 linkedin_url: https://www.linkedin.com/in/brett-stevenson-0a035a72/

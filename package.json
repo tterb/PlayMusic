@@ -29,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonSn0w/JonSn0w.github.io.git"
+    "url": "git+https://github.com/tterb/JonSn0w.github.io.git"
   },
   "author": "Brett Stevenson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JonSn0w/JonSn0w.github.io/issues"
+    "url": "https://github.com/tterb/JonSn0w.github.io/issues"
   },
-  "homepage": "https://github.com/JonSn0w/JonSn0w.github.io#readme",
+  "homepage": "https://github.com/tterb/JonSn0w.github.io#readme",
   "jspm": {
     "dependencies": {
       "jquery": "npm:jquery@^3.2.1"
