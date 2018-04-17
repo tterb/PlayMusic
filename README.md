@@ -1,28 +1,26 @@
-[<img src="https://cloud.githubusercontent.com/assets/16360374/23640973/ac0fe0a0-02a5-11e7-91a1-fc9eb72514de.png" height="120" title="PlayMusic"/>](https://github.com/JonSn0w/PlayMusic)
-----------------------------------------------------------------------------  
-
-<!-- [![PayPal]http://ionicabizau.github.io/badges/paypal_donate.svg][http://ionicabizau.github.io/badges/paypal.svg] -->
+[<img src="https://cloud.githubusercontent.com/assets/16360374/23640973/ac0fe0a0-02a5-11e7-91a1-fc9eb72514de.png" height="120" title="PlayMusic"/>](https://github.com/tterb/PlayMusic)
+----------------------------------------------------------------------------
 
 <!-- Badges -->
 <p align="right">
-  <a href="https://github.com/JonSn0w/PlayMusic/releases">
-	  <img src="https://img.shields.io/badge/version-1.2.1-brightgreen.svg" height="21" alt="version">
+  <a href="https://badge.fury.io/gh/tterb%2FPlayMusic">
+	  <img src="https://badge.fury.io/gh/tterb%2FPlayMusic.svg" height="21" alt="version">
   </a>
   <a href="http://www.gnu.org/licenses/agpl-3.0">
 		<img src="https://img.shields.io/badge/license-AGPL-blue.svg" height="21" title="License">
   </a>
-  <a href="https://github.com/JonSn0w/PlayMusic/issues">
-	  <img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
+  <a href="https://github.com/tterb/PlayMusic/issues">
+	  <img src="https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
   </a>
   <a href="http://www.deviantart.com/art/PlayMusic-620128929">
-  	<img src="https://img.shields.io/badge/downloads-%205%2C606-green.svg" height="21" title="Downloads">
+  	<img src="https://img.shields.io/badge/downloads-%207%2C054-green.svg" height="21" title="Downloads">
   </a>
   <span class="badge-paypal">
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
           <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate">
     </a>
   </span>
-</p><br>
+</p>
 
 
 <!-- Screenshot -->
@@ -43,10 +41,10 @@
   * Add requested support for **[Spotify]** as well as other media players
   * Improve accent color adaptability for all album artwork
   * Add performance settings and further customization to visualizer
-<br><br>  
+<br><br>
 
 <!-- <p align="center">
-  <a href="https://github.com/JonSn0w/PlayMusic/releases/latest">
+  <a href="https://github.com/tterb/PlayMusic/releases/latest">
     <img src="https://cloud.githubusercontent.com/assets/16360374/25461398/9aa72f6a-2a9d-11e7-948d-5c8691b2392c.png" width= "200" alt="Download PlayMusic"/>
   </a>
 <p>   -->
@@ -124,16 +122,24 @@ The addition of selectable accent colors allows users to add a splash of color t
 
 [<img title="" alt="Documentation" src="https://cloud.githubusercontent.com/assets/16360374/22623858/446b33bc-eb1e-11e6-96ae-2494c5072887.png" width="900" />](#documentation)
 
-  * [License](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/LICENSE.md)
-  * [Changelog](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CHANGELOG.md)
-  * [Contributing](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CONTRIBUTING.md)
-  * [Credits](https://github.com/JonSn0w/PlayMusic/blob/master/Documentation/CREDITS.md)
+  * [License](docs/LICENSE.md)
+  * [Changelog](docs/CHANGELOG.md)
+  * [Contributing](docs/CONTRIBUTING.md)
+  * [Credits](docs/CREDITS.md)
 
+<br>
+
+------------------------------------------------------------------------------
+<p align="right">
+  <a href="https://gitter.im/tterb/PlayMusic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
+      <img src="https://badges.gitter.im/tterb/PlayMusic.svg" height="21" title="Gitter">
+  </a>
+</p>
 
 
 <!---------------------------------- Links ------------------------------------>
 
 [Rainmeter]: https://www.rainmeter.net/
-[Google Play Music]: https://
+[Google Play Music]: https://play.google.com/music
 [Google Play Music Desktop Player]: http://www.googleplaymusicdesktopplayer.com/
-[Spotify]: https://github.com/JonSn0w/PlayMusic/tree/spotify
+[Spotify]: https://www.spotify.com/
