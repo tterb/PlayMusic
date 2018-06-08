@@ -57,6 +57,9 @@
 					margin: 0 auto;
 					max-width: 100%;
 					width: _size(inner);
+					> header > h3 {
+						text-align: left !important;
+					}
 				}
 			}
 

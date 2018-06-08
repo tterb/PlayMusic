@@ -33,7 +33,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -63,12 +63,12 @@
 				width: auto;
 
 				> :first-child {
-                    font-size: 4em;
+          font-size: 4em;
 					width: auto;
 
 					&:after {
 						max-width: 100%;
-                        margin-bottom: 0.25em !important;
+            margin-bottom: 0.25em !important;
 					}
 				}
 			}
@@ -76,6 +76,7 @@
 			.content {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
+				color: rgba(#fff, 0.75);
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {

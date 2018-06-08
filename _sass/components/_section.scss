@@ -18,7 +18,7 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			margin-bottom: _size(element-margin);
+			margin: 0 auto _size(element-margin) !important;
 
 			> :first-child {
 				margin-bottom: 0;

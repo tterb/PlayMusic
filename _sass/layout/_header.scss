@@ -14,18 +14,19 @@
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(bg-alt);
-		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: 3.25em;
 		left: 0;
-		letter-spacing: _font(letter-spacing-alt);
+		letter-spacing: _font(letter-spacing);
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
 		width: 100%;
+		box-shadow: 0 2px 4px rgba(#000,0.4);
+		padding: 0 0.25em;
 		z-index: _misc(z-index-base);
 
 		.logo {
@@ -44,6 +45,7 @@
 				background-color: _palette(fg-bold);
 				color: _palette(bg);
 				display: inline-block;
+				letter-spacing: _font(letter-spacing-alt);
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
