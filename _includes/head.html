@@ -1,6 +1,16 @@
 <head>
-	<title>{{ site.title }}</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <title>{% if page.title %}
+    {{ page.title | append: " - PlayMusic" | escape | truncate: 60 }}
+  {% else %}
+    {{ site.title | escape }}
+  {% endif %}</title>
+  <meta name="description" content="{% if page.desc %}{{ page.desc | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+  
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ site.favicon | prepend: site.baseurl }}"/>
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 </head>
