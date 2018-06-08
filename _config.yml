@@ -17,7 +17,7 @@ tiles-count: 4
 # Social settings
 github_url: https://github.com/tterb/PlayMusic
 deviantart_url: http://bstevenson.deviantart.com/art/PlayMusic-620128929
-dribbble_url: https://dribbble.com/JonSn0w
+dribbble_url: https://dribbble.com/tterb
 linkedin_url: https://www.linkedin.com/in/brett-stevenson-0a035a72/
 twitter_url: https://twitter.com/BStevensonDev
 # 500px_url:
@@ -34,6 +34,7 @@ highlighter: rouge
 sass:
   style: compressed
 include: ['_pages','_projects','.htaccess']
+exclude: ['.gitignore', 'README.md', 'Gulpfile.js', 'package.json', 'package-lock.json', 'node_modules', 'jspm_packages']
 
 defaults:
   - scope:
