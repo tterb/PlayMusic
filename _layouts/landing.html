@@ -10,10 +10,10 @@
   {% include head.html %}
   <body>
       {% include header.html %}
-      <section id="banner" class="style2">
+      <section id="banner" class="{% if page.style %}{{ page.style }}{% else %}style2{% endif %}">
         <div class="inner">
           <span class="image">
-            <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+            <img src="{{ site.baseurl }}/assets/images/tiles/{{ page.image }}" alt="">
           </span>
           <header class="major">
             <h1>{{ page.title }}</h1>
