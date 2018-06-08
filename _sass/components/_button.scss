@@ -36,8 +36,10 @@
 		white-space: nowrap;
 
 		&:hover, &:active {
-			box-shadow: inset 0 0 0 2px _palette(highlight);
-			color: _palette(highlight);
+			// box-shadow: inset 0 0 0 2px _palette(highlight);
+			// color: _palette(highlight);
+			background: _palette(highlight) !important;
+			color: white;
 		}
 
 		&:active {
