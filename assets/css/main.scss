@@ -4766,7 +4766,8 @@ body.is-menu-visible {
 #two {
 	background-color: _palette(bg-alt);
 	.major {
-		margin-bottom: 16px;
+		margin: 0 0 16px;
+		// margin-bottom: 16px;
 	}
   p {
     font-size: 1em;
