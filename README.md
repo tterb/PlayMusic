@@ -129,12 +129,6 @@ The addition of selectable accent colors allows users to add a splash of color t
 
 <br>
 
-------------------------------------------------------------------------------
-<p align="right">
-  <a href="https://gitter.im/tterb/PlayMusic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
-      <img src="https://badges.gitter.im/tterb/PlayMusic.svg" height="21" title="Gitter">
-  </a>
-</p>
 
 
 <!---------------------------------- Links ------------------------------------>
