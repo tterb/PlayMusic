@@ -11,6 +11,7 @@
   <a href="http://www.gnu.org/licenses/agpl-3.0">
 		<img src="https://img.shields.io/badge/license-AGPL-blue.svg" height="21" title="License">
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Ftterb%2FPlayMusic?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftterb%2FPlayMusic.svg?type=shield"/></a>
   <a href="https://github.com/JonSn0w/PlayMusic/issues">
 	  <img src="https://img.shields.io/github/issues-raw/JonSn0w/PlayMusic.svg?maxAge=25000" height="21" title="Issues">
   </a>
@@ -38,6 +39,9 @@
 
   This [Rainmeter] skin provides [Google Play Music] users the ability to access their active media tastefully on their desktop. Featuring three variants, this skin displays the Album Artwork accompanied by the Title, Artist, and Album of the song being played, as well as the status of both the *shuffle* and *repeat* features.
   Additionally, this skin also includes a variety of supplementary features including a customizable visualizer, scalability, as well as volume control and minimization functionalities.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftterb%2FPlayMusic.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftterb%2FPlayMusic?ref=badge_large)
 
 #### In Progress:
   * Add requested support for **[Spotify]** as well as other media players
